@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://essucalgary.netlify.com"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Engineering Students' Society U of C"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -186,14 +186,14 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 Engineering Students Society University of Calgary. All Rights Reserved"
 
 ################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-# copyright
-copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# home = "Accueil"
+# # copyright
+# copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
