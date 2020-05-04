@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Frosh Info"
-    link : "events"
+    link : "events/frosh"
 
 ############################# About #################################
 about:
