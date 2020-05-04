@@ -53,8 +53,27 @@
 {{ end }}
 {{ end }}
 
+{{ if $data.homepage.posts.enable }}
+{{ with $data.homepage.posts }}
+
+<!--posts-->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+            <h2>{{ .title | markdownify }}</h2>
+            <p>{{ .description | markdownify }}</p>
+          </div>
+      </div>   
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
+
 {{ if $data.homepage.portfolio.enable }}
 {{ with $data.homepage.portfolio }}
+
 <!-- portfolio -->
 <section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
   <div class="container">

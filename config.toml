@@ -44,76 +44,100 @@ link = "plugins/google-map/gmap.js"
 # main menu
 [[menu.main]]
 name = "About"
-URL = "about"
 weight = 1
-
-[[menu.main]]
-name = "Project"
-URL = "project"
-weight = 2
-
-[[menu.main]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 4
-
-[[menu.main]]
-weight = 5
-name = "Pages"
 hasChildren = true
 
   [[menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
+  parent = "About"
+  name = "Constitution"
+  URL = "constitution"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
+  parent = "About"
+  name = "Council"
+  URL = "council"
+
+  [[menu.main]]
+  parent = "About"
+  name = "Departments"
+  URL = "departments"
+
+  [[menu.main]]
+  parent = "About"
+  name = "Sponsors"
+  URL = "sponsors"
 
 [[menu.main]]
-name = "Contact"
+name = "Events"
+URL = "events"
+weight = 2
+
+[[menu.main]]
+name = "Services"
+weight = 3
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Services"
+  name = "Bookings"
+  URL = "bookings"
+
+  [[menu.main]]
+  parent = "Services"
+  name = "Resources"
+  URL = "Resources"
+
+[[menu.main]]
+name = "Get Involved"
+weight = 4
+hasChildren = true
+
+  [[main.menu]]
+  parent = "Get Involved"
+  name = "Projects Hub"
+  URL = "projects-Hub"
+
+  [[main.menu]]
+  parent = "Get Involved"
+  name = "Volunteer Hub"
+  URL = "volunteer-Hub"
+
+  [[main.menu]]
+  parent = "Get Involved"
+  name = "Applications"
+  URL = "applications"
+
+  [[main.menu]]
+  parent = "Get Involved"
+  name = "Confrences"
+  URL = "confrences"
+
+  [[main.menu]]
+  parent = "Get Involved"
+  name = "Teams"
+  URL = "teams"
+  
+[[menu.main]]
+name = "Contact us"
 URL = "contact"
+weight = 5
+
+[[menu.main]]
+name = "Store"
+URL = "Store"
 weight = 6
 
 
 # footer menu
 [[menu.footer]]
-name = "About"
-URL = "about"
+name = "Contact"
+URL = "contact"
 weight = 1
 
 [[menu.footer]]
-name = "Project"
-URL = "project"
+name = "Office Hours"
+URL = "hours"
 weight = 2
-
-[[menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 6
-
 
 #################### default parameters ################################
 [params]
@@ -154,29 +178,20 @@ map_marker = "images/marker.png"
 
 ############################# social site ########################
 [[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.instagram.com/ess_uofc/"
 
 [[params.social]]
 icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.linkedin.com/company/engineering-students%27-society-u-of-c-/"
 
 [[params.social]]
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.facebook.com/UofC.ESS"
 
+[[params.social]]
+icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://twitter.com/ESS_UofC"
 
 ################################ English Language ########################
 [Languages.en]
