@@ -92,27 +92,27 @@ name = "Get Involved"
 weight = 4
 hasChildren = true
 
-  [[main.menu]]
-  parent = "Get Involved"
+  [[menu.main]]
+  parent = "Services"
   name = "Projects Hub"
   URL = "projects-Hub"
 
-  [[main.menu]]
+  [[menu.main]]
   parent = "Get Involved"
   name = "Volunteer Hub"
   URL = "volunteer-Hub"
 
-  [[main.menu]]
+  [[menu.main]]
   parent = "Get Involved"
   name = "Applications"
   URL = "applications"
 
-  [[main.menu]]
+  [[menu.main]]
   parent = "Get Involved"
   name = "Confrences"
   URL = "confrences"
 
-  [[main.menu]]
+  [[menu.main]]
   parent = "Get Involved"
   name = "Teams"
   URL = "teams"
@@ -124,7 +124,7 @@ weight = 5
 
 [[menu.main]]
 name = "Store"
-URL = "Store"
+URL = "https://ess-test.square.site/"
 weight = 6
 
 
