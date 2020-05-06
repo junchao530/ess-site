@@ -1,0 +1,131 @@
+########################### about council #############################
+about:
+  enable : true
+  title : "2020-2021 Council"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
+          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
+          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
+          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
+          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
+          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
+          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
+          officia adipisci neque!"
+  image : "images/about/201819-group-council.jpg"
+
+  
+############################# Council Listing ###############################
+council_listing:
+  enable : true
+  title : "Executive Team"
+  description : "Our Executive Team is Listed Below... okay I lied only part for now... need to fix formating"
+  council_member:
+    # service item loop
+    - image : images/about/council-members/ewan.jpg
+      name: Ewan May
+      title: President
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: "president@ess.ucalgary.ca"
+    
+    - image : images/about/council-members/stock-male.jpg
+      name: Vincent Cung
+      title: VP Communications
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: "communications@ess.ucalgary.ca"
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Eric Fung
+      title: VP External
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Samson Hua
+      title: VP Operations
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Avi Muruganandam
+      title: VP Student Life
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-female.jpg
+      name: Katie Gualin
+      title: VP Finance
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+    
+    - image : images/about/council-members/stock-male.jpg
+      name: Jesse Lim
+      title: VP Internal
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+    
+    - image : images/about/council-members/stock-male.jpg
+      name: Haaziq Altaf
+      title: VP Corporate
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-female.jpg
+      name: Ghada Eldib
+      title: VP Academic
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+############################# Commissioner Listing ###############################
+commissioner_listing:
+  enable : true
+  title : "Commissioner Team"
+  description : "Commissioner's are the best!"
+  council_member:
+    # team members
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Azlan Amjad
+      title: Publications Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Aamna Amer
+      title: Artistic Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Lucas Ion
+      title: Competitions Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-male.jpg
+      name: Amanda Leung
+      title: Admin Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-female.jpg
+      name: Kate Zakresky
+      title: Social Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+    
+    - image : images/about/council-members/stock-male.jpg
+      name: Nathalie Drzewiecki
+      title: Social Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+    
+    - image : images/about/council-members/stock-male.jpg
+      name: Robert Brown
+      title: Finance Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""
+
+    - image : images/about/council-members/stock-female.jpg
+      name: Jordan Christopher-Shah
+      title: Student & Alumni Engagement Commissioner
+      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      email: ""

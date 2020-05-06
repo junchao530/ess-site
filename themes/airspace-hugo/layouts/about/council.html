@@ -2,15 +2,84 @@
 
 {{ partial "page-title.html" . }}
 
-<section class="section">
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.council.about.enable }}
+{{ with $data.council.about }}
+<section class="service-about section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        {{ .Content }}
+      <div class="col-md-6">
+        <h2>{{ .title | markdownify }}</h2>
+        <p class="mt-30">{{ .content | markdownify }}</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" src="{{ .image | absURL }}">
       </div>
     </div>
-    
   </div>
 </section>
+{{ end }}
+{{ end }}
+
+<!-- Council Listing -->
+{{ if $data.council.council_listing.enable }}
+{{ with $data.council.council_listing }}
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .title | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range first 4 .council_member }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="img-responsive" src="{{ .image | absURL }}">
+          <h3>{{ .name | markdownify }}</h3>
+          <h4>{{ .title | markdownify }}</h4>
+          <p>{{ .biog | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- /Council Listing -->
+
+<!-- Commissioner Listing -->
+{{ if $data.council.commissioner_listing.enable }}
+{{ with $data.council.commissioner_listing }}
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .title | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range first 4 .council_member }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="img-responsive" src="{{ .image | absURL }}">
+          <h3>{{ .name | markdownify }}</h3>
+          <h4>{{ .title | markdownify }}</h4>
+          <p>{{ .biog | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- /Commissioner Listing -->
 
 {{ end }}
