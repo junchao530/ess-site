@@ -10,7 +10,7 @@ sections:
 - type: heading
   label: About
 - type: document
-  path: content/english/about/constitution
+  path: content/english/about/constitution.md
   label: Constitution
   match: "**/*"
 - type: heading
