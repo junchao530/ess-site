@@ -53,3 +53,5 @@ fields:
   label: layout
   hidden: true
   description: Parameter specifying if the posting will be enabled on the website
+pages:
+- content/english/get-involved/applications/firstyearrep.md
