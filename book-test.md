@@ -1,7 +1,6 @@
 +++
 bg_image = ""
 content_image = ""
-draft = true
 page_content = ""
 title = ""
 [booking_form]
