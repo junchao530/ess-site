@@ -147,7 +147,8 @@ input[type="tel"] {
 }
 
 .btn-info-outline {
-  border: 1px solid $light;
+  border: 1px solid $secondary-color;
+  padding: 20px;
 
   &:hover {
     border: 1px solid $primary-color;
