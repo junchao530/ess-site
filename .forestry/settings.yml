@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: data/en/homepage.yaml
+  path: data/en/*
   label: Home Page
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
