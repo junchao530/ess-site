@@ -88,3 +88,5 @@ fields:
         format: markdown
     label: Content
   label: Booking Form
+pages:
+- book-test.md
