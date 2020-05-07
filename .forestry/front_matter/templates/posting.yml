@@ -42,10 +42,10 @@ fields:
   description: The date which we will not accept any more applications
   config:
     required: true
-    date_format: 
+    date_format: MMMM Do, YYYY
     time_format: 
     display_utc: false
-    export_format: MMMM DD, YYYY
+    export_format: MM/DD/YYYY
 - name: job_tags
   type: tag_list
   default: []
