@@ -53,27 +53,20 @@
 {{ end }}
 {{ end }}
 
+<!-- Feed -->
 {{ if $data.homepage.posts.enable }}
-{{ with $data.homepage.posts }}
-
-<!--posts-->
-<section>
+<section class="section">
   <div class="container">
-    <div class="row">
-      <div class="section-title">
-            <h2>{{ .title | markdownify }}</h2>
-            <p>{{ .description | markdownify }}</p>
-          </div>
-      </div> 
+    <div class="section-title">
+      {{ with $data.homepage.posts }}
+      <h2>{{ .title | markdownify }}</h2>
+      <p>{{ .description | markdownify }}</p>
+      {{ end }}
+    </div>
+    {{ partial "news.html" . }}
   </div>
 </section>
 
-{{ end }}
-{{ end }}
-
-<!-- Feed -->
-{{ if $data.homepage.service.enable }}
-{{ partial "news.html" . }}
 {{ end }}
 <!-- /Feed -->
 

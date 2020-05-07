@@ -17,9 +17,12 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        Applications will go here if enabled
-      </div>
+      {{ range where .Pages "Layout" "posting"}}
+      {{ if .Params.accepting}}
+      <h2><a href="{{ .Permalink }}">{{ .Params.Title }}</a></h2>
+      <p>{{ .Content | truncate 250 }}</p>
+      {{end}}
+      {{end}}
     </div>
   </div>
 </section>

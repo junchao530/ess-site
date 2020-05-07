@@ -4,7 +4,7 @@ description: Apply now
 bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
-accepting: false
+accepting: true
 starting_date: 2020-09-01T06:00:51+00:00
 job_tags: []
 application_form: ''
