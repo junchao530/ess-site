@@ -1,5 +1,5 @@
 +++
-accepting = true
+accepting = false
 application_form = ""
 attachments = []
 bg_image = "/images/frosh-banner.jpg"
