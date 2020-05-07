@@ -58,6 +58,7 @@ fields:
   label: layout
   hidden: true
   description: Parameter specifying if the posting will be enabled on the website
+  default: posting
 pages:
 - content/english/get-involved/applications/firstyearrep.md
 - content/english/get-involved/applications/test-job-posting.md
