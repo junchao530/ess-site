@@ -146,7 +146,14 @@ input[type="tel"] {
   outline: 0;
 }
 
+.btn-info-outline {
+  border: 1px solid $light;
 
+  &:hover {
+    border: 1px solid $primary-color;
+  }
+
+}
 
 
 

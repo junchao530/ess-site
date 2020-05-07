@@ -19,8 +19,17 @@
     <div class="row">
       {{ range where .Pages "Layout" "posting"}}
       {{ if .Params.accepting}}
-      <h2><a href="{{ .Permalink }}">{{ .Params.Title }}</a></h2>
-      <p>{{ .Content | truncate 250 }}</p>
+      <a href="{{ .Permalink }}">
+        <div class="btn-info-outline">
+        <div>
+          <h2>{{ .Params.Title }}</h2>
+          <p>Closing Date: {{ .Params.ending_date }}</p>
+        </div>
+        <div>
+          <p>{{ .Content | truncate 250 }}</p>
+        </div>
+      </div>
+      </a>
       {{end}}
       {{end}}
     </div>
