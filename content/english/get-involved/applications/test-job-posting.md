@@ -4,7 +4,6 @@ application_form = ""
 attachments = []
 bg_image = "/images/frosh-banner.jpg"
 description = ""
-draft = true
 ending_date = ""
 job_tags = []
 layout = ""
