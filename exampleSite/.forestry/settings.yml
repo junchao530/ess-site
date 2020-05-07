@@ -80,7 +80,7 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/english
+  path: content/english
   label: All Pages (en)
   create: all
   match: "**/*"
