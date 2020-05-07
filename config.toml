@@ -93,7 +93,7 @@ weight = 4
 hasChildren = true
 
   [[menu.main]]
-  parent = "Services"
+  parent = "Get Involved"
   name = "Projects Hub"
   URL = "projects-Hub"
 
@@ -105,7 +105,7 @@ hasChildren = true
   [[menu.main]]
   parent = "Get Involved"
   name = "Applications"
-  URL = "applications"
+  URL = "get-involved/applications"
 
   [[menu.main]]
   parent = "Get Involved"
