@@ -4,19 +4,52 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: Title of the Job Posting
 - type: text
   name: description
-  label: description
+  label: Subtitle
 - type: file
   name: bg_image
-  label: bg_image
-- type: file
-  name: content_image
-  label: content_image
+  label: Header Image
+  default: "/images/frosh-banner.jpg"
+- name: application_form
+  type: text
+  config:
+    required: false
+  label: Application Form
+  description: URL of the Application Form
+- type: boolean
+  name: accepting
+  description: Is the posting currently active on the site?
+  default: true
+  label: Posting Active
+- name: starting_date
+  type: datetime
+  description: The date applications will start to be accepted
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Posting Starting Date
+  default: now
+- name: ending_date
+  type: datetime
+  label: Posting Ending Date
+  description: The date which we will not accept any more applications
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: job_tags
+  type: tag_list
+  default: []
+  label: Job Tags
+  description: Tags that describe the job
 - type: text
   name: layout
   label: layout
-- type: boolean
-  name: accepting
-  label: accepting
+  hidden: true
+  description: Parameter specifying if the posting will be enabled on the website
