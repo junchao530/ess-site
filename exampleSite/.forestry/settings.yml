@@ -7,6 +7,11 @@ sections:
 - type: document
   path: exampleSite/data/en/homepage.yml
   label: Homepage.yml
+- type: directory
+  path: ''
+  label: All Files
+  create: all
+  match: "**/*"
 - type: heading
   label: About
 - type: document
