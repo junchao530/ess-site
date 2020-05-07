@@ -5,10 +5,10 @@ bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
 accepting: true
-starting_date: 2020-05-07T20:24:51+00:00
+starting_date: 2020-09-01T06:00:51+00:00
 job_tags: []
 application_form: ''
-ending_date: 
+ending_date: 2020-09-14T06:00:00+00:00
 
 ---
 The Engineering Students’ Society (ESS) selects eight First Year Representatives (FYRs) each year to join council, and take on various duties pertaining to ESS. It is a great learning position on council, and the best way to become involved with ESS in first year engineering. Responsibilities include but are not limited to: 
