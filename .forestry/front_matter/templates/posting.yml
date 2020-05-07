@@ -6,6 +6,8 @@ fields:
   name: title
   label: Title
   description: Title of the Job Posting
+  config:
+    required: true
 - type: text
   name: description
   label: Subtitle
@@ -28,7 +30,7 @@ fields:
   type: datetime
   description: The date applications will start to be accepted
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
@@ -39,10 +41,11 @@ fields:
   label: Posting Ending Date
   description: The date which we will not accept any more applications
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
+    export_format: MMMM DD, YYYY
 - name: job_tags
   type: tag_list
   default: []
