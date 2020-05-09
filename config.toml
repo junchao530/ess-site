@@ -144,10 +144,10 @@ weight = 2
 logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Engineering Students' Society University of Calgary"
 # Contact Information
 mobile = "0124857985320"
-email = "demo@email.com"
+email = "president@essu.calgary.ca"
 location = "North Main Street,Brooklyn Australia"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
