@@ -1,0 +1,50 @@
+.btn {
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-main {
+    background-color: #c5332c;
+}
+
+.btn-main:hover {
+    background-color: #781e19;
+}
+
+.overly:before, .slider:before, .page-title:before {
+    background: #333;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.card img {
+    max-width: 95%;
+    align-self: center;
+    margin-bottom: 8px;
+}
+
+.media-object {
+    margin: 0;
+}
+
+a {
+    color: #c5332c;
+}
+
+a:hover {
+    color: #781e19;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 30px 0px 30px 0px;
+}
+

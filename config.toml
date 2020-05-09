@@ -157,6 +157,7 @@ booking_form_action = "https://formspree.io/mzbjbvzo"
 google_analitycs_id = "" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
+custom_css = ["css/custom.css"]
 
 # Preloader
 [params.preloader]
