@@ -146,9 +146,9 @@ logo = "images/logo.png"
 description = "This is meta description"
 author = "Engineering Students' Society University of Calgary"
 # Contact Information
-mobile = "0124857985320"
-email = "president@essu.calgary.ca"
-location = "North Main Street,Brooklyn Australia"
+phone = "403-220-5737"
+email = "president@ess.ucalgary.ca"
+location = "ENE 134A Engineering Building, University of Calgary 2500 University Drive NW Calgary, AB T2N 1N4"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # booking form action
@@ -173,9 +173,9 @@ link = "contact"
 # google map
 [params.gmap]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDbEAiNJWJ5U9GWNEbOHJxksvKuz62yehQ&libraries=places"
+map_latitude = "51.080421"
+map_longitude = "-114.132671"
 map_marker = "images/marker.png"
 
 

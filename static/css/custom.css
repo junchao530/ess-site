@@ -48,3 +48,14 @@ a:hover {
     padding: 30px 0px 30px 0px;
 }
 
+.app-link {
+    padding: 10px;
+  }
+
+.app-card {
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    color: #c5332c;
+    background-color: #eee;
+}

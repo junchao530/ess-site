@@ -19,8 +19,8 @@
     <div class="row">
       {{ range where .Pages "Layout" "posting"}}
       {{ if .Params.accepting}}
-      <a href="{{ .Permalink }}">
-        <div class="btn-info-outline">
+      <a href="{{ .Permalink }}" class="app-link">
+        <div class="app-card">
         <div>
           <h2>{{ .Params.Title }}</h2>
           <p>Closing Date: {{ .Params.ending_date }}</p>
