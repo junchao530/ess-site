@@ -1,17 +1,18 @@
 ---
-title: "How To Wear Bright Shoes"
-date: 2018-09-24T11:07:10+06:00
-author: John Doe
-image : "images/blog/blog-post-4.jpg"
-bg_image: "images/featue-bg.jpg"
-categories: ["Legacy Support"]
-tags: ["Mechine","Retro"]
-description: "this is meta description"
-draft: false
-type: "post"
+title: Frosh Week
+date: 2018-09-24T05:07:10+00:00
+author: ESS
+image: images/blog/blog-post-4.jpg
+bg_image: images/featue-bg.jpg
+categories:
+- events
+tags:
+- Mechine
+- Retro
+description: the biggest event of the year
+type: post
+
 ---
-
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores
 vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem
 ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis
