@@ -178,6 +178,11 @@ map_latitude = "51.080421"
 map_longitude = "-114.132671"
 map_marker = "images/marker.png"
 
+############################# header notification #####################
+[params.hnotify]
+enable = true
+text = "COVID-19 Information"
+link = "/covid-19"
 
 ############################# social site ########################
 [[params.social]]

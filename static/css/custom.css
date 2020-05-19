@@ -59,3 +59,13 @@ a:hover {
     color: #c5332c;
     background-color: #eee;
 }
+
+.head-notify {
+    background-color: #c5332c;
+    text-align: center;
+    padding: 1px;
+}
+
+.head-notify-link {
+    color: #eee;
+}
