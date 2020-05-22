@@ -1,20 +1,125 @@
-################################# Default configuration ###################
 baseURL = "https://essucalgary.netlify.com"
-title = "Engineering Students' Society U of C"
-theme = "airspace-hugo"
-# post pagination
-paginate = "4"
-# post excerpt
-summaryLength = "30"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
 disableLanguages = []
-
-
-#################################### Plugins ##############################
-
-# CSS Plugins
+disqusShortname = ""
+paginate = "4"
+summaryLength = "30"
+theme = "airspace-hugo"
+title = "Engineering Students' Society U of C"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 Engineering Students Society University of Calgary. All Rights Reserved"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[menu.footer]]
+URL = "hours"
+name = "Office Hours"
+weight = 2
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[[menu.main]]
+URL = "Resources"
+name = "Resources"
+parent = "Services"
+weight = 1
+[[menu.main]]
+URL = "projects-Hub"
+name = "Projects Hub"
+parent = "Get Involved"
+weight = 1
+[[menu.main]]
+URL = "volunteer-Hub"
+name = "Volunteer Hub"
+parent = "Get Involved"
+weight = 2
+[[menu.main]]
+URL = "confrences"
+name = "Confrences"
+parent = "Get Involved"
+weight = 3
+[[menu.main]]
+URL = "get-involved/applications"
+name = "Applications"
+parent = "Get Involved"
+weight = 4
+[[menu.main]]
+URL = "teams"
+name = "Teams"
+parent = "Get Involved"
+weight = 5
+[[menu.main]]
+URL = "about/constitution"
+name = "Constitution"
+parent = "About"
+weight = 1
+[[menu.main]]
+URL = "about/council"
+name = "Council"
+parent = "About"
+weight = 2
+[[menu.main]]
+URL = "about/departments"
+name = "Departments"
+parent = "About"
+weight = 3
+[[menu.main]]
+URL = "bookings"
+name = "Bookings"
+parent = "Services"
+weight = 2
+[[menu.main]]
+URL = "https://ess-test.square.site/"
+name = "Store"
+weight = 6
+[[menu.main]]
+URL = "contact"
+name = "Contact us"
+weight = 5
+[[menu.main]]
+hasChildren = true
+name = "Get Involved"
+weight = 4
+[[menu.main]]
+hasChildren = true
+name = "Services"
+weight = 3
+[[menu.main]]
+URL = "events"
+name = "Events"
+weight = 2
+[[menu.main]]
+hasChildren = true
+name = "About"
+weight = 1
+[params]
+author = "Engineering Students' Society University of Calgary"
+booking_form_action = "https://formspree.io/mzbjbvzo"
+contact_form_action = "#"
+custom_css = ["css/custom.css"]
+description = "This is meta description"
+email = "president@ess.ucalgary.ca"
+google_analitycs_id = ""
+location = "ENE 134A Engineering Building, University of Calgary 2500 University Drive NW Calgary, AB T2N 1N4"
+logo = "images/logo.png"
+multi_author = false
+phone = "403-220-5737"
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDbEAiNJWJ5U9GWNEbOHJxksvKuz62yehQ&libraries=places"
+map_latitude = "51.080421"
+map_longitude = "-114.132671"
+map_marker = "images/marker.png"
+[params.hnotify]
+enable = true
+link = "/covid-19"
+text = "COVID-19 Information"
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -23,8 +128,6 @@ link = "plugins/Ionicons/css/ionicons.min.css"
 link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -37,186 +140,18 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
-
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "About"
-weight = 1
-hasChildren = true
-
-  [[menu.main]]
-  parent = "About"
-  name = "Constitution"
-  URL = "about/constitution"
-
-  [[menu.main]]
-  parent = "About"
-  name = "Council"
-  URL = "about/council"
-
-  [[menu.main]]
-  parent = "About"
-  name = "Departments"
-  URL = "about/departments"
-
-  [[menu.main]]
-  parent = "About"
-  name = "Sponsors"
-  URL = "sponsors"
-
-[[menu.main]]
-name = "Events"
-URL = "events"
-weight = 2
-
-[[menu.main]]
-name = "Services"
-weight = 3
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Services"
-  name = "Bookings"
-  URL = "bookings"
-
-  [[menu.main]]
-  parent = "Services"
-  name = "Resources"
-  URL = "Resources"
-
-[[menu.main]]
-name = "Get Involved"
-weight = 4
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Get Involved"
-  name = "Projects Hub"
-  URL = "projects-Hub"
-
-  [[menu.main]]
-  parent = "Get Involved"
-  name = "Volunteer Hub"
-  URL = "volunteer-Hub"
-
-  [[menu.main]]
-  parent = "Get Involved"
-  name = "Applications"
-  URL = "get-involved/applications"
-
-  [[menu.main]]
-  parent = "Get Involved"
-  name = "Confrences"
-  URL = "confrences"
-
-  [[menu.main]]
-  parent = "Get Involved"
-  name = "Teams"
-  URL = "teams"
-  
-[[menu.main]]
-name = "Contact us"
-URL = "contact"
-weight = 5
-
-[[menu.main]]
-name = "Store"
-URL = "https://ess-test.square.site/"
-weight = 6
-
-
-# footer menu
-[[menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 1
-
-[[menu.footer]]
-name = "Office Hours"
-URL = "hours"
-weight = 2
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "This is meta description"
-author = "Engineering Students' Society University of Calgary"
-# Contact Information
-phone = "403-220-5737"
-email = "president@ess.ucalgary.ca"
-location = "ENE 134A Engineering Building, University of Calgary 2500 University Drive NW Calgary, AB T2N 1N4"
-# contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
-# booking form action
-booking_form_action = "https://formspree.io/mzbjbvzo"
-# Google Analitycs
-google_analitycs_id = "" # Your ID# search
-# multi-author support (if set to true, you must use an Array in the author field)
-multi_author = false
-custom_css = ["css/custom.css"]
-
-# Preloader
 [params.preloader]
 enable = true
-preloader = "" # use .png , .svg or .gif format
-
-# Navigation get start button
-[params.nav_button]
-enable = true
-label = "Get A Quote"
-link = "contact"
-
-# google map
-[params.gmap]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDbEAiNJWJ5U9GWNEbOHJxksvKuz62yehQ&libraries=places"
-map_latitude = "51.080421"
-map_longitude = "-114.132671"
-map_marker = "images/marker.png"
-
-############################# header notification #####################
-[params.hnotify]
-enable = true
-text = "COVID-19 Information"
-link = "/covid-19"
-
-############################# social site ########################
+preloader = ""
 [[params.social]]
-icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+icon = "ion-social-instagram-outline"
 link = "https://www.instagram.com/ess_uofc/"
-
 [[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+icon = "ion-social-linkedin-outline"
 link = "https://www.linkedin.com/company/engineering-students%27-society-u-of-c-/"
-
 [[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+icon = "ion-social-facebook-outline"
 link = "https://www.facebook.com/UofC.ESS"
-
 [[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+icon = "ion-social-twitter-outline"
 link = "https://twitter.com/ESS_UofC"
-
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 Engineering Students Society University of Calgary. All Rights Reserved"
-
-################################ France Language ########################
-# [Languages.fr]
-# languageName = "Fr"
-# languageCode = "fr-fr"
-# contentDir = "content/french"
-# weight = 2
-# home = "Accueil"
-# # copyright
-# copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
