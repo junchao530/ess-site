@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+
+<section class="page-title bg-2" style="background-image: url('{{.Params.Bg_image | absURL}}');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <img class="dept-head-logo" src="{{ .Params.logo | relURL }}">
+          <div class="block">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.Description }}</p>
+            <a class="button">Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+        <div class="dept-pres">
+            <img class="dept-pres-img" src="{{ .Params.logo | relURL }}">
+            <h3>Name</h3>
+            <p>Department President</p>
+        </div>
+        <div class="dept-bio">
+        {{ .Content }}
+        </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

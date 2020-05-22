@@ -69,3 +69,22 @@ a:hover {
 .head-notify-link {
     color: #eee;
 }
+
+.dept-head-logo {
+    height: 200px;
+    float: left;
+    padding-left: 5%;
+}
+
+.dept-pres {
+    float: left;
+    padding-right: 5%; 
+}
+
+.dept-pres-img {
+    height: 200px;
+}
+
+.dept-bio {
+
+}
