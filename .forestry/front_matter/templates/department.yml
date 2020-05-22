@@ -1,0 +1,19 @@
+---
+label: Department
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: layout
+  label: layout
