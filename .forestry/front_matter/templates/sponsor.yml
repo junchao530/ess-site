@@ -2,30 +2,46 @@
 label: Sponsor
 hide_body: true
 fields:
-- type: file
-  name: bg_image
-  label: bg_image
-- type: text
-  name: layout
-  label: layout
-- type: file
-  name: logo
-  label: logo
 - type: text
   name: title
-  label: title
+  label: Name
+  description: Sponsor Name
+- type: file
+  name: bg_image
+  label: Header Image
 - type: text
-  name: subtitle
-  label: subtitle
-- type: text
-  name: sponsor_active
-  label: sponsor_active
-- type: text
-  name: sponsor_level
-  label: sponsor_level
+  name: layout
+  label: Layout
+  description: Page Layout
+  hidden: true
+- type: file
+  name: logo
+  label: Sponsor Logo
+  description: Sponsor logo to be displayed on website
+- name: sponsor_active
+  type: boolean
+  label: Active
+  description: Is the sponsor active (visible on website)
+- name: sponsor_level
+  type: select
+  default: Additional Sponsors
+  config:
+    required: true
+    options:
+    - Title
+    - Gold
+    - Silver
+    - Bronze
+    - Additional Sponsors
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  description: Level of Sponsor
+  label: Sponsor Level
 - type: field_group
   name: social
-  label: social
   fields:
   - type: text
     name: facebook
@@ -45,3 +61,5 @@ fields:
   - type: text
     name: youtube
     label: youtube
+  label: Links
+  description: Sponsor Social Links
