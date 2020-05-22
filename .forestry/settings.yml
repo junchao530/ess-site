@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/english/covid-19.md
+  label: COVID-19
+  match: "**/*"
 - type: directory
   path: content/english
   label: Content
@@ -12,6 +16,10 @@ sections:
   new_doc_ext: md
 - type: heading
   label: About
+- type: document
+  path: content/english/about/constitution.md
+  label: Constitution
+  match: "**/*"
 - type: directory
   path: content/english/about/departments
   label: Departments
@@ -20,6 +28,28 @@ sections:
   new_doc_ext: app
   templates:
   - department
+- type: directory
+  path: content/english/about/sponsors
+  label: Sponsors
+  create: all
+  match: "**/*"
+  templates:
+  - sponsor
+- type: heading
+  label: Events
+- type: directory
+  path: content/english/events
+  label: Events
+  create: all
+  match: "**/*"
+- type: heading
+  label: Services
+- type: heading
+  label: Get Involved
+- type: document
+  path: content/english/bookings/_index.md
+  label: Bookings
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
