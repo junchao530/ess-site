@@ -3,7 +3,7 @@ label: Department
 hide_body: false
 fields:
 - type: text
-  name: name
+  name: title
   label: Department Name
   description: Name of the department
 - type: text
@@ -74,8 +74,28 @@ fields:
       required: false
     label: Twitter
     description: Department Twitter
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+    description: Department Instagram
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+    description: Department Linkedin
+  - name: youtube
+    type: text
+    config:
+      required: false
+    label: Youtube
+    description: Department Youtube Channel
   label: Department Social Medial
   description: Links to Department Social Media
 pages:
 - content/english/about/departments/cess.md
+- content/english/about/departments/cess.md
+- content/english/about/departments/zoo.md
 - content/english/about/departments/zoo.md
