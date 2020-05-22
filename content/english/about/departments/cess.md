@@ -2,7 +2,7 @@
 bg_image = "/images/about/201819-group-council.jpg"
 layout = "department"
 logo = "/images/logo-1.png"
-name = "CESS"
+title = "CESS"
 subtitle = "Chemical and Oil & Gas Engineering Students’ Society"
 [president]
 bio_img = "/images/teams/team-3.jpg"
@@ -13,6 +13,10 @@ title = "CESS President"
 facebook = "https://www.facebook.com/ucalgarycess/"
 twitter = ""
 website = "http://www.cessucalgary.com/"
+instagram = ""
+linkedin = ""
+youtube = ""
+
 
 +++
 The Chemical and Oil & Gas Engineering Students’ Society (CESS) is a non-profit organization run by undergraduate engineering students, aimed primarily at the Chemical and Oil & Gas departments. At CESS, we believe exposing students to both academic and industry opportunities will provide them with a competitive advantage when entering their careers. Through the help of corporate sponsorship, CESS has taken steps to ensure our members receive access to resources and events that will help them become future leaders and expand their personal networks. These opportunities include industry tours, student mixers with faculty and industry representatives, social and sporting activities, and volunteer initiatives. Additionally, CESS continuously supports the development of its members by sending an annual delegation of students to the Canadian Society for Chemical Engineering Conference (CSChE). We believe that through these opportunities our organization equips students with a strong academic and professional foundation that they will carry forward into their careers.  
