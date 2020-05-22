@@ -5,6 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/english/about/departments
+  label: Departments
+  create: all
+  match: "**/*"
+  new_doc_ext: ''
+  templates:
+  - department
+- type: directory
   path: content/english
   label: Content
   create: all
