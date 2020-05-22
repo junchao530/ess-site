@@ -85,6 +85,14 @@ a:hover {
     height: 200px;
 }
 
-.dept-bio {
 
+.dept-list-logo {
+    height: 200px;
+    padding: 5%;
+}
+
+.dept-list-info {
+    float: left;
+    padding-right: 5%;
+    padding-left: 2%;
 }

@@ -4,82 +4,39 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ if $data.council.about.enable }}
-{{ with $data.council.about }}
-<section class="service-about section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>{{ .title | markdownify }}</h2>
-        <p class="mt-30">{{ .content | markdownify }}</p>
-      </div>
-      <div class="col-md-6">
-        <img class="img-responsive" src="{{ .image | absURL }}">
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-
-<!-- Council Listing -->
-{{ if $data.council.council_listing.enable }}
-{{ with $data.council.council_listing }}
-<section class="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>{{ .title | markdownify }}</h3>
-        <p>{{ .description | markdownify }}</p>
-      </div>
-    </div>
-    <div class="row">
-      {{ range first 4 .council_member }}
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="img-responsive" src="{{ .image | absURL }}">
-          <h3>{{ .name | markdownify }}</h3>
-          <h4>{{ .title | markdownify }}</h4>
-          <p>{{ .biog | markdownify }}</p>
+<section class="">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <h2>{{ .Params.title}}</h2>
+          <p>{{ .Content }}</p>
         </div>
       </div>
-      {{ end }}
     </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
+  </section>
 
-<!-- /Council Listing -->
-
-<!-- Commissioner Listing -->
-{{ if $data.council.commissioner_listing.enable }}
-{{ with $data.council.commissioner_listing }}
-<section class="service">
-  <div class="container">
+<section>
+    <div class="container">
+        <div class="row">
+            <h2>Department Listings</h2>
+        </div>  
+    {{ range (where .Site.Pages "Layout" "department") }}
     <div class="row">
-      <div class="section-title">
-        <h2>{{ .title | markdownify }}</h3>
-        <p>{{ .description | markdownify }}</p>
-      </div>
-    </div>
-    <div class="row">
-      {{ range first 4 .council_member }}
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <img class="img-responsive" src="{{ .image | absURL }}">
-          <h3>{{ .name | markdownify }}</h3>
-          <h4>{{ .title | markdownify }}</h4>
-          <p>{{ .biog | markdownify }}</p>
+        <div class="dept-list-info">
+            <a class="" href="{{ .Permalink }}" style="width: 50%; ">
+                <img class="dept-list-logo" src="{{ .Params.Logo | relURL }}" alt="{{ .Title }}">
+            </a>
         </div>
-      </div>
-      {{ end }}
+        <div class="">
+            <h3 class=""><a href="{{ .Permalink }}">{{ .Title }} | {{ .Params.Subtitle }}</a></h3>
+            <h4>{{ .Params.President.title}}: {{ .Params.President.name}}</h4>
+            <p>{{ .Summary | truncate 200 }}</p>
+            
+        </div>
     </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
+    {{ end }} 
 
-<!-- /Commissioner Listing -->
+    </div>
+</section>
 
 {{ end }}
