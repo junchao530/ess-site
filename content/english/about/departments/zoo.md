@@ -1,10 +1,21 @@
 ---
-title: "ZOO"
-description: "Electrical, Computer, & Software Engineering Students’ Society"
-draft: false
-bg_image: "images/about/201819-group-council.jpg"
-logo: "images/departments/zoo/logo.png"
-layout : "department"
+title: ZOO
+description: Electrical, Computer, & Software Engineering Students’ Society
+bg_image: images/about/201819-group-council.jpg
+logo: images/departments/zoo/logo.png
+layout: department
+name: ZOO
+subtitle: Electrical, Computer, & Software Engineering Students’ Society
+president:
+  name: Antoine Bizon
+  title: ZOO President
+  bio_img: "/images/teams/team-1.jpg"
+  email: president@zooengg.ca
+social:
+  website: ''
+  facebook: ''
+  twitter: ''
+
 ---
 The Electrical, Computer, and Software Engineering Students' Society at the University of Calgary is an organization committed to providing students with a variety of academic and social events to enrich their university experience inside and outside of classes. We strive to provide communication between the University of Calgary faculty and electrical, computer, and software engineering students. Additionally, we work to represent the opinions of students to other universities, and the community at large.
 

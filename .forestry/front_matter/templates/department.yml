@@ -76,3 +76,5 @@ fields:
     description: Department Twitter
   label: Department Social Medial
   description: Links to Department Social Media
+pages:
+- content/english/about/departments/zoo.md
