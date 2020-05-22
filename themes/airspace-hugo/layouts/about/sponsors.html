@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section class="">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <h2>{{ .Params.title}}</h2>
+          <p>{{ .Content }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section>
+    <div class="container">
+    <h2>Gold</h2>
+    {{ range (where .Site.Pages "Params.sponsor_level" "gold") }}
+    <div class="row">
+        <div class="dept-list-info">
+            <a class="" href="{{ .Permalink }}" style="width: 50%; ">
+                <img class="dept-list-logo" src="{{ .Params.Logo | relURL }}" alt="{{ .Title }}">
+            </a>
+        </div>
+    </div>
+    {{ end }} 
+
+    </div>
+</section>
+
+{{ end }}
