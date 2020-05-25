@@ -96,3 +96,12 @@ a:hover {
     padding-right: 5%;
     padding-left: 2%;
 }
+
+#btn-nav {
+    color: #eee;
+    background-color: #c5332c;
+}
+
+#navbar-logo {
+    height: 55px;
+}

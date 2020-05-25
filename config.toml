@@ -13,7 +13,7 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[menu.footer]]
-URL = "hours"
+URL = "about/officehours"
 name = "Office Hours"
 weight = 2
 [[menu.footer]]
@@ -71,10 +71,6 @@ name = "Bookings"
 parent = "Services"
 weight = 2
 [[menu.main]]
-URL = "https://ess-test.square.site/"
-name = "Store"
-weight = 6
-[[menu.main]]
 URL = "contact"
 name = "Contact us"
 weight = 5
@@ -103,7 +99,7 @@ description = "This is meta description"
 email = "president@ess.ucalgary.ca"
 google_analitycs_id = ""
 location = "ENE 134A Engineering Building, University of Calgary 2500 University Drive NW Calgary, AB T2N 1N4"
-logo = "images/logo.png"
+logo = "images/ess-logo.png"
 multi_author = false
 phone = "403-220-5737"
 [params.gmap]
@@ -118,8 +114,8 @@ link = "/covid-19"
 text = "COVID-19 Information"
 [params.nav_button]
 enable = true
-label = "Get A Quote"
-link = "contact"
+label = "Store"
+link = "https://ess-test.square.site"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
