@@ -105,3 +105,9 @@ a:hover {
 #navbar-logo {
     height: 55px;
 }
+
+#head-img-text {
+    text-align: center;
+    color: #eee;
+    font-size: xx-large;
+}
