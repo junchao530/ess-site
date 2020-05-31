@@ -1,7 +1,7 @@
 +++
 bg_image = "/images/about/201819-group-council.jpg"
 layout = "department"
-logo = "/images/logo-1.png"
+logo = "/images/departments/cess/cess.png"
 title = "CESS"
 subtitle = "Chemical and Oil & Gas Engineering Students’ Society"
 [president]

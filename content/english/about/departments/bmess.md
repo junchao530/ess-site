@@ -1,7 +1,7 @@
 +++
 bg_image = "/images/about/201819-group-council.jpg"
 layout = "department"
-logo = "images/departments/bmess/logo.png"
+logo = "images/departments/bmess/bmess.png"
 title = "BMESS"
 subtitle = "Biomedical Engineering Students’ Society"
 [president]

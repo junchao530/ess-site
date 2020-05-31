@@ -21,7 +21,7 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "Resources"
+URL = "resources"
 name = "Resources"
 parent = "Services"
 weight = 1
