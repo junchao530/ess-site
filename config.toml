@@ -46,7 +46,7 @@ name = "Applications"
 parent = "Get Involved"
 weight = 4
 [[menu.main]]
-URL = "teams"
+URL = "get-involved/teams"
 name = "Teams"
 parent = "Get Involved"
 weight = 5
