@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-  }
+}
 
 body {
     display: flex;
@@ -132,6 +132,25 @@ a:hover {
     padding-right: 5%;
     padding-left: 2%;
     min-width: 200px;
+}
+
+.hours-table th {
+    text-align: right;
+}
+
+.hours-table table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.hours-table {
+    align-self: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.hours-table-bottom-text {
+    text-align: center;
 }
 
 #btn-nav {

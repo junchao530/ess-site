@@ -2,23 +2,19 @@
 
 {{ partial "page-title.html" . }}
 
-<!-- <section>
-    <div class="container">
-        <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-    </div>
-</section> -->
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <table class="hours-table">
+        <tr><th>Monday</th><td>{{ .Params.hoursStart.monday }} - {{ .Params.hoursEnd.monday }}</td></tr>
+        <tr><th>Tuesday</th><td>{{ .Params.hoursStart.tuesday }} - {{ .Params.hoursEnd.tuesday }}</td></tr>
+        <tr><th>Wednesday</th><td>{{ .Params.hoursStart.wednesday }} - {{ .Params.hoursEnd.wednesday }}</td></tr>
+        <tr><th>Thursday</th><td>{{ .Params.hoursStart.thursday }} - {{ .Params.hoursEnd.thursday }}</td></tr>
+        <tr><th>Friday</th><td>{{ .Params.hoursStart.friday }} - {{ .Params.hoursEnd.friday }}</td></tr>
+      </table>
+    </div>
+    <div class="row hours-table-bottom-text">
         {{ .Content }}
-      </div>
     </div>
   </div>
 </section>
