@@ -36,8 +36,8 @@ name = "Volunteer Hub"
 parent = "Get Involved"
 weight = 2
 [[menu.main]]
-URL = "confrences"
-name = "Confrences"
+URL = "get-involved/conferences"
+name = "Conferences"
 parent = "Get Involved"
 weight = 3
 [[menu.main]]
