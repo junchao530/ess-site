@@ -5,7 +5,7 @@ logo = "images/departments/bmess/bmess.png"
 subtitle = "Biomedical Engineering Students’ Society"
 title = "BMESS"
 [president]
-bio_img = "/images/teams/team-3.jpg"
+bio_img = "/images/about/council-members/stock-male.jpg"
 email = "president.bmess@gmail.com"
 name = "Tyler Yip"
 title = "BMESS President"
