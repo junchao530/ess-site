@@ -10,7 +10,7 @@ email = "president.bmess@gmail.com"
 name = "Tyler Yip"
 title = "BMESS President"
 [social]
-facebook = ""
+facebook = "https://www.facebook.com/UofCBMESS/"
 instagram = ""
 linkedin = ""
 twitter = ""
