@@ -74,3 +74,5 @@ fields:
     name: friday
     label: friday
   description: The time the office closes on each specific day.
+pages:
+- content/english/about/officehours/_index.md
