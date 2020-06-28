@@ -1,0 +1,64 @@
+---
+label: Office Hours
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: tempClose
+  label: tempClose
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: textarea
+    name: message
+    label: message
+- type: field_group
+  name: hoursStart
+  label: hoursStart
+  fields:
+  - type: text
+    name: monday
+    label: monday
+  - type: text
+    name: tuesday
+    label: tuesday
+  - type: text
+    name: wednesday
+    label: wednesday
+  - type: text
+    name: thursday
+    label: thursday
+  - type: text
+    name: friday
+    label: friday
+- type: field_group
+  name: hoursEnd
+  label: hoursEnd
+  fields:
+  - type: text
+    name: monday
+    label: monday
+  - type: text
+    name: tuesday
+    label: tuesday
+  - type: text
+    name: wednesday
+    label: wednesday
+  - type: text
+    name: thursday
+    label: thursday
+  - type: text
+    name: friday
+    label: friday
