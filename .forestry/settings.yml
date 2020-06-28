@@ -34,9 +34,8 @@ sections:
   templates:
   - sponsor
 - type: document
-  path: content/english/about/officehours/index.md
+  path: content/english/about/officehours/_index.md
   label: Office Hours
-  match: "**/*"
 - type: heading
   label: Events
 - type: directory
