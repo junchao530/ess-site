@@ -33,6 +33,10 @@ sections:
   match: "**/*"
   templates:
   - sponsor
+- type: document
+  path: content/english/about/officehours/index.md
+  label: Office Hours
+  match: "**/*"
 - type: heading
   label: Events
 - type: directory
