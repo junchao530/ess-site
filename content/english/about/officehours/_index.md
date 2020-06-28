@@ -4,6 +4,9 @@ description:
 draft: false
 bg_image: "images/about/201819-group-council.jpg"
 layout: officehours
+tempClose:
+    enable: true
+    message: "Due to the current situation surrounding the COVID-19 Pandemic, our office is currently closed. We look forward to welcoming you back as soon as possible"
 hoursStart:
     monday: "10am"
     tuesday: "10am"

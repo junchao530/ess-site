@@ -2,9 +2,19 @@
 
 {{ partial "page-title.html" . }}
 
+{{ if .Params.tempClose.enable }}
+  <section class="section">
+    <div class="container">
+      <h1>Temporarily Closed</h1>
+      <h2>{{ .Params.tempClose.message}}</h2>
+    </div>
+  </section>
+
+{{else}}
 <section class="section">
   <div class="container">
     <div class="row">
+      <h2>Office Hours</h2>
       <table class="hours-table">
         <tr><th>Monday</th><td>{{ .Params.hoursStart.monday }} - {{ .Params.hoursEnd.monday }}</td></tr>
         <tr><th>Tuesday</th><td>{{ .Params.hoursStart.tuesday }} - {{ .Params.hoursEnd.tuesday }}</td></tr>
@@ -20,3 +30,4 @@
 </section>
 
 {{ end }}
+{{end}}

@@ -133,7 +133,7 @@ link = "/about/officehours"
 [params.nav_button]
 enable = true
 label = "Store"
-link = "https://ess-test.square.site"
+link = "https://essstore.square.site/"
 
 # Plugins
 [[params.plugins.css]]
