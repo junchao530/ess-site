@@ -5,10 +5,10 @@ layout: page
 bg_image: images/covid-banner.png
 
 ---
-My name is Ewan May, I am very excited to be your Engineering Students’ Society president for the upcoming year. For the next 2 weeks myself along with the other engineering department society presidents are going to be working with faculty to determine how courses are going to be delivered in fall.
+The Engineering Students' Society is actively monitoring the current situation surrounding the COVID-19 Pandemic. We are currently evaluating new ways to continue to support our members and the Engineering Students of the University of Calgary.
 
-Because of this, we need your feedback and input as we head into discussions with faculty. The questions are related to your experience from last semester and concerns for this coming semester. If you want your voice to be heard, please fill out this survey within the next week:
+We are working closely with the University of Calgary to determine the feasibility of the various events organised and attended by the Engineering Students' Society. Additionally, we know that students will face different challenges going into a mostly online fall semester. We are working hard behind the scenes to create resources to support students through this transition.
 
-[Engineering Student Survey for Fall 2020](https://forms.gle/TFqBqYqqM6KVdqRX8)
+If you have any suggestions feel free to reach out, we would be happy to hear from you.
 
-In addition, please feel free to email myself or our fantastic VP Academic, Ghada Eldib about concerns you might have for the fall semester at [**president at ess.ucalgary.ca**](mailto:president@ess.ucalgary.ca) or [**academic at ess.ucalgary.ca**](adademic@ess.ucalgary.ca)
+Check out the University of Calgary's COVID-19 Updates at [https://ucalgary.ca/risk/emergency-management/covid-19-response](https://ucalgary.ca/risk/emergency-management/covid-19-response "https://ucalgary.ca/risk/emergency-management/covid-19-response").
