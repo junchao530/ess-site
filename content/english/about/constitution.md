@@ -653,8 +653,8 @@ sections:
     quorum at the Annual General Meeting of the Society, in accordance with Article 11, on
     the following dates:
 latest_revision:
-  rev_number: 
-  rev_date: 
+  rev_number: 8
+  rev_date: 2019-03-07T07:00:00+00:00
 revision_history:
 - rev_date: 0200-03-04T07:30:00+00:00
 
