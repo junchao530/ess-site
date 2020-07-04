@@ -1,36 +1,19 @@
----
-title: "Constitution"
-description: "this is meta description"
-draft: false
-bg_image: "images/featue-bg.jpg"
-layout: "constitution"
----
+########################## constitution ############################
+info:
+  enable : true
+  preamble: "This document is the Constitution of the University of Calgary Engineering Students’ Society (ESS). It contains the governing rules and regulations of the Society."
+  last_revision:
+    number: "8"
+    date: "Date March 7, 2019"
 
-# University of Calgary
-
-# Engineering Students’ Society
-
-
-Revision Number 8 
-Revision Date March 7, 2019
-Last Revised March 6, 2018
-
-
-## PREAMBLE:
-
-This document is the Constitution of the University of Calgary Engineering Students’
-Society (ESS). It contains the governing rules and regulations of the Society.
-
-
-## ARTICLE 1 – NAME
-
-The name of the organization shall be the University of Calgary Engineering Students’
-Society, and hereinafter will be referred to as the Society.
-a) The name of the Society may be changed by a two-thirds majority vote at any
-Board of Directors (hereinafter referred to as the BoD) meeting in accordance
-with the Alberta Societies Act and any applicable incorporation rules.
-**ARTICLE 2 – OBJECTIVES OF THE SOCIETY**
-Mission: The ESS advocates for engineering students and promotes a strong sense of
+articles:
+  enable: true
+  article_items:
+    - name: "ARTICLE 1 – NAME"
+      content: "The name of the organization shall be the University of Calgary Engineering Students’ Society, and hereinafter will be referred to as the Society.
+                a) The name of the Society may be changed by a two-thirds majority vote at any Board of Directors (hereinafter referred to as the BoD) meeting in accordance with the Alberta Societies Act and any applicable incorporation rules."
+    - name: "ARTICLE 2 – OBJECTIVES OF THE SOCIETY"
+      content: "Mission: The ESS advocates for engineering students and promotes a strong sense of
 community.
 Mandate and Goals: For every engineering student to be supported socially,
 academically, and professionally. ESS will represent student voices while maintaining
@@ -49,15 +32,13 @@ discussion of engineering problems and the exchange of views in matters related
 to engineering education;
 f) To establish, construct, and maintain suitable quarters for the Society, and to
 permit the quarters to be used on terms to be agreed upon by the BoD;
-
-
 g) To establish and support or aid in the establishment of funds or trusts calculated
 to benefit the members of the Society; and,
 h) To acquire, take by gift, device, bequest and donate, and to support or enter into
 arrangements which may be conducive to the attainment or furtherance of any of
-the objectives of the Society, and for no other objectives.
-**ARTICLE 3 – MEMBERSHIP OF THE SOCIETY**
-There shall be three classes of membership in the Society: Honourary Membership,
+the objectives of the Society, and for no other objectives."
+    - name: "ARTICLE 3 – MEMBERSHIP OF THE SOCIETY"
+      content: "There shall be three classes of membership in the Society: Honourary Membership,
 Associate Membership, and Active Membership.
 a) The Honourary Members shall be appointed for life by the BoD in recognition of
 outstanding services rendered. They shall not be entitled to vote at, but shall be
@@ -80,12 +61,10 @@ distribution of the property of the Society upon dissolution of the Society.
 d) Students and alumni may be added by an extraordinary resolution by BoD to a
 list indicating that the person is barred from all ESS events and their ESS
 membership be revoked due to breaking member conduct guidelines as outlined
-
-
 in the policy manual. Such member has the right to formally appeal this decision
-to the BoD.
-**ARTICLE 4 – OFFICERS AND COMMITTEES OF THE SOCIETY**
-a) The BoD of the Society shall consist of:
+to the BoD."
+    - name: "ARTICLE 4 – OFFICERS AND COMMITTEES OF THE SOCIETY"
+      content: "a) The BoD of the Society shall consist of:
 i) Executive Officers of the Society;
 ii) First Year Representatives; and,
 iii) President from each Department Society in accordance with Article 7.
@@ -116,8 +95,6 @@ xiii) Student and Alumni Engagement Commissioner;
 xiv) First Year Representatives;
 xv) Department Society Presidents;
 xvi) Past President
-
-
 ● Honourary Member of the Society.
 d) The Affiliates of the Society shall consist of:
 i) Directors as deemed appropriate by the Officers of the Society;
@@ -125,9 +102,9 @@ ii) Committee members as appointed by the Board; and,
 iii) ESS general volunteers.
 e) Committees of the Society deemed necessary by the BoD shall be
 commissioned by a resolution, which shall state the terms of reference for such
-committee, and be further referenced in the Policy Manual.
-**ARTICLE 5 – DUTIES OF OFFICERS OF THE SOCIETY**
-a) The President shall:
+committee, and be further referenced in the Policy Manual."
+    - name: "ARTICLE 5 – DUTIES OF OFFICERS OF THE SOCIETY"
+      content: "a) The President shall:
 i) Be responsible for the general management and supervision of the affairs
 of the Society;
 ii) Hold veto power over the decisions and resolutions of the BoD;
@@ -150,8 +127,6 @@ ix) Maintain a transition document; and,
 x) Submit an Annual Report and proposed changes to the Policy Manual and
 Constitution at the Annual General Meeting.
 b) The Vice President Academic shall:
-
-
 i) Be responsible for any academic affairs related to or involving the Society,
 including member representation;
 ii) Be charged with acting as the liaison between the Society and the
@@ -189,8 +164,6 @@ iv) Be responsible for duties relating to sponsorship documentation and
 applications;
 v) Be charged with the supervision of the affairs of the Sponsorship and
 Community Relations Commissioners;
-
-
 vi) Perform any additional duties as directed by the Policy Manual and the
 BoD;
 vii) Maintain a transition document; and,
@@ -227,8 +200,6 @@ Commissioner;
 vi) Perform any additional duties as directed by the Policy Manual and the
 BoD;
 vii) Maintain a transition document; and,
-
-
 viii) Submit an Annual Report and proposed changes to the Policy Manual at
 the Annual General Meeting.
 g) The Vice President Internal shall:
@@ -265,8 +236,6 @@ viii) Maintain a transition document; and,
 ix) Submit and Annual Report and proposed changes to the Policy Manual at
 the Annual General Meeting.
 i) The Vice President Student Life shall:
-
-
 i) Ensure proper social, athletic, and charity events are delivered;
 ii) Be responsible for liaising with committees and task forces that influence
 student life at The Schulich School of Engineering;
@@ -302,8 +271,6 @@ m)  The Community Relations Commissioner(s) shall:
 i) Be responsible for duties relating to partnership documentation and
 applications;
 ii) Be responsible for maintaining partnerships on the membership card;
-
-
 iii) Be responsible for acquiring partnerships for various events;
 iv) Maintain a transition document; and,
 v) Perform any additional duties as directed by the Policy Manual and the
@@ -336,8 +303,6 @@ iii) Maintain a transition document; and,
 iv) Perform any additional duties as directed by the Policy Manual and the
 Executive Officers.
 r) The Mentorship Commissioner shall:
-
-
 i) Act as a liaison with the Associate Dean of Professional Development
 regarding the Peer Mentorship Program;
 ii) Organize all ESS Peer Mentorship Events;
@@ -373,8 +338,6 @@ i) Be responsible for assisting the VP Corporate Relations​ ​with the
 sponsorship of the Society within corporate community;
 ii) Be responsible for assisting the VP Corporate Relations​ ​with maintaining
 relationships with our corporate community;
-
-
 iii) Be charged with the supervision of the affairs of the Career Fair
 Director(s);
 iv) Be responsible for assisting the VP Corporate Relations​ ​with duties
@@ -407,11 +370,9 @@ vi) Maintain a transition document; and,
 vii) Perform any additional duties as directed by the Policy Manual and the
 Executive Officers. “
 y) The Past President or person appointed by the Past President shall:
-i) Act in an advisory capacity to the BoD.
-**ARTICLE 6 - ADMINISTRATOR OF THE SOCIETY**
-
-
-The Society may have an Administrator following the terms:
+i) Act in an advisory capacity to the BoD."
+    - name: "ARTICLE 6 - ADMINISTRATOR OF THE SOCIETY"
+      content: "The Society may have an Administrator following the terms:
 a) The Administrator shall not be a current student of the university;
 b) The position is by contract which is passed by vote during a BoD meeting;
 c) The Administrator reports directly to the Administrative Manager of the Dean’s
@@ -424,9 +385,9 @@ d) The budget set forth by the Vice President Operations and Finance should
 include the entire salary each year; and,
 e) If the position is vacant, the Society may invoke a temporary Administrator for
 the society until the position is filled. This temporary position may be filled by a
-current student.
-**ARTICLE 7 – DEPARTMENT SOCIETIES**
-a) A Department Society is defined as a student association representing a
+current student."
+    - name: "ARTICLE 7 – DEPARTMENT SOCIETIES"
+      content: "a) A Department Society is defined as a student association representing a
 department or specialization as defined by the Schulich School of Engineering;
 b) A Department Society President will be eligible for a seat on the BoD provided it
 is approved by an extraordinary resolution (No less than 75% of votes) of the
@@ -436,12 +397,9 @@ c) Specialization Society Presidents are eligible for a non-voting seat on the B
 provided it is approved by an extraordinary resolution (No less than 75% of
 votes) of the Society, and so long as the goals of the Department Society meet
 that of the Society; In other case, the Specialization Society Presidents will
-remain in a non-voting seat.
-
-
-## ARTICLE 8 – MEETINGS OF THE SOCIETY
-
-Meetings held for the business of the Society shall take on the following forms: Annual
+remain in a non-voting seat."
+    - name: "ARTICLE 8 – MEETINGS OF THE SOCIETY"
+      content: "Meetings held for the business of the Society shall take on the following forms: Annual
 General Meeting, BoD Meeting, and Executive Officer Meeting. All meetings shall
 adhere to proper parliamentary procedure, based on “Modified Robert’s Rules of
 Order”, unless otherwise stated by the chair.
@@ -474,8 +432,6 @@ v) Motions by the active membership must be submitted to the Annual
 General Meeting Chair at least ten (10) days before the Annual General
 Meeting. Counter-proposals must be submitted to the Chair at least seven
 (7) days before the meeting; and,
-
-
 vi) Adjournment of any General Meeting to any time may occur, at which
 outstanding, relevant business may be transacted.
 ● Such adjournment may be made notwithstanding that no quorum is
@@ -512,12 +468,9 @@ within the department or portfolio​ ​that holds the vote. ​Failing that,
 Executive officers may proxy to other appointed officers of the Society.
 c) Executive Officer Meetings shall be called as deemed appropriate by the
 President of the Society, and shall follow such guidelines as determined by the
-President.
-
-
-## ARTICLE 9 – ELECTION OF THE OFFICERS OF THE SOCIETY
-
-a) The Chief Returning Officer (CRO) shall be responsible for all proceedings of the
+President."
+    - name: "ARTICLE 9 – ELECTION OF THE OFFICERS OF THE SOCIETY"
+      content: "a) The Chief Returning Officer (CRO) shall be responsible for all proceedings of the
 Annual General Meeting and the election process, and shall provide proper
 notice to all members of the Society of the Annual General Meeting and Election
 (via the Administrator, President, or Vice President Communications):
@@ -550,8 +503,6 @@ meeting any of the following requirements:
 excluding First Year Representatives; or,
 ● Has served one full term as the President of a Department Society in
 accordance with Article 7 of this Constitution.
-
-
 ii) The candidate must have a good academic standing for a full engineering
 course load over the previous academic semester as defined by the
 Schulich School of Engineering;
@@ -587,8 +538,6 @@ by the CRO at least twenty-four (24) hours before the day of the election;
 e) Any campaign activity consistent with relevant university policies shall be
 permitted, up to the discretion of the CRO and approved by the BoD as stated in
 Article 9, subsection (a), subpoint (ii);
-
-
 f) Election of the Executive Officers of the Society shall start (first voting day) no
 more than fourteen (14) days after the Annual General Meeting. The BoD through
 resolution shall determine the election date. Eligible voters shall be any current
@@ -616,19 +565,62 @@ BoD shall approve all appointments; and,
 k) Ceremonies to mark the official change of the Officers of the Society shall take
 place on the date determined by the Students’ Union to be Bermuda Shorts Day.
 The terms of office of incoming Officers begin on this day, and end on this day
-the following year.
-**ARTICLE 10 – ACTIVITIES HOSTED BY THE SOCIETY**
-
-
-a) Any Organizing Committee wishing to host an Activity (Conference or
-Competition) offered by either the Canadian Federation of Engineering Students
-or Western Engineering Students’ Societies must obtain a signed letter of
-approval from the President of the Society;
-b) The Chair of the Organizing Committee must have bi-monthly meetings or more
-often if deemed necessary with the President and VP External of the Society in
-the year leading up to the Activity.
-**ARTICLE 11 – TERMS OF OFFICE**
-a) Any Executive Officer or Appointed Officer of the Society wishing to resign from
+the following year."
+    - name: "ARTICLE 10 – ACTIVITIES HOSTED BY THE SOCIETY"
+      content: "a) Any Executive Officer or Appointed Officer of the Society wishing to resign from
+their position or no longer eligible to hold office may be removed from office
+through the following procedure:
+i) The Officer will submit their written resignation to the BoD, and if they
+choose to do so, will verbally confirm their intention at a Meeting of the
+BoD;
+ii) The Officer will be relieved of their duties; and,
+iii) The BoD shall decide on a course of action to replace the outgoing
+Officer;
+● If the President has submitted written resignation to the BoD, becomes
+ineligible to hold office, or is impeached, the interim presidency shall be
+offered for acceptance or declination to the Executive Officers of the
+Society in alphabetical order, by position name, with the Vice President
+Operations and Finance last and the Executive Officer holding the third
+signing authority second last, to maintain separation of signing
+authority;
+● The interim president shall be ratified by resolution of the BoD; and,
+● A by-election may follow at the discretion of the BoD for the vacant
+President position.
+b) Any Executive Officer of the Society deemed to be failing in their duties may be
+removed from office through the following procedure:
+i) A written motion shall be submitted to the BoD requesting an
+Impeachment Hearing. This motion must have the explicit endorsement of
+a minimum of three (3) percent of the Active Members of the Society;
+ii) The BoD shall vote to accept the motion. The matter shall be tabled until
+the following BoD Meeting. Notice shall immediately be given one (1) week
+before the Impeachment Hearing;
+iii) The Officer shall be given fair opportunity to defend their position. The
+matter may, at most, be deferred once if the Officer is absent from their
+Impeachment Hearing;
+iv) The BoD may, after the Impeachment Hearing and through an
+extraordinary resolution, relieve the Officer of their duties; and,
+v) The BoD shall decide on a course of action to replace the outgoing
+Officer:
+● In the case of a by-election, the candidacy of the impeached Officer
+shall be deemed invalid.
+c) Any Appointed Officer of the Society (excluding the Department Society
+Presidents, and Past President) deemed to be failing in their duties may be
+removed from office through the following procedure:
+i) A written motion shall be submitted to the BoD requesting an
+Impeachment Hearing. This motion does not need any endorsement
+beyond that of a Seconder;
+ii) The BoD shall vote to accept the motion. The matter shall be tabled until
+the following BoD Meeting. Notice shall immediately be given one (1) week
+before the Impeachment Hearing;
+iii) The Appointed Officer shall be given fair opportunity to defend their
+position. The matter may, at most, be deferred once if the Officer is absent
+from their Impeachment Hearing;
+iv) The BoD may, after the Impeachment Hearing and through an in-camera
+extraordinary resolution, relieve the Officer of their duties; and,
+v) The BoD shall decide on a course of action to replace the outgoing
+Appointed Officer consistent with the Policy Manual."
+    - name: "ARTICLE 11 – TERMS OF OFFICE"
+      content: "a) Any Executive Officer or Appointed Officer of the Society wishing to resign from
 their position or no longer eligible to hold office may be removed from office
 through the following procedure:
 i) The Officer will submit their written resignation to the BoD, and if they
@@ -656,7 +648,6 @@ ii) The BoD shall vote to accept the motion. The matter shall be tabled until
 the following BoD Meeting. Notice shall immediately be given one (1) week
 before the Impeachment Hearing;
 
-
 iii) The Officer shall be given fair opportunity to defend their position. The
 matter may, at most, be deferred once if the Officer is absent from their
 Impeachment Hearing;
@@ -681,20 +672,17 @@ from their Impeachment Hearing;
 iv) The BoD may, after the Impeachment Hearing and through an in-camera
 extraordinary resolution, relieve the Officer of their duties; and,
 v) The BoD shall decide on a course of action to replace the outgoing
-Appointed Officer consistent with the Policy Manual.
-**ARTICLE 12 – AMENDMENTS TO THE CONSTITUTION OF THE SOCIETY**
-This Constitution of the Society may be amended by a two-thirds majority vote of
+Appointed Officer consistent with the Policy Manual."
+    - name: "ARTICLE 12 – AMENDMENTS TO THE CONSTITUTION OF THE SOCIETY"
+      content: "This Constitution of the Society may be amended by a two-thirds majority vote of
 quorum at the Annual General Meeting of the Society, of which notice specifying the
 intention to propose an amendment to this Constitution has been duly given at least
 ten (10) days prior to the meeting. Grammatical and syntactical amendments, or
 formatting changes which do not change the content, can be made by an extraordinary
 resolution at a meeting of the BoD. Policy Manual changes can be amended by a
-resolution at a meeting of the BoD.
-
-
-## ARTICLE 13 – AMENDMENT HISTORY
-
-The Constitution of the Society has been amended by a two-thirds majority vote of
+resolution at a meeting of the BoD."
+    - name: "ARTICLE 13 – AMENDMENT HISTORY"
+      content: "The Constitution of the Society has been amended by a two-thirds majority vote of
 quorum at the Annual General Meeting of the Society, in accordance with Article 11, on
 the following dates:
 ● March 4, 2009
@@ -704,4 +692,4 @@ the following dates:
 ● February 16, 2015
 ● February 29, 2016
 ● March 1, 2017
-● March 6, 2018
+● March 6, 2018"

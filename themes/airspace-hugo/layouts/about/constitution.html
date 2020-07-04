@@ -1,15 +1,29 @@
-{{ define "main" }}
-
-{{ partial "page-title.html" . }}
+{{ define "main" }} 
+{{ partial "page-title.html" . }} 
+{{ $data := index .Site.Data .Site.Language.Lang }}
 
 <section class="section">
   <div class="container">
-    <div class="row">
+
         <h1>{{ .Title }}</h1>
-      <div class="col-lg-12">
-        {{ .Content }}
+        {{ if $data.constitution.info.enable }} 
+        {{ with $data.constitution.info }}
+
+        <p>Revision Number: {{.last_revision.number}} | Revised: {{ .last_revision.date }}</p>
+
+        <h2>Preamble</h2>
+        {{.preamble | markdownify }}
+
+        {{ end }}
+        {{ end }}
+
+        {{ if $data.constitution.articles.enable }} 
+        {{ with $data.constitution.articles }} {{ range .article_items}}
+    <div class="container">
+        <h2>{{ .name }}</h2>
+        <div>{{ .content | markdownify }}</div>
       </div>
-    </div>
+      {{end}} {{end}} {{end}}
   </div>
 </section>
 
