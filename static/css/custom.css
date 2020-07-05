@@ -168,3 +168,9 @@ a:hover {
     color: #eee;
     font-size: xx-large;
 }
+
+.service-item .img-responsive {
+    max-width: 180px !important;
+    max-height: 180px !important;
+
+}

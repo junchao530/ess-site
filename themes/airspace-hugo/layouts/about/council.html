@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range first 4 .council_member }}
+      {{ range .council_member }}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <img class="img-responsive" src="{{ .image | absURL }}">
@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range first 4 .council_member }}
+      {{ range .council_member }}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <img class="img-responsive" src="{{ .image | absURL }}">
