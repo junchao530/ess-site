@@ -174,3 +174,9 @@ a:hover {
     max-height: 180px !important;
 
 }
+
+.container-fluid {
+    margin-left: 41px;
+    margin-right: 41px;
+    padding: 0px;
+}

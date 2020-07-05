@@ -55,23 +55,23 @@ name = "Teams"
 parent = "Get Involved"
 weight = 5
 [[menu.main]]
-URL = "about/constitution"
-name = "Constitution"
-parent = "About"
-weight = 1
-[[menu.main]]
 URL = "about/council"
 name = "Council"
 parent = "About"
-weight = 2
+weight = 1
 [[menu.main]]
 URL = "about/departments"
 name = "Departments"
 parent = "About"
-weight = 3
+weight = 2
 [[menu.main]]
 URL = "about/sponsors"
 name = "Sponsors"
+parent = "About"
+weight = 3
+[[menu.main]]
+URL = "about/constitution"
+name = "Constitution"
 parent = "About"
 weight = 4
 [[menu.main]]
