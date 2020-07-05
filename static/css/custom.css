@@ -172,6 +172,7 @@ a:hover {
 .service-item .img-responsive {
     max-width: 180px !important;
     max-height: 180px !important;
+    margin: auto;
 
 }
 
