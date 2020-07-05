@@ -70,6 +70,11 @@ name = "Departments"
 parent = "About"
 weight = 3
 [[menu.main]]
+URL = "about/sponsors"
+name = "Sponsors"
+parent = "About"
+weight = 4
+[[menu.main]]
 URL = "bookings"
 name = "Bookings"
 parent = "Services"
