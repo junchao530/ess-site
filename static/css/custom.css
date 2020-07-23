@@ -181,3 +181,7 @@ a:hover {
     margin-right: 41px;
     padding: 0px;
 }
+
+.slider {
+    background-position: center;
+}
