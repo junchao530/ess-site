@@ -13,12 +13,12 @@
               <h1>Event Details</h1>
                 <ul>
                     <h2>When</h2>
-                    <h3>{{dateFormat "Monday, Jan 2, 2006" .Params.start_date }} to {{dateFormat "Monday, Jan 2, 2006" .Params.end_date }}</h3>
+                    <h3>{{dateFormat "Jan 2, 2006 at 3:40pm" .Params.start_date }} to {{dateFormat "Jan 2, 2006 at 3:40pm" .Params.end_date }}</h3>
                 </ul>
                 <ul>
                     <h2>Where</h2>
                     {{ range .Params.location }}
-                    <li><a>{{ .label }}</a></li>
+                    <li><a href="https://maps.google.com/?q={{.address}}">{{ .label }}</a></li>
                     {{ end }}
                 </ul>
               <ul>
