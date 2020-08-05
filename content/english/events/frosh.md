@@ -7,7 +7,7 @@ date: 2020-08-05T17:44:08+00:00
 bg_image: images/fs-year-dinner.jpg
 image: images/events/2020/froshschedule1.jpg
 layout: event
-start_date: 2020-09-03T06:00:00+00:00
+start_date: 2020-09-01T16:00:00+00:00
 start_time: ''
 end_date: 2020-09-07T06:00:00.000+00:00
 end_time: ''
