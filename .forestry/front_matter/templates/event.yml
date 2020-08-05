@@ -63,3 +63,5 @@ fields:
     description: Address of the location
   label: Event Location
   description: Location of the Event
+pages:
+- content/english/events/frosh.md
