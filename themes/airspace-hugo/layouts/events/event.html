@@ -13,7 +13,7 @@
               <h1>Event Details</h1>
                 <ul>
                     <h2>When</h2>
-                    <h3>{{.Params.start_date}} to {{.Params.end_date}}</h3>
+                    <h3>{{dateFormat "Monday, Jan 2, 2006" .Params.start_date }} to {{dateFormat "Monday, Jan 2, 2006" .Params.end_date }}</h3>
                 </ul>
                 <ul>
                     <h2>Where</h2>
