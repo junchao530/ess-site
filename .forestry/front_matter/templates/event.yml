@@ -39,10 +39,13 @@ fields:
   label: Event Start Date
   config:
     required: false
+    display_utc: true
 - type: datetime
   name: end_date
   label: Event End Date
   description: The day the event ends
+  config:
+    display_utc: true
 - type: field_group_list
   name: location
   fields:
