@@ -7,10 +7,8 @@ date: 2020-08-05T17:44:08+00:00
 bg_image: images/fs-year-dinner.jpg
 image: images/events/2020/froshschedule1.jpg
 layout: event
-start_date: 2020-09-01T16:00:00+00:00
-start_time: ''
-end_date: 2020-09-07T06:00:00.000+00:00
-end_time: ''
+start_date: 2020-06-01T09:00:00+00:00
+end_date: 2020-06-01T04:00:00+00:00
 location:
 - label: Landmarks Cinema 5
   address: 3412 49 St NW Unit 150, Calgary, AB T3A 2Y9
