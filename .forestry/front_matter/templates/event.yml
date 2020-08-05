@@ -39,18 +39,10 @@ fields:
   label: Event Start Date
   config:
     required: false
-- type: text
-  name: start_time
-  label: Event Start Time
-  description: The time the event starts
 - type: datetime
   name: end_date
   label: Event End Date
   description: The day the event ends
-- type: text
-  name: end_time
-  label: Event End Time
-  description: The time the event ends
 - type: field_group_list
   name: location
   fields:
