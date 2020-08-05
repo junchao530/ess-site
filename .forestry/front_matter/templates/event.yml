@@ -4,44 +4,62 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: description
-  label: description
+  label: Event Title
+  description: Title of the event. Shows at the top of the page
 - type: text
   name: subtitle
-  label: subtitle
-- type: datetime
-  name: date
-  label: date
+  label: Event Subtitle
+  description: Shows right below the event title in the header
 - type: file
   name: bg_image
-  label: bg_image
+  label: Background Image
+  description: Displayed behind the title and subtitle in the header
+- type: datetime
+  name: date
+  hidden: true
+  default: now
+  label: Created Date
+  description: The date the event was created
 - type: file
   name: image
-  label: image
+  label: Event Image
+  description: Attach an image/ schedule to be featured in the body of the post
+- type: text
+  name: description
+  label: Event Description
+  description: Shows below the title in the header
 - type: text
   name: layout
-  label: layout
+  label: Page Layout
+  default: event
+  hidden: true
+  description: Sets the layout of the page to an event
 - type: datetime
   name: start_date
-  label: start_date
+  label: Event Start Date
+  config:
+    required: false
 - type: text
   name: start_time
-  label: start_time
+  label: Event Start Time
+  description: The time the event starts
 - type: datetime
   name: end_date
-  label: end_date
+  label: Event End Date
+  description: The day the event ends
 - type: text
   name: end_time
-  label: end_time
+  label: Event End Time
+  description: The time the event ends
 - type: field_group_list
   name: location
-  label: location
   fields:
   - type: text
     name: label
-    label: label
+    label: Location Label
   - type: text
     name: address
-    label: address
+    label: Location Address
+    description: Address of the location
+  label: Event Location
+  description: Location of the Event
