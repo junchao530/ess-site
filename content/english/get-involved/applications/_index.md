@@ -1,7 +1,7 @@
 ---
 title: Be a part of our team
 description: Apply now
-bg_image: images/featue-bg.jpg
+bg_image: images/get-involved/applications/applications-header.jpg
 content_image: images/company/company-group-pic.jpg
 layout: applications
 accepting: true

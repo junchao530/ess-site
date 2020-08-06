@@ -17,7 +17,7 @@ about:
 council_listing:
   enable : true
   title : "Executive Team"
-  description : "Our Executive Team is Listed Below... okay I lied only part for now... need to fix formating"
+  description : "2020-2021"
   council_member:
     # service item loop
     - image : images/about/council-members/ewan.jpg
@@ -78,7 +78,7 @@ council_listing:
 commissioner_listing:
   enable : true
   title : "Commissioner Team"
-  description : "Commissioner's are the best!"
+  description : "2020-2021"
   council_member:
     # team members
 

@@ -6,6 +6,7 @@ bg_image = "/images/frosh-banner.jpg"
 description = "JK we love our president"
 ending_date = 2020-05-13T00:00:00Z
 job_tags = []
+role = "Executive Committee"
 layout = "posting"
 starting_date = 2020-05-07T22:49:07Z
 title = "President"

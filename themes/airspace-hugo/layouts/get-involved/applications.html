@@ -23,7 +23,8 @@
         <div class="app-card">
         <div>
           <h2>{{ .Params.Title }}</h2>
-          <p>Closing Date: {{ .Params.ending_date }}</p>
+          <p>Type: {{.Params.Role}}</p>
+          <p>Closing Date: {{dateFormat "Jan 2, 2006" .Params.ending_date }}</p>
         </div>
         <div>
           <p>{{ .Content | truncate 250 }}</p>
