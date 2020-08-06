@@ -3,12 +3,14 @@ title: Frosh Week
 description: The first week of school to welcome the first-year engineering students
   to Schulich
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae.
-date: 2020-08-05T17:44:08+00:00
+date: 2020-08-05T17:44:08.000+00:00
 bg_image: images/fs-year-dinner.jpg
 image: images/events/2020/froshschedule1.jpg
 layout: event
-start_date: 2020-06-01T09:00:00+00:00
-end_date: 2020-06-01T04:00:00+00:00
+start_date: 2020-06-01T09:00:00.000+00:00
+start_time: 
+end_date: 2020-06-01T04:00:00.000+00:00
+end_time: 
 location:
 - label: Landmarks Cinema 5
   address: 3412 49 St NW Unit 150, Calgary, AB T3A 2Y9
