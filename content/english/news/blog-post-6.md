@@ -11,7 +11,7 @@ tags:
 - Retro
 - AI
 - Company
-description: "??"
+description: this is meta description
 type: post
 
 ---
