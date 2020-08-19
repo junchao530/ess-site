@@ -1,5 +1,5 @@
 ---
-title: Ask An Upper Year
+title: Ask An Upper Year Program
 date: 2020-08-15T05:07:10+00:00
 author: Vincent Cung
 image: images/blog/blog-post-6.jpg
@@ -19,19 +19,11 @@ The Engineering Student Society (ESS) is excited to announce the commencement of
 
 > This program offers casual one-on-one support between incoming first-year and upper-year engineering students; helping new students to reach out to their peers regarding any questions they may have or adversaries they may be facing. The upper-year students are knowledgeable in various support resources available within the University of Calgary and are eager to share their personal advice and experiences to you! In an online environment, this is a great opportunity for you to build connections with upper years, and improve your transition into first-year engineering.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo deserunt necessitatibus quibusdam sint,
-eos explicabo tenetur molestiae vero facere, aspernatur sit mollitia perferendis reiciendis. Deleniti magni
-explicabo sed alias fugit amet animi molestias ipsum maiores. Praesentium sint, id laborum quos. Tempora
-inventore est, dolor corporis quis doloremque nostrum, eos velit culpa quasi labore. Provident laborum porro
-nihil iste, magnam officia nemo praesentium autem, libero vel officiis. Omnis pariatur nam voluptatem voluptate
-at officia repellat ea beatae eligendi? Mollitia error saepe, aperiam facere. Optio maiores deleniti veritatis
-eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Impedit, tempore.
+**_Ask An Upper Year_** consists of “drop-in” based meetings, accommodating first-year schedules. We want to be available when you are! Directors have taken the liberty to make the program duration to best fit your busy lives and allow for maximum time to talk to the upper years. Pop by to ask a quick question, or have a heart-to-heart discussion; the duration of the session is completely up to you.  
+  
+Embarking on this new chapter, the engineering-student community is here for you every step of the way! We hope you take advantage of this engaging opportunity and wish you the best of luck in your first year.
 
-      .blog-classic {
-      margin-bottom: 70px;
-      padding-bottom: 70px;
-      border-bottom: 1px solid #efefef;
-      }
+    Zoom meetings provide you flexibility when communicating with an upper year. Based on your comfort level, you can speak to an upper year using the mic or message with an upper year through the online chat function.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
 commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
