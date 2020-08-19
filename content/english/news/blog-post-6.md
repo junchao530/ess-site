@@ -1,7 +1,7 @@
 ---
-title: How To Wear Bright Shoes
-date: 2018-09-24T11:07:10.000+06:00
-author: John Doe
+title: Ask An Upper Year
+date: 2020-08-15T05:07:10+00:00
+author: Vincent Cung
 image: images/blog/blog-post-6.jpg
 bg_image: images/featue-bg.jpg
 categories:
@@ -11,17 +11,13 @@ tags:
 - Retro
 - AI
 - Company
-description: this is meta description
+description: A program for first-year students to speak with upper-years!
 type: post
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores
-vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis
-a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere. 
+The Engineering Student Society (ESS) is excited to announce the commencement of an open support program geared towards first-year engineering students: **_Ask An Upper Year_**!
 
-> Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes
-nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error
+> This program offers casual one-on-one support between incoming first-year and upper-year engineering students; helping new students to reach out to their peers regarding any questions they may have or adversaries they may be facing. The upper-year students are knowledgeable in various support resources available within the University of Calgary and are eager to share their personal advice and experiences to you! In an online environment, this is a great opportunity for you to build connections with upper years, and improve your transition into first-year engineering.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo deserunt necessitatibus quibusdam sint,
 eos explicabo tenetur molestiae vero facere, aspernatur sit mollitia perferendis reiciendis. Deleniti magni
@@ -31,13 +27,11 @@ nihil iste, magnam officia nemo praesentium autem, libero vel officiis. Omnis pa
 at officia repellat ea beatae eligendi? Mollitia error saepe, aperiam facere. Optio maiores deleniti veritatis
 eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Impedit, tempore.
 
-```
-  .blog-classic {
-  margin-bottom: 70px;
-  padding-bottom: 70px;
-  border-bottom: 1px solid #efefef;
-  }
-```
+      .blog-classic {
+      margin-bottom: 70px;
+      padding-bottom: 70px;
+      border-bottom: 1px solid #efefef;
+      }
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
 commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
