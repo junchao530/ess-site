@@ -18,6 +18,13 @@ about:
   Mandate and Goals: For every engineering student to be supported socially, academically, and professionally. ESS will represent student voices while maintaining accountability and transparency.."
   image : "images/about/201819-group-council.jpg"
 
+membership:
+    enable: true
+    title: "Become a Member"
+    description: "Members of the Engineering Students’ Society get access to events hosted by the society along with many other perks."
+    button_text: "Learn More"
+    button_link: "membership"
+
 posts:
   enable : true
   title : "News"
