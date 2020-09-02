@@ -1,24 +1,31 @@
 ---
-title: "Testing a Post"
-date: 2018-09-24T11:07:10+06:00
+title: Join Us On Discord!
+date: 2018-09-24T11:07:10.000+06:00
 author: John Doe
-image : "images/blog/blog-post-1.jpg"
-bg_image: "images/featue-bg.jpg"
-categories: ["Company News"]
-tags: ["Advice","Technology"]
-description: "this is meta description"
-draft: false
-type: "post"
+image: images/blog/blog-post-1.jpg
+bg_image: images/featue-bg.jpg
+categories:
+- Company News
+tags:
+- Advice
+- Technology
+description: Join a welcoming environment through our ESS 2020-2021 Discord!
+type: post
+
 ---
+Our ESS Discord is great way to interact with your peers online! We have:
 
+* Event announcements
+* Gaming channels
+* Contests
+* First year chat
+* Memes
+* And many more! 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores
-vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem
-ipsum dolor sit amet, consectetur adipisicing elit. Odio vitae ab doloremque accusamus sit, eos dolorum officiis
-a perspiciatis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, facere. </p>
+All of these topics and channels can be found in one place! 
 
 > Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes
-nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error
+> nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo deserunt necessitatibus quibusdam sint,
 eos explicabo tenetur molestiae vero facere, aspernatur sit mollitia perferendis reiciendis. Deleniti magni
@@ -28,13 +35,11 @@ nihil iste, magnam officia nemo praesentium autem, libero vel officiis. Omnis pa
 at officia repellat ea beatae eligendi? Mollitia error saepe, aperiam facere. Optio maiores deleniti veritatis
 eaque commodi atque aperiam, debitis iste alias eligendi ut facilis earum! Impedit, tempore.</p>
 
-```
-  .blog-classic {
-  margin-bottom: 70px;
-  padding-bottom: 70px;
-  border-bottom: 1px solid #efefef;
-  }
-```
+      .blog-classic {
+      margin-bottom: 70px;
+      padding-bottom: 70px;
+      border-bottom: 1px solid #efefef;
+      }
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex error esse a dolore, architecto sapiente, aliquid
 commodi, laudantium eius nemo enim. Enim, fugit voluptatem rem molestiae. Sed totam quis accusantium iste
