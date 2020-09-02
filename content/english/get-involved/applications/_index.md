@@ -15,7 +15,7 @@ This includes the president of the society and the various vice presidents of ea
 Each portfolio has a commissioner that assists the vice president of the respective portfolio in their work. These positions are selected through an interview process at the end of each winter semester (after the election). Additionally, due to some unexpected circumstances commissioner positions may come available during the academic year.
 
 ### First Year Representatives ###
-Selected through a **Rigorous** interview process in the beginning of the fall semester each year. These representatives will gain exposure to the society while representing the society among their respective first year block.
+Selected through a **rigorous** interview process in the beginning of the fall semester each year. These representatives will gain exposure to the society while representing the society among their respective first year block.
 
 ### Volunteer Opportunities ###
 These are less formal then other positions offered by the society. Typically, these positions are on a temporary basis to assist with specific events and tasks.
