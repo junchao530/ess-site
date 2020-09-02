@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Frosh Info"
-    link : "events/frosh"
+    link : "https://www.froshweek2020.com/"
 
 ############################# About #################################
 about:
@@ -23,38 +23,11 @@ membership:
     title: "Become a Member"
     description: "Members of the Engineering Students’ Society get access to events hosted by the society along with many other perks."
     button_text: "Learn More"
-    button_link: "membership"
+    button_link: "about/membership"
 
 posts:
   enable : true
   title : "News"
-  # description : "Not sure how to do this yet... but we are working on it"
-
-######################### Portfolio ###############################
-portfolio:
-  enable : false
-  bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
-  content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
-  button:
-    enable : true
-    label : "View Works"
-    link : "project"
-
-
-############################# Service ############################
-service:
-  enable : false
-  # service content comes from "data/*/service.yml" file
-
 
 ############################ call to action ###########################
 cta:
