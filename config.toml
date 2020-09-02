@@ -123,8 +123,8 @@ enable = true
 # map_latitude = "51.080421"
 # map_longitude = "-114.132671"
 # map_marker = "images/marker.png"
-map_photo = "images/contact/ess_map_location.png"
-map_link = ""
+map_photo = "/images/contact/ess_map_location.png"
+map_link = "https://www.google.ca/maps/place/51°04'48.2%22N+114°07'57.2%22W/@51.0806555,-114.1327197,480m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d51.0800626!4d-114.1325425"
 
 # Banner
 [params.hnotify]
