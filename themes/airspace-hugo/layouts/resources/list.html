@@ -15,8 +15,8 @@
 </section>
 
 {{if .featured_resource.enable }}
-<section>
-    <div class="container-fluid">
+<!-- <section>
+    <div class="container ess-featured-container">
         {{ range .featured_resource.resource_item }}
       <div class="">
         <div class="block">
@@ -28,10 +28,28 @@
       {{ end }}
     </div>
 </section>
+<section> -->
+    <div class="container ess-featured-container">
+        {{ range .featured_resource.resource_item }}
+        <div class="row">
+            <div>
+                <i class="{{.icon}}"></i>
+            </div>
+            <div>
+                <h3>{{ .name | markdownify }}</h3>
+                <p>{{ .content | markdownify }}</p>
+                {{ if .show_link }}
+                <p><a href="{{ .link }}">{{ .link_text }}</a></p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
 {{ end }}
 
 {{if .additional_resource.enable }}
-
+<br>
 <section>
     <div class="container">
         {{ range .additional_resource.resource_item }}
@@ -42,8 +60,12 @@
             <div>
                 <h3>{{ .name | markdownify }}</h3>
                 <p>{{ .content | markdownify }}</p>
+                {{ if .show_link }}
+                <p><a href="{{ .link }}">{{ .link_text }}</a></p>
+                {{ end }}
             </div>
         </div>
+        <hr>
         {{ end }}
     </div>
 </section>

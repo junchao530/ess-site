@@ -28,7 +28,7 @@ membership:
 posts:
   enable : true
   title : "News"
-  description : "Not sure how to do this yet... but we are working on it"
+  # description : "Not sure how to do this yet... but we are working on it"
 
 ######################### Portfolio ###############################
 portfolio:

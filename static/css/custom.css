@@ -185,3 +185,21 @@ a:hover {
 .slider {
     background-position: center;
 }
+
+.ess-card {
+    background-color: #ccc;
+    margin: 0.25rem 5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: block;
+}
+
+.ess-featured-container {
+    background-color: #ccc;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+.ess-featured-container h3 {
+    color: #333;
+}
