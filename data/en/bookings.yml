@@ -12,18 +12,18 @@ featured_service:
     - name : "Lounge Booking"
       icon : "ion-ios-people"
       color : "primary-dark"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "The largest of the spaces the Engineering Students’ Society offers"
       
     # featured service item loop
     - name : "Club Room Booking"
       icon : "ion-person-stalker"
       color : "primary-darker"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "A smaller room that can be booked for small club meetings and other small events"
       
 ########################### Booking Form ############################
 
 bookingForm:
-  enable : true
+  enable : false
   title : "Book Now"
   content : "To inquire about a booking please fill out the for below or stop by the office during our office hours."
   # partial booking form so it can be used on other pages in the site as needed
