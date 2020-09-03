@@ -1,5 +1,5 @@
 # Config related
-baseURL = "https://essucalgary.netlify.com"
+baseURL = "https://essucalgary.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
