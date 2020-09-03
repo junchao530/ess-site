@@ -1,15 +1,15 @@
-+++
-author = "ESS"
-bg_image = "images/fyr_tryouts.jpg"
-categories = nil
-date = 2020-09-03T06:00:00Z
-description = "Join ESS as a First Year Representative!"
-image = "images/blog/ess-discord.jpg"
-tags = nil
-title = "First Year Representative Applications Are Now Open!"
-type = "post"
+---
+author: ESS
+bg_image: images/fyr_tryouts.jpg
+categories: 
+date: 2020-09-03T06:00:00Z
+title: First Year Representative Applications Are Now Open!
+image: images/blog/fyr_tryouts.jpg
+tags: 
+description: Join ESS as a First Year Representative!
+type: post
 
-+++
+---
 ESS selects 8 First Year Representatives (FYRs) each year to become a part of council (2 per block), and take on various duties pertaining to ESS. The main responsibility of the FYR are including but not limited to:
 
 * Liaising between ESS and first year student body
