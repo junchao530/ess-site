@@ -34,6 +34,10 @@ sections:
   templates:
   - sponsor
 - type: document
+  path: data/en/council/yml
+  label: Council
+  match: "**/*"
+- type: document
   path: content/english/about/officehours/_index.md
   label: Office Hours
 - type: heading
