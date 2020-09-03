@@ -30,12 +30,12 @@ name = "Resources"
 parent = "Services"
 weight = 1
 [[menu.main]]
-URL = "projects-Hub"
+URL = "projects-hub"
 name = "Projects Hub"
 parent = "Get Involved"
 weight = 1
 [[menu.main]]
-URL = "volunteer-Hub"
+URL = "volunteer-hub"
 name = "Volunteer Hub"
 parent = "Get Involved"
 weight = 2
