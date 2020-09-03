@@ -14,12 +14,12 @@ attachments: []
 
 ---
 ESS selects 8 First Year Representatives (FYRs) each year to become a part of council (2 per block), and take on various duties pertaining to ESS. The main responsibility of the FYR are including but not limited to:
+- Liaising between ESS and first year student body
+- Zoom Announcements
+- Attending weekly ESS meetings as voting members
+- Advertising ESS events
+- Supporting the team as necessary
 
-• Liaising between ESS and first year student body
-• Zoom Announcements
-• Attending weekly ESS meetings as voting members
-• Advertising ESS events
-• Supporting the team as necessary
 
 You will gain experience running events, speaking in public, and join a team of students passionate about creating a positive university experience for others. It is a great learning position on council, and the best way to become involved with ESS in first year engineering.
 
@@ -27,6 +27,7 @@ Applications are due by Midnight on Thursday, September 10th.  If you have any q
 
 
 Tryouts **Important**
+
 On Friday, September 11th there will be a tryout for all ONLINE applicants on zoom beginning at 6 PM. 
 The Zoom link will be emailed to all applicants after this application closes.
 
@@ -38,4 +39,5 @@ Please submit a personalized and creative project along with your application be
 
 
 Interview **Important**
+
 Please select a date for your interview: https://calendar.x.ai/ewanmay-766/first-year-rep-interview, the interview will be through Google Meet.
