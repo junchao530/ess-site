@@ -5,37 +5,45 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 <section class="">
-    <div class="container">
-      <div class="row">
-        <div class="">
-          <h2>{{ .Params.title}}</h2>
-          <p>{{ .Content }}</p>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="">
+        <h2>{{ .Params.title}}</h2>
+        <p>{{ .Content }}</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <section>
-    <div class="container">
-        <div class="row">
-            <h2>Conference Listings</h2>
-        </div>  
+  <div class="container">
+    <div class="row">
+      <h2>Conference Listings</h2>
+    </div>
+    {{ $conferencesLive := 0 }}
     {{ range (where .Site.Pages "Layout" "conference") }}
+    {{ if .Params.accepting}}
+    {{ $conferencesLive = add $conferencesLive 1 }}
     <div class="row dept-container">
-        <div class="dept-list-info">
-            <a class="" href="{{ .Permalink }}">
-                <img class="dept-list-logo" src="{{ .Params.Logo | relURL }}" alt="{{ .Title }}">
-            </a>
-        </div>
-        <div class="dept-text-container">
-            <h3 class=""><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-            <!-- <h4>{{ .Title}}: {{ .Params.President.name}}</h4> -->
-            <p>{{ .Summary | truncate 200 }}</p> 
-        </div>
+      <div class="dept-list-info">
+        <a class="" href="{{ .Permalink }}">
+          <img class="dept-list-logo" src="{{ .Params.Logo | relURL }}" alt="{{ .Title }}">
+        </a>
+      </div>
+      <div class="dept-text-container">
+        <h3 class=""><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <!-- <h4>{{ .Title}}: {{ .Params.President.name}}</h4> -->
+        <p>{{ .Summary | truncate 200 }}</p>
+      </div>
     </div>
-    {{ end }} 
-
+    {{ end }}
+    {{ end }}
+    {{ if lt $conferencesLive 1 }}
+    <div class="app-card" style="margin-bottom: 1em;">
+      <p>No conference applications are available at the moment, please check back later!</p>
     </div>
+    {{ end }}
+  </div>
 </section>
 
 {{ end }}

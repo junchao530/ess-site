@@ -4,7 +4,7 @@ description: test
 bg_image: images/about/201819-group-council.jpg
 logo: images/ess-logo.png
 layout: conference
-accepting: true
+accepting: false
 application_form: 'https://docs.google.com/forms/d/e/1FAIpQLSdBuSK9UgPufow_A00bSmARyfALIckVGqhdtDtf7JZFamKMrA/viewform?embedded=true'
 subtitle: 
 apply: #
