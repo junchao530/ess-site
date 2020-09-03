@@ -2,7 +2,7 @@
 title: Ask An Upper Year Program
 date: 2020-08-15T05:07:10+00:00
 author: Vincent Cung
-image: images/blog/blog-post-6.jpg
+image: images/blog/ask-a-upper-year.jpg
 bg_image: images/featue-bg.jpg
 categories:
 tags:
