@@ -6,16 +6,16 @@ logo:
 layout: team
 subtitle: 
 president:
-  name: 
-  title: 
+  name: Cassidy Stadel
+  title: President
   bio_img: "/images/teams/team-1.jpg"
-  email: 
+  email: "Project90UC@gmail.com"
 social:
-  website: ''
-  facebook: ''
+  website: 'http://www.project90.ca/'
+  facebook: 'http://facebook.com/project90uc'
   twitter: ''
   instagram: ''
-  linkedin: ''
+  linkedin: 'https://ca.linkedin.com/company/project-90-ucalgary'
   youtube: ''
 
 ---

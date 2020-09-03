@@ -2,19 +2,19 @@
 title: Schulich Aerodesign
 description: 
 bg_image: images/about/201819-group-council.jpg
-logo: 
+logo: images/teams/schulich-aerodesign/schulich-aerodesign.png
 layout: team
 subtitle: 
 president:
   name: 
   title: 
   bio_img: "/images/teams/team-1.jpg"
-  email: 
+  email: "ucaerodesign@gmail.com"
 social:
-  website: ''
-  facebook: ''
+  website: 'http://www.schulichaerodesign.ca/'
+  facebook: 'https://www.facebook.com/SchulichAeroDesign'
   twitter: ''
-  instagram: ''
+  instagram: 'http://www.schulichaerodesign.ca/wp-content/uploads/2019/10/Active-Instagram-2-icon.png'
   linkedin: ''
   youtube: ''
 
