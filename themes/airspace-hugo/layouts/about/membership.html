@@ -5,9 +5,29 @@
 <section class="section">
   <div class="container">
     <div class="row">
-        
-      <div class="col-lg-12">
-        {{ .Content }}
+      <div class="mbr-opt-container">
+        <div class="mbr-opt-child">
+          <h2>Digital</h2>
+          <h2>$10</h2>
+        </div>
+        <div class="mbr-opt-child">
+          <h2>Physical</h2>
+          <h2>$10</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="call-to-action bg-1 section-sm overly" style="background-image: url('{{.Params.bg_image | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>{{ .Params.buy_membership.title | markdownify }}</h2>
+          <p>{{ .Params.buy_membership.description | markdownify }}</p>
+          <a class="btn btn-main btn-solid-border" href="{{ .Params.buy_membership.link | relLangURL }}">{{ .Params.buy_membership.label }}</a>
+        </div>
       </div>
     </div>
   </div>

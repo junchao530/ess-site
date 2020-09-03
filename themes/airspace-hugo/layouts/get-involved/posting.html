@@ -8,6 +8,7 @@
       <div class="col-lg-12">
         <h3>Position Title: {{ .Params.title }}</h3>
         <p>Category: {{.Params.role}}</p>
+        <p>Closing Date: {{ dateFormat "Jan 2, 2006" .Params.ending_date}} </p>
         <h3>Position Description:</h3>
         {{ .Content }}
       </div>

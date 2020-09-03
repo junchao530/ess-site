@@ -203,3 +203,16 @@ a:hover {
 .ess-featured-container h3 {
     color: #333;
 }
+
+.mbr-opt-container {
+    padding:  20px;
+}
+
+.mbr-opt-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    align: center;
+    background-color: #c5332c;
+    color: white;
+}

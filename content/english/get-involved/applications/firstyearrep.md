@@ -9,7 +9,7 @@ starting_date: 2020-09-04T06:00:00+00:00
 role: First Year Representatives
 job_tags: []
 application_form: https://docs.google.com/forms/d/e/1FAIpQLSdBuSK9UgPufow_A00bSmARyfALIckVGqhdtDtf7JZFamKMrA/viewform?embedded=true
-ending_date: 09/11/2020
+ending_date: 2020-09-04T06:00:00+00:00
 attachments: []
 
 ---
