@@ -1,23 +1,23 @@
 +++
 author = "ESS"
-bg_image = "images/featue-bg.jpg"
+bg_image = "images/fyr_tryouts.jpg"
 categories = nil
 date = 2018-09-24T05:07:10Z
-description = "Join a welcoming environment through our ESS 2020-2021 Discord!"
-draft = true
+description = "Join ESS as a First Year Representative!"
 image = "images/blog/ess-discord.jpg"
 tags = nil
 title = "First Year Representative Applications Are Now Open!"
 type = "post"
 
 +++
-Our ESS Discord is great way to interact with your peers online! We have:
+ESS selects 8 First Year Representatives (FYRs) each year to become a part of council (2 per block), and take on various duties pertaining to ESS. The main responsibility of the FYR are including but not limited to:
 
-* Event announcements
-* Gaming channels
-* Contests
-* First year chat
-* Memes
-* And many more! 
+* Liaising between ESS and first year student body
+* Zoom Announcements
+* Attending weekly ESS meetings as voting members
+* Advertising ESS events
+* Supporting the team as necessary
 
-All of these topics and channels can be found in one place!
+You will gain experience running events, speaking in public, and join a team of students passionate about creating a positive university experience for others. It is a great learning position on council, and the best way to become involved with ESS in first year engineering.
+
+[Click here to apply!](https://essucalgary.com/get-involved/applications/firstyearrep/)
