@@ -19,14 +19,14 @@
 <section class="section">
   <div class="container">
     <div class="row">
-        <div class="dept-pres">
+        <!-- <div class="dept-pres">
             <img class="dept-pres-img" src="{{ .Params.president.bio_img | relURL }}">
             <h3>{{ .Params.president.name }}</h3>
             <p>{{ .Params.president.title }}</p>
             <a href="mailto:{{ .Params.president.email }}">{{ .Params.president.email }}</a>
-        </div>
+        </div> -->
         <div class="">
-        {{ .Content }}
+        {{ .Summary }}
         </div>
     </div>
   </div>
