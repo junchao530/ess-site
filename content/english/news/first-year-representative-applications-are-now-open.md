@@ -2,7 +2,7 @@
 author = "ESS"
 bg_image = "images/fyr_tryouts.jpg"
 categories = nil
-date = 2018-09-24T05:07:10Z
+date = 2020-09-03T06:00:00Z
 description = "Join ESS as a First Year Representative!"
 image = "images/blog/ess-discord.jpg"
 tags = nil
