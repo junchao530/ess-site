@@ -19,10 +19,8 @@ social:
   youtube: ''
 
 ---
-The Electrical, Computer, and Software Engineering Students' Society at the University of Calgary is an organization committed to providing students with a variety of academic and social events to enrich their university experience inside and outside of classes. We strive to provide communication between the University of Calgary faculty and electrical, computer, and software engineering students. Additionally, we work to represent the opinions of students to other universities, and the community at large.
+The University of Calgary's Electrical, Computer, and Software Engineering Students' Society, affectionally referred to as ZOO, is an initiative run by students, for students. ZOO aims to support their undergraduate students, both academically and socially, by providing them with a variety of events to enrich their University experience. Through the Society, we hope assist students in clearing the gap between university and industry.
 
-In addition being referred to as the Electrical, Computer, and Software Engineering Students Society, our organization has also been referred to as ZOO for over two decades.
+In addition to those responsibilities, ZOO serves as a liaison between the Department (ECE) and the many Electrical, Software and Computer Engineering students. We work hard to represent your opinions and ensure that your voices are heard.
 
-Any enquiries for the department organization of Electrical, Computer, and Software Engineering should be directed to the relevant department employee. A list of contacts for the department can be found here.
-
-Any enquiries for ZOO should either be voiced in-person at the homeroom, located in ENA 106, or via email to president@zooengg.ca. Questions or comments regarding this site should be directed via email to webmaster@zooengg.ca.
+Any inquiries for ZOO can be voiced in-person in ENA 106, or via email to execs@zooengg.ca. We will attempt to answer questions to the best of are ability and if necessary, direct you to the relevant Department employee.

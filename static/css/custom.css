@@ -91,6 +91,14 @@ a:hover {
     /* text-align: center; */
 }
 
+.dept-container {
+    display: flex;
+}
+
+.dept-row {
+    display: flex;
+}
+
 .dept-head-logo {
     height: 200px;
     float: left;
@@ -105,6 +113,8 @@ a:hover {
 .dept-pres {
     float: left;
     padding-right: 5%;
+    /* display: inline-flexbox; */
+    /* height: 200px; */
 }
 
 .dept-pres-img {
