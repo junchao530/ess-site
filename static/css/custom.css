@@ -225,3 +225,17 @@ a:hover {
     background-color: #c5332c;
     color: white;
 }
+
+.mbr-part-l {
+    width: 10%;
+    float: left;
+}
+
+.member-part-r {
+    width: 40%;
+    float: left;
+}
+
+.member-part {
+    padding-bottom: 5%;
+}

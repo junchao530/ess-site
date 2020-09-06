@@ -30,11 +30,23 @@
       <h2>{{ .title | markdownify}}</h2>
       <p>{{ .content | markdownify}}</p>
     </div>
-    <div class="row">
+    <div class = "row">
       {{ range .partners }}
-      <div>
-        <h2>{{ .name | markdownify }}</h2>
-        <p>{{ .description | markdownify }}</p>
+      <div class="">
+        <div class="col-xs-3 col-sm-2">
+          {{ if eq .type "percentage" }}
+          <h1>{{ .percentage }}%</h1>
+          {{ else if eq .type "deal" }}
+          <h1>$</h1>
+          {{ else }}
+          <h1>Deal</h1>
+          {{end}}
+          <img src="{{ .logo | relURL }}">
+        </div>
+        <div class="col-xs-9 col-sm-4">
+          <h2>{{ .name | markdownify }}</h2>
+          <p>{{ .description | markdownify }}</p>
+        </div>
       </div>
       {{ end }}
     </div>

@@ -70,7 +70,7 @@ partner_discounts:
     type: percentage
     cost: 
   - name: Village Flatbread Co
-    description: 10% off puruchase in-store or online with an ESS membership code
+    description: 10% off purchase in-store or online with an ESS membership code
       at checkout
     website: https://www.myvillageyyc.com
     logo: ''
