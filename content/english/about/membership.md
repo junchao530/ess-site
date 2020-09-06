@@ -43,6 +43,16 @@ partner_discounts:
   content: ESS members can present their membership cards with our local partners
     in Calgary to receive discounts on various items and services!
   partners:
+  - enable: true
+    name: Century Casino Mini Golf
+    description: ESS members are eligible to get various offers such as $4 games on
+      Monday-Thursday, Buy one get one free (BOGO) mini golf game, 50% off lanes on
+      Sunday, and free shoe rental for Friday & Saturday Black Light
+    website: https://www.cnty.com/mini-gof/
+    logo: ''
+    percentage: ''
+    type: other
+    cost: 
   - name: RKR Stationary & Artssentials
     description: 10% off any purchase over $20 before GST
     website: http://rkr.greeningenuity.ca/
@@ -72,17 +82,17 @@ partner_discounts:
     description: 10% off using an online ESS membership code at checkout
     website: https://clearfloat.ca
     logo: images/membership/partners/clear-float-spa-logo.svg
-    percentage: 10%
-    enable: false
-    type: ''
+    percentage: "10"
+    enable: true
+    type: percentage
     cost: 
   - name: Wild Tea Kombucha
     description: 10% off using an online ESS membership code at checkout
     website: https://www.wildteakombucha.com/
     logo: images/membership/partners/wild-tea-kombucha-logo.png
-    percentage: 10%
-    enable: false
-    type: ''
+    percentage: "10"
+    enable: true
+    type: percentage
     cost: 
 buy_now:
   enable: false
