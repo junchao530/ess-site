@@ -103,6 +103,9 @@ fields:
     name: partners
     label: partners
     fields:
+    - name: enable
+      type: boolean
+      label: enable
     - type: text
       name: name
       label: name
@@ -118,6 +121,37 @@ fields:
     - type: text
       name: percentage
       label: percentage
+      showOnly:
+        field: type
+        value: percentage
+    - name: type
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - percentage
+        - deal
+        - other
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: type
+    - name: cost
+      type: number
+      label: cost
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+      showOnly:
+        field: type
+        value: deal
 - type: field_group
   name: buy_now
   label: buy_now
@@ -125,3 +159,18 @@ fields:
   - type: boolean
     name: enable
     label: enable
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - percentage
+    - deal
+    - other
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
