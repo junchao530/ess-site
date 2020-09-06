@@ -64,9 +64,9 @@ partner_discounts:
       at checkout
     website: https://www.myvillageyyc.com
     logo: ''
-    percentage: 10%
-    enable: false
-    type: ''
+    percentage: "10"
+    enable: true
+    type: percentage
     cost: 
   - name: Clear Float Spa
     description: 10% off using an online ESS membership code at checkout
