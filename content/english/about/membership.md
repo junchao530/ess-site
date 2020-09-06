@@ -73,7 +73,6 @@ partner_discounts:
     description: 10% off purchase in-store or online with an ESS membership code
       at checkout
     website: https://www.myvillageyyc.com
-    logo: ''
     percentage: "10"
     enable: true
     type: percentage
