@@ -1,6 +1,6 @@
 ---
 title: "Latest News"
-description: "this is meta description"
+description: "Updates from The Engineering Students' Scoiety"
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
