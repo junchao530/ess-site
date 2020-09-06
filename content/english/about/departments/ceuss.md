@@ -6,7 +6,7 @@ layout: department
 subtitle: Civil Engineering Undergraduate Society
 president:
   name: "Nicholas Doiron"
-  title: "CEUS President"
+  title: "CEUSS President"
   bio_img: "/images/teams/team-1.jpg"
   email: "nicholas.doiron@ucalgary.ca"
 social:
