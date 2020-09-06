@@ -21,8 +21,8 @@ council_listing:
     - image : images/about/council-members/Ewan-May.jpg
       name: Ewan May
       title: President
-      biog: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      email: "president@ess.ucalgary.ca"
+      biog: "Hey there! My name is Ewan, I am super excited to be your ESS president this year as I enter my fifth year of electrical engineering. I love board games, taking care of plants, a good craft beer, and bad puns. If you want to know more about ESS or collaborate on a project, feel free to reach out!"
+      email: "president@essucalgary.com"
     
     - image : images/about/council-members/Vincent-Cung.jpg
       name: Vincent Cung
