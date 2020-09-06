@@ -1,12 +1,12 @@
 ---
-title: CEUSS
+title: CEUS
 bg_image: images/about/201819-group-council.jpg
 logo: images/departments/ceuss/logo.png
 layout: department
 subtitle: Civil Engineering Undergraduate Society
 president:
   name: "Nicholas Doiron"
-  title: "CEUSS President"
+  title: "CEUS President"
   bio_img: "/images/teams/team-1.jpg"
   email: "nicholas.doiron@ucalgary.ca"
 social:

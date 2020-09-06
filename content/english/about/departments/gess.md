@@ -3,7 +3,7 @@ title: GESS
 bg_image: images/about/201819-group-council.jpg
 logo: images/departments/gess/logo.png
 layout: department
-subtitle: Civil Engineering Undergraduate Society
+subtitle: Geomatics Engineering Student Society
 president:
   name: "Nicholas Malbasa"
   title: "GESS President"
