@@ -56,8 +56,8 @@ partner_discounts:
     website: https://www.drugandbean.com/mission
     logo: ''
     percentage: "10"
-    enable: false
-    type: ''
+    enable: true
+    type: percentage
     cost: 
   - name: Village Flatbread Co
     description: 10% off puruchase in-store or online with an ESS membership code
