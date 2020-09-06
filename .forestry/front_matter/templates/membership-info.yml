@@ -1,0 +1,127 @@
+---
+label: Membership Info
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: bg_image
+  label: bg_image
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: membership_body
+  label: membership_body
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: buy_membership
+  label: buy_membership
+  fields:
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: label
+    label: label
+- type: field_group
+  name: pricing
+  label: pricing
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: memberships
+    label: memberships
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: type
+      label: type
+    - type: text
+      name: cost
+      label: cost
+    - type: text
+      name: expiry
+      label: expiry
+  - type: field_group_list
+    name: notes
+    label: notes
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: content
+      label: content
+- type: field_group
+  name: merch_discounts
+  label: merch_discounts
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: partner_discounts
+  label: partner_discounts
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: field_group_list
+    name: partners
+    label: partners
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: description
+      label: description
+    - type: text
+      name: website
+      label: website
+    - type: file
+      name: logo
+      label: logo
+    - type: text
+      name: percentage
+      label: percentage
+- type: field_group
+  name: buy_now
+  label: buy_now
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
