@@ -4,6 +4,9 @@ description: "Members of the Engineering Students’ Society get access to event
 draft: false
 bg_image: "images/about/201819-group-council.jpg"
 layout : "membership"
+membership_body:
+    heading: "About our Membership"
+    content: "Support the Engineering Students’ Society by becoming a member today! The Engineering Students’ Society works hard to enrich the engineering student experience for all engineering students at by hosting a variety of academic, professional, and social events throughout the year. Members will enjoy perks such as exclusive and discounted events, merchandise discounts, partner discounts, and early access to new ESS products and services."
 buy_membership:
     link: "https://store.essucalgary.com/product-category/memberships/"
     title: "Buy a Membership Now"
@@ -11,6 +14,19 @@ buy_membership:
     label: "ESS Online Store"
 pricing:
     enable: false
+    memberships:
+        - name: "2020-2021 Physical Membership"
+          type: "Physical"
+          cost: "$10.00"
+          expiry: "August 31, 2020"
+        - name: "2020-2021 Digital Membership"
+          type: "Digital"
+          cost: "$10.00"
+          expiry: "August 31, 2020"
+    notes:
+        - title: "Physical vs. Digital Membership"
+          content: ""
+
 
 merch_discounts:
     enable: false
