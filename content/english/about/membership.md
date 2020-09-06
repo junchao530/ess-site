@@ -29,7 +29,7 @@ pricing:
     type: Digital
     cost: "$10.00"
     expiry: August 31, 2020
-  notes:
+notes:
   - title: Physical vs. Digital Membership
     content: ''
 merch_discounts:
@@ -49,14 +49,14 @@ partner_discounts:
       Monday-Thursday, Buy one get one free (BOGO) mini golf game, 50% off lanes on
       Sunday, and free shoe rental for Friday & Saturday Black Light
     website: https://www.cnty.com/mini-gof/
-    logo: ''
+    logo: 'images/membership/partners/century-casinos-logo.png'
     percentage: ''
     type: other
     cost: 
   - name: RKR Stationary & Artssentials
     description: 10% off any purchase over $20 before GST
     website: http://rkr.greeningenuity.ca/
-    logo: ''
+    logo: 'images/membership/partners/rkr-logo.png'
     percentage: "10"
     enable: true
     type: percentage
@@ -94,7 +94,7 @@ partner_discounts:
     type: percentage
     cost: 
 buy_now:
-  enable: false
+  enable: true
 type: ''
 
 ---

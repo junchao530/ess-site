@@ -239,3 +239,11 @@ a:hover {
 .member-part {
     padding-bottom: 5%;
 }
+
+.member-pricing-card {
+    background-color: #c5332c;
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}

@@ -3,21 +3,25 @@
 {{ partial "page-title.html" . }}
 
 {{ if .Params.pricing.enable }}
+{{ with .Params.pricing}}
 
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <h2>Digital</h2>
-        <h2>$10</h2>
+      {{ range .memberships }}
+      <div class="member-pricing-card col-md-5">
+        <div style="padding: 1%;">
+          <h2>{{ .name | markdownify }}</h2>
+          <h2>{{ .cost }}</h2>
+          <a class="btn btn-main btn-solid-border" href="{{ .Params.buy_membership.link | relLangURL }}" style="background-color: #ffffff; color: #c5332c;">Buy Now</a>
+        </div>
       </div>
-      <div class="col-sm-6">
-        <h2>Physical</h2>
-        <h2>$10</h2>
-      </div>  
+      {{ end }}
     </div>
   </div>
 </section>
+
+{{ end }}
 
 {{ end }}
 
@@ -32,7 +36,9 @@
     </div>
     <div class = "row">
       {{ range .partners }}
+      <a href="{{ .website }}" style="color: #333;">
       <div class="">
+        
         <div class="col-xs-2 col-sm-1">
           {{ if eq .type "percentage" }}
           <h1>{{ .percentage }}%</h1>
@@ -46,11 +52,13 @@
           {{if in .logo "images" }}
           <img src="{{ .logo | relURL }}" style="width: 90%; padding-top: 45%;">
           {{ end }}
+        
         </div>
         <div class="col-xs-7 col-sm-4">
           <h2>{{ .name | markdownify }}</h2>
           <p>{{ .description | markdownify }}</p>
         </div>
+      </a>
       </div>
       {{ end }}
     </div>
