@@ -47,29 +47,45 @@ partner_discounts:
     description: 10% off any purchase over $20 before GST
     website: http://rkr.greeningenuity.ca/
     logo: ''
-    percentage: 10%
+    percentage: "10"
+    enable: true
+    type: percentage
+    cost: 
   - name: Drug + Bean Pharmacy
     description: 10% off per purchase at any Drug + Bean Pharmacy location
     website: https://www.drugandbean.com/mission
     logo: ''
     percentage: "10"
+    enable: false
+    type: ''
+    cost: 
   - name: Village Flatbread Co
     description: 10% off puruchase in-store or online with an ESS membership code
       at checkout
     website: https://www.myvillageyyc.com
     logo: ''
     percentage: 10%
+    enable: false
+    type: ''
+    cost: 
   - name: Clear Float Spa
     description: 10% off using an online ESS membership code at checkout
     website: https://clearfloat.ca
     logo: images/membership/partners/clear-float-spa-logo.svg
     percentage: 10%
+    enable: false
+    type: ''
+    cost: 
   - name: Wild Tea Kombucha
     description: 10% off using an online ESS membership code at checkout
     website: https://www.wildteakombucha.com/
     logo: images/membership/partners/wild-tea-kombucha-logo.png
     percentage: 10%
+    enable: false
+    type: ''
+    cost: 
 buy_now:
   enable: false
+type: ''
 
 ---

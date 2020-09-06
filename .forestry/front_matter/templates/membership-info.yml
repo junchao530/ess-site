@@ -174,3 +174,5 @@ fields:
       file: 
       path: 
   label: type
+pages:
+- content/english/about/membership.md
