@@ -5,6 +5,7 @@ description: Members of the Engineering Students’ Society get access to events
 bg_image: images/about/201819-group-council.jpg
 layout: membership
 membership_body:
+  enable: false
   heading: About our Membership
   content: Support the Engineering Students’ Society by becoming a member today! The
     Engineering Students’ Society works hard to enrich the engineering student experience
@@ -12,12 +13,7 @@ membership_body:
     and social events throughout the year. Members will enjoy perks such as exclusive
     and discounted events, merchandise discounts, partner discounts, and early access
     to new ESS products and services.
-buy_membership:
-  link: https://store.essucalgary.com/product-category/memberships/
-  title: Buy a Membership Now
-  description: Both physical and digital memberships can be purchased online via the
-    link below
-  label: ESS Online Store
+
 pricing:
   enable: false
   memberships:
@@ -37,6 +33,13 @@ merch_discounts:
   title: Discounts on Merchandise
   content: ESS members will receive a discount on all new & existing merchandise in
     the ESS store, with discounts ranging from 10% to 25% off.
+  store:
+    enable: true
+    title: ESS Online Store
+    content: To view the member discount on merchandise log into our online store with your membership.
+    website: https://store.essucalgary.com
+    logo: images/ess-logo.png
+    percentage: 10-25
 partner_discounts:
   enable: false
   title: Discounts through our Partners
@@ -48,7 +51,7 @@ partner_discounts:
     description: ESS members are eligible to get various offers such as $4 games on
       Monday-Thursday, Buy one get one free (BOGO) mini golf game, 50% off lanes on
       Sunday, and free shoe rental for Friday & Saturday Black Light
-    website: https://www.cnty.com/mini-gof/
+    website: https://www.cnty.com/bowling/
     logo: 'images/membership/partners/century-casinos-logo.png'
     percentage: ''
     type: other
@@ -95,6 +98,10 @@ partner_discounts:
     cost: 
 buy_now:
   enable: true
-type: ''
+  title: "Buy a Membership Now"
+  content: "Support your Engineering Students’ Society today!"
+  bg_image: "images/about/201819-group-council.jpg"
+  button_label: Purchase Online
+  button_link: https://store.essucalgary.com/product-category/memberships/
 
 ---

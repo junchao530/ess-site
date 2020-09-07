@@ -2,6 +2,23 @@
 
 {{ partial "page-title.html" . }}
 
+{{ if .Params.membership_body.enable }}
+{{ with .Params.membership_body }}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ .heading | markdownify }}</h1>
+        <p>{{ .content }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
+
 {{ if .Params.pricing.enable }}
 {{ with .Params.pricing}}
 
@@ -31,8 +48,10 @@
 <section>
   <div class="container">
     <div class="row">
-      <h2>{{ .title | markdownify}}</h2>
-      <p>{{ .content | markdownify}}</p>
+      <div class="col-md-12">
+        <h2>{{ .title | markdownify}}</h2>
+        <p>{{ .content | markdownify}}</p>
+      </div>
     </div>
     <div class = "row">
       {{ range .partners }}
@@ -41,11 +60,11 @@
         
         <div class="col-xs-2 col-sm-1">
           {{ if eq .type "percentage" }}
-          <h1>{{ .percentage }}%</h1>
+          <h2>{{ .percentage }}%</h2>
           {{ else if eq .type "deal" }}
-          <h1>$</h1>
+          <h2>$</h2>
           {{ else }}
-          <h1>Deal</h1>
+          <h2>Deal</h2>
           {{end}}
         </div>
         <div class="col-xs-2 col-sm-1">
@@ -68,21 +87,53 @@
 {{ end }}
 {{ end }}
 
-{{ if .Params.buy_now.enable }}
+{{ if .Params.merch_discounts.enable }}
+{{ with .Params.merch_discounts }}
 
-<section class="call-to-action bg-1 section-sm overly" style="background-image: url('{{.Params.bg_image | absURL }}');">
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+      <a href="{{ .store.website }}" style="color: #333;">
+      <div class="col-xs-2">
+        <h2>{{ .store.percentage | markdownify }}%</h2>
+      </div>
+      <div class="col-xs-2">
+        <img src="{{ .store.logo | relURL }}" style="width: 30%; padding-top: 5%; padding-bottom: 5%;">
+      </div>
+      <div class="col-xs-8">
+        <h2>{{ .store.title | markdownify }}</h2>
+        <p>{{ .store.content | markdownify }}</p>
+      </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
+
+{{ if .Params.buy_now.enable }}
+{{ with .Params.buy_now }}
+
+<section class="call-to-action bg-1 section-sm overly" style="background-image: url('{{ .bg_image | absURL }}');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>{{ .Params.buy_membership.title | markdownify }}</h2>
-          <p>{{ .Params.buy_membership.description | markdownify }}</p>
-          <a class="btn btn-main btn-solid-border" href="{{ .Params.buy_membership.link | relLangURL }}">{{ .Params.buy_membership.label }}</a>
+          <h2>{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+          <a class="btn btn-main btn-solid-border" href="{{ .button_link| relLangURL }}">{{ .button_label }}</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+{{ end }}
 
 {{ end }}
 
