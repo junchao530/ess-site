@@ -146,6 +146,18 @@ commissioner_listing:
       biog: "I'm Chris, the sponsorship commissioner for the 2020-2021 year, and one of the former First Year Representatives for the ESS. I'm entering my second year of a double major in chemical engineering and business, and plan on going to law school upon completion of my degree. Most of my time is spent with friends, playing guitar, snowboarding, or hiking. Feel free to say hi if you see me around campus, and I look forward to meeting you guys at upcoming events. Best of luck this year!"
       email: ""
 
+    - image : images/about/council-members/Camilla-Abdrazakov.jpg
+      name: Camilla Abdrazakov
+      title: Academic Commissioner
+      biog: "Currently, I am a second year Mechanical engineering student doing a minor in biomedical. My favorite pastime is hiking, I love to read, play rugby, and I absolutely love to get involved in the community. As Academic Commissioner, I look forward to organizing events that will serve as a useful tool in your transition to university academically, as well as those that will provide opportunities to excel in the future."
+      email: ""
+
+    - image : images/about/council-members/Dennis-Lieu.jpg
+      name: Dennis Lieu
+      title: Professional Development Commissioner
+      biog: "Hi! I’m Dennis, this year’s Professional Development Commissioner. I work under the Academic Portfolio for the ESS. I’m going into my second year this fall for electrical engineering here at Schulich. I’m passionate about the field of STEM, which is why I decided to become an engineer. I think that getting involved with our great community is one of the best things we can do to make the most out of our short time here. I’m lucky to be able to see the very people who’ll shape our future on a daily basis and look forward to meeting you all"
+      email: ""
+
     - image : images/about/council-members/Shivek-Kanwar.jpg
       name: Shivek Kanwar
       title: Community Relations Commissioner
