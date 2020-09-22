@@ -5,7 +5,7 @@ description: Members of the Engineering Students’ Society get access to events
 bg_image: images/about/201819-group-council.jpg
 layout: membership
 membership_body:
-  enable: false
+  enable: true
   heading: About our Membership
   content: Support the Engineering Students’ Society by becoming a member today! The
     Engineering Students’ Society works hard to enrich the engineering student experience
@@ -41,7 +41,7 @@ merch_discounts:
     logo: images/ess-logo.png
     percentage: 10-25
 partner_discounts:
-  enable: false
+  enable: enable
   title: Discounts through our Partners
   content: ESS members can present their membership cards with our local partners
     in Calgary to receive discounts on various items and services!
