@@ -34,7 +34,7 @@ sections:
   templates:
   - sponsor
 - type: document
-  path: data/en/council/yml
+  path: content/english/about/council.md
   label: Council
 - type: document
   path: content/english/about/officehours/_index.md
