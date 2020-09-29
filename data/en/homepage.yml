@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/frosh-banner.jpg"
-  title : "Frosh Week 2020"
-  content : "COVID-19 Can't Stop Us"
+  bg_image : "images/news/plenery-head.jpg"
+  title : "Emergency General Meeting"
+  content : "2020 ESS Emergency General Meeting"
   button:
     enable : true
-    label : "Frosh Info"
-    link : "https://www.froshweek2020.com/"
+    label : "More Info"
+    link : "news/egm-plenery/"
 
 ############################# About #################################
 about:
