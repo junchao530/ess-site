@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="row" style="display: flex; flex-wrap: wrap;">
-      {{ range .council_member }}
+      {{ range sort .council_member "title" "asc"}}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <img class="img-responsive" src="{{ .image | absURL }}">
@@ -81,5 +81,35 @@
 {{ end }}
 
 <!-- /Commissioner Listing -->
+
+<!-- FYR Listing -->
+{{ if .Params.fyr_team.enable }}
+{{ with .Params.fyr_team }}
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .title | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    <div class="row" style="display: flex; flex-wrap: wrap;">
+      {{ range sort .members "block" "asc" }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="img-responsive" src="{{ .image | absURL }}">
+          <h3>{{ .name | markdownify }}</h3>
+          <h4>Block {{ .block }}</h4>
+          <p>{{ .bio | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- /FYR Listing -->
 
 {{ end }}
