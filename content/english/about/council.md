@@ -49,7 +49,7 @@ fyr_team:
     title: First Year Representative
     block: 2
     pronouns: she/her
-    bio: Hey everybody, I'm Ana! I am just starting my first year of engineering here Schulich and I'm so excited to be joining ESS as one of the First Year Representatives for Block 2! My job is to connect students with the council and let them know about everything that is going, so feel free to reach out to me anytime, even if we aren't in the same block! I am really looking forward to meeting new people even though this semester that will be happening virtually! I love music, movies, and hanging out with my friends!
+    bio: Hey everybody, I'm Ana! I am just starting my first year of engineering here at Schulich and I'm so excited to be joining ESS as one of the First Year Representatives for Block 2! My job is to connect students with the council and let them know about everything that is going, so feel free to reach out to me anytime, even if we aren't in the same block! I am really looking forward to meeting new people even though this semester that will be happening virtually! I love music, movies, and hanging out with my friends!
     image: "/images/about/council-members/Ana-Perrone.jpg"
     email: anaclara.perrone@ucalgary.ca
   - name: Haden Scheirman
