@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "More Info"
-    link : "news/egm-plenery/"
+    link : "news/egm/"
 
 ############################# About #################################
 about:
