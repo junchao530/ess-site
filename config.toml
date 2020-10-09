@@ -133,7 +133,7 @@ map_link = "https://www.google.ca/maps/place/51°04'48.2%22N+114°07'57.2%22W/@5
 
 # Banner
 [params.hnotify]
-enable = true
+enable = false
 link = "/covid-19"
 text = "COVID-19 Information"
 
