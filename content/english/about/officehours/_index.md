@@ -1,7 +1,7 @@
 ---
 title: Office Hours
 description: ''
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 layout: officehours
 tempClose:
   enable: true

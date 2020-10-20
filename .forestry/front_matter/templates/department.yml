@@ -14,7 +14,7 @@ fields:
   name: bg_image
   label: Background Image
   description: Image that appears in the background of the header
-  default: "/images/about/201819-group-council.jpg"
+  default: "/images/about/202021-group-council-1-banner.jpg"
 - type: file
   name: logo
   label: Department Logo

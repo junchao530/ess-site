@@ -1,7 +1,7 @@
 ---
 title: Test Conference
 description: test
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 logo: images/ess-logo.png
 layout: conference
 accepting: false

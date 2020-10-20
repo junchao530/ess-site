@@ -1,5 +1,5 @@
 +++
-bg_image = "/images/about/201819-group-council.jpg"
+bg_image = "/images/about/202021-group-council-1-banner.jpg"
 layout = "sponsor"
 logo = "/images/sponsors/marble-slab-logo.png"
 sponsor_active = "true"

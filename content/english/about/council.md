@@ -1,7 +1,7 @@
 ---
 title: 2020-2021 Council
 description: About our Team
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 layout: council
 executive_team:
   enable: false

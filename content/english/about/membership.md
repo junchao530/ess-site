@@ -2,7 +2,7 @@
 title: ESS Membership
 description: Members of the Engineering Students’ Society get access to events hosted
   by the society along with many other perks.
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 layout: membership
 membership_body:
   enable: true
@@ -100,7 +100,7 @@ buy_now:
   enable: true
   title: "Buy a Membership Now"
   content: "Support your Engineering Students’ Society today!"
-  bg_image: "images/about/201819-group-council.jpg"
+  bg_image: "images/about/202021-group-council-1-banner.jpg"
   button_label: Purchase Online
   button_link: https://store.essucalgary.com/product-category/memberships/
 

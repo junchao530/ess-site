@@ -1,7 +1,7 @@
 ---
 title: ZOO
 description: Electrical, Computer, & Software Engineering Students’ Society
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 logo: images/departments/zoo/logo.png
 layout: department
 subtitle: Electrical, Computer, & Software Engineering Students’ Society

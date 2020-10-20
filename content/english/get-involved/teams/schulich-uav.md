@@ -1,7 +1,7 @@
 ---
 title: Schulich UAV
 description: 
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 logo: images/teams/schulich-uav/schulich-uav.png
 layout: team
 subtitle: 

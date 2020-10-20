@@ -1,6 +1,6 @@
 ---
 title: CEUS
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 logo: images/departments/ceuss/logo.png
 layout: department
 subtitle: Civil Engineering Undergraduate Society

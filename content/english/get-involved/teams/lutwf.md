@@ -1,7 +1,7 @@
 ---
 title: Light up the World Foundation
 description: 
-bg_image: images/about/201819-group-council.jpg
+bg_image: images/about/202021-group-council-1-banner.jpg
 logo: images/teams/lutw/lutw.png
 layout: team
 subtitle: 
