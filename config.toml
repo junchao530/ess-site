@@ -85,6 +85,11 @@ name = "Bookings"
 parent = "Services"
 weight = 2
 [[menu.main]]
+URL = "events/career-fair"
+name = "Career Fair"
+parent = "Events"
+weight = 2
+[[menu.main]]
 URL = "contact"
 name = "Contact us"
 weight = 5
@@ -97,6 +102,7 @@ hasChildren = true
 name = "Services"
 weight = 3
 [[menu.main]]
+hasChildren = true
 URL = "events"
 name = "Events"
 weight = 2

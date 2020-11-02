@@ -139,7 +139,7 @@ a:hover {
     float: left;
     min-height: 200px;
     padding-right: 5%;
-    padding-left: 2%;
+    /* padding-left: 2%; */
     min-width: 200px;
 }
 
