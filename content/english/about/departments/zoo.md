@@ -6,12 +6,12 @@ logo: images/departments/zoo/logo.png
 layout: department
 subtitle: Electrical, Computer, & Software Engineering Students’ Society
 president:
-  name: Antoine Bizon
+  name: Antoin Bizon
   title: ZOO President
   bio_img: "/images/teams/team-1.jpg"
   email: president@zooengg.ca
 social:
-  website: 'https://zooengg.ca/'
+  website: https://zooengg.ca/
   facebook: ''
   twitter: ''
   instagram: ''
