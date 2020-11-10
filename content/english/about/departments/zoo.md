@@ -11,7 +11,7 @@ president:
   bio_img: "/images/teams/team-1.jpg"
   email: president@zooengg.ca
 social:
-  website: 'https://zooengg.ca/'
+  website: https://zooengg.ca/
   facebook: ''
   twitter: ''
   instagram: ''
