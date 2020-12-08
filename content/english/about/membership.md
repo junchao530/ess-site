@@ -4,6 +4,9 @@ description: Members of the Engineering Students’ Society get access to events
   by the society along with many other perks.
 bg_image: images/about/202021-group-council-1-banner.jpg
 layout: membership
+aliases : [
+    "/card"
+]
 membership_body:
   enable: true
   heading: About our Membership
