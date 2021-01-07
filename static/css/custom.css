@@ -247,3 +247,24 @@ a:hover {
     margin-right: 4%;
     margin-top: 2%;
 }
+
+.diversity-cat-head {
+    background: #EAEAEA;
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .25em;
+    padding-top: .25em;
+    margin-bottom: 1em;
+}
+
+.diversity-cat-head-text {
+    margin-top: 0%;
+}
+
+.diversity-cat-bar {
+    background: #EAEAEA;
+    width: 100%;
+    height: .5em;
+    margin: 0%;
+}
