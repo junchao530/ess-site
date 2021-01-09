@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+{{ partial "diversity/topbanner.html" . }}
+
+<section>
+  <div class="text-center">
+    <h1>{{ $.Title }}</h1>
+    <h3>Author: {{ $.Params.Author }}</h3>
+    <p>PUBLISHED: {{$.Params.Published_Date}}</p>
+  </div>
+</section>
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ if $.Params.additional_resources.enable }}
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="diversity-cat-bar"></div>
+      <div class="diversity-cat-head">
+          <h4 class="diversity-cat-head-text">Additional Resources</h4>
+      </div>
+
+      {{ range $.Params.additional_resources.items }}
+
+      <div class ="bg-accent" style="background-color: {{ .color  }};">
+        <div style="width: 55%; background-color: #FBFBFB; float: left;">
+          <div style="background-color: #CECECE;">
+            <h2>{{ .title }}</h2>
+          </div>
+          <div>
+            <i class="ion-ios-search"></i>
+            <p>{{ .link }}</p>
+          </div>
+          <div>
+            <i class="ion-ios-mail"></i>
+            <p>{{ .email }}</p>
+          </div>
+          <div>
+            <i class="ion-ios-pin"></i>
+            <p>{{ .address }}</p>
+          </div>
+          <div>
+            <i class="ion-ios-call"></i>
+            <p>{{ .phone }}</p>
+          </div>
+        </div>
+        <div style="width: 40%; background-color: #FBFBFB; float: left;">
+          <div><a>Read More</a></div>
+          <div>{{ .content }} </div>
+        </div>
+      </div>
+
+      {{ end }}
+  </div>
+  </div>
+</section>
+
+
+
+{{ end }}
+
+{{ partial "diversity/posts.html" . }}
+
+{{ partial "diversity/topbanner.html" . }}
+
+{{ end }}
