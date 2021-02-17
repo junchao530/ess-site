@@ -8,19 +8,21 @@
         </div>
         <div class="">
             <div class="row">
+                {{ range first 1 (where .Site.Pages "Type" "dacpost") }}
                 <div class="col-sm-5 col-md-4">
                     {{$diversityp := "images/diversity/diversity-post.svg" }}
                     <img src="{{ $diversityp | relURL }}">
-                    <p>Published: 10|15|2020</p>
+                    <p>Published: {{ .PublishDate.Format "01|02|2006" }}</p>
                 </div>
                 <div class="col-sm-7 col-md-8">
-                    <h3 class="text-center">Post Title</h3>
-                    <p class="text-center">Author: Risat Haque</p>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dui nulla. Pellentesque et semper felis, cursus pellentesque leo Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dui nulla. Pellentesque et semper felis, cursus pellentesque leo</p>   
+                    <h3 class="text-center">{{ .Title }}</h3>
+                    <p class="text-center">Author: {{ .Params.author }}</p>
+                    <p class="text-center">{{ .Summary | truncate 200 }}</p>   
                     <p class="text-right">
-                        <a>Read More</a>
+                        <a href="{{ .Permalink }}">Read More</a>
                     </p>
                 </div>
+                {{ end }}
             </div>
         </div>
     </div>

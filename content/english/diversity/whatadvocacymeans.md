@@ -4,6 +4,7 @@ description:
 bg_image: images/featue-bg.jpg
 content_image: images/booking/engg-lounge-games.jpg
 author: Risat Haque
+type: dacpost
 additional_resources:
     enable: true
     items:

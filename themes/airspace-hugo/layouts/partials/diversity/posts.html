@@ -7,31 +7,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                {{$diversityp := "images/diversity/diversity-post.svg" }}
-                <img src="{{ $diversityp | relURL }}">
-                <div>
-                    <h3>Post Title</h3>
-                    <p>Author: Risat Haque</p>
-                    <p>Published: 10|15|2020</p>
+            {{ range first 3 (where .Site.Pages "Type" "dacpost") }}
+            <a href="{{ .Permalink }}">
+                <div class="col-md-3">
+                    {{$diversityp := "images/diversity/diversity-post.svg" }}
+                    <img src="{{ $diversityp | relURL }}">
+                    <div>
+                        <h3>{{ .Title }}</h3>
+                        <p>Author: {{ .Params.author }}</p>
+                        <p>Published: {{ .PublishDate.Format "01|02|2006" }}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <img src="{{ $diversityp | relURL }}">
-                <div>
-                    <h3>Post Title</h3>
-                    <p>Author: Risat Haque</p>
-                    <p>Published: 10|15|2020</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <img src="{{ $diversityp | relURL }}">
-                <div>
-                    <h3>Post Title</h3>
-                    <p>Author: Risat Haque</p>
-                    <p>Published: 10|15|2020</p>
-                </div>
-            </div>
+            </a>
+            {{end}}
         </div>
     </div>
 </div>
