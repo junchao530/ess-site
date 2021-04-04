@@ -5,7 +5,6 @@ bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
 accepting: true
-starting_date: 2020-09-03T06:00:00+00:00
 role: Various commissioner positions
 job_tags: []
 # application_form: https://docs.google.com/forms/d/e/1FAIpQLScH9wnfnbnGS3NQmEJ029XC3mG0ti6qwqrIIm8OIPyjZM2zMQ/viewform?embedded=true
