@@ -193,4 +193,4 @@ The Professional Development Commissioner is responsible for all professional de
 
 ---
 
-**To apply please submit your application to [president@ess.ucalgary.ca](mailto:president@ess.ucalgary.ca) with resume and availability attached**
+**To apply please submit your application to [president@essucalgary.com](mailto:president@essucalgary.com) with resume and availability attached**
