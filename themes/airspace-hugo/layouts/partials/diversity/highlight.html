@@ -8,7 +8,7 @@
         </div>
         <div class="">
             <div class="row">
-                {{ range first 1 (where .Site.Pages "Type" "dacpost") }}
+                {{ range first 1 (where .Site.Pages "Params.dacpost" true) }}
                 <div class="col-sm-5 col-md-4">
                     {{$diversityp := "images/diversity/diversity-post.svg" }}
                     <a href="{{ .Permalink }}">

@@ -3,10 +3,10 @@ title: Lets Learn the Language
 description: 
 post_image: images/diversity/dac/moneytalks.png
 author: Raiyan Kabir
-type: dacpost
 additional_resources:
     enable: false
-PublishDate: 2021-04-09
+PublishDate: 2020-11-26
+dacpost: true
 
 ---
 
