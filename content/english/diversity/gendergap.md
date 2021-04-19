@@ -27,9 +27,6 @@ It is by changing these negative attitudes and stereotypes toward women in STEM,
 	Lastly, without a community of other women, women in STEM can feel defeated and alone; therefore, connection female STEM students with other female professors and/or professionals has been extremely effective at improving women’s self-concept [2]. 
 	So, it is important that we connect women in STEM, while ensuring that we change the negative attitudes, biases against, and stereotypes towards women to ensure a comfortable and safe learning and/or working environment.
 
-Author's Last Name, First Initial. Second Initial if Given. (Year webpage was last updated/published, Month Day if given). Title of page: Subtitle (if any). Website name. URL
-
-
 **References:**
 
 [1] Drake, J. (October 5, 2015).  What fewer women in STEM means for their mental health. The Conversation.
