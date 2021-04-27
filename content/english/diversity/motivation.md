@@ -1,7 +1,7 @@
 ---
 title: Motivation in Engineering
 description: 
-post_image: images/diversity/dac/motivation.png
+post_image: /images/diversity/dac/motivation.png
 author: Ghada Eldib
 additional_resources:
     enable: false

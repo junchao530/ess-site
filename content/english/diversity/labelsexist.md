@@ -1,7 +1,7 @@
 ---
 title: Labels Exist
 description: 
-post_image: images/diversity/dac/labelsexist.png
+post_image: /images/diversity/dac/labelsexist.png
 author: Makenna Osis, Emine Atak, Catherine Betancourt Lee
 additional_resources:
     enable: false

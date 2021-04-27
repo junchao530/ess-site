@@ -1,7 +1,7 @@
 ---
 title: Reasons not to say “All Lives Matter” (in response to the “Black Lives Matter” Movement
 description: 
-post_image: images/diversity/dac/alm.png
+post_image: /images/diversity/dac/alm.png
 author: Raksha Achar
 additional_resources:
     enable: false

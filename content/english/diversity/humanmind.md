@@ -1,7 +1,7 @@
 ---
 title: Diversity of the Human Mind
 description: 
-post_image: images/diversity/dac/humanmind.png
+post_image: /images/diversity/dac/humanmind.png
 author: Etienne Lagace
 additional_resources:
     enable: false

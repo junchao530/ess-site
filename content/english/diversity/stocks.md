@@ -1,7 +1,7 @@
 ---
 title: The Stock Market, An equalizer for the middle class
 description: 
-post_image: images/diversity/dac/stocks.png
+post_image: /images/diversity/dac/stocks.png
 author: Raiyan Kabir
 additional_resources:
     enable: false

@@ -1,7 +1,7 @@
 ---
 title: Preventing Covid-19 Fatigue
 description: 
-post_image: images/diversity/dac/covidfatigue.png
+post_image: /images/diversity/dac/covidfatigue.png
 author: Amy Miller
 additional_resources:
     enable: false

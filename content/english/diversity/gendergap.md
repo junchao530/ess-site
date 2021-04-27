@@ -1,7 +1,7 @@
 ---
 title: What fewer women in STEM means for their mental health
 description: 
-post_image: images/diversity/dac/gendergap.png
+post_image: /images/diversity/dac/gendergap.png
 author: Emine Atak
 additional_resources:
     enable: false

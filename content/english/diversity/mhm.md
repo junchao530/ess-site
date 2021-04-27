@@ -1,7 +1,7 @@
 ---
 title: Mental Health March
 description: 
-post_image: images/diversity/dac/mhm.png
+post_image: /images/diversity/dac/mhm.png
 author: Diversity Advocacy Committee
 additional_resources:
     enable: false

@@ -1,7 +1,7 @@
 ---
 title: Lets Learn the Language
 description: 
-post_image: images/diversity/dac/moneytalks.png
+post_image: /images/diversity/dac/moneytalks.png
 author: Raiyan Kabir
 additional_resources:
     enable: false

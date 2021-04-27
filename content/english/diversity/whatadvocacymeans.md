@@ -1,7 +1,7 @@
 ---
 title: What Advocacy Means to Us
 description: 
-post_image: images/diversity/diversity-post.svg
+post_image: /images/diversity/diversity-post.svg
 author: Risat Haque
 type: dacpost
 additional_resources:
