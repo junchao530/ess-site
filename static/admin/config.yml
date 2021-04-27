@@ -9,6 +9,7 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/english/news" # The path to the folder where the documents are stored
     filter: {field: "is_index", value: false}
+    preview: false # disable preview view
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -19,5 +20,21 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Background Image", name: bg_image", widget: "image"}
       - {label: "Author", name: "author", widget: "string", default: "ESS"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["news"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "diversity" # Used in routes, e.g., /admin/collections/blog
+    label: "Diversity" # Used in the UI
+    folder: "content/english/diversity" # The path to the folder where the documents are stored
+    preview: false # disable preview view
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "DAC Post", name: "dacpost", widget: "hidden", default: true}
+      - {label: "Additional Resources", name: "additional_resources", widget: "hidden", default: {enable: false}}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "PublishDate", widget: "datetime"}
+      - {label: "Post Image", name: "post_image", widget: "image"}
+      - {label: "Author", name: "author", widget: "string" }
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
