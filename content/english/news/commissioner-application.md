@@ -2,8 +2,8 @@
 title: 2021-2022 Commissioner Applications are now open!
 date: 2021-04-04T05:07:10+00:00
 author: Ratik Kapoor
-image: images/about/202021-group-council-1.jpg
-bg_image: images/featue-bg.jpg
+image: /images/about/202021-group-council-1.jpg
+bg_image: /images/featue-bg.jpg
 categories:
 tags:
   - News
