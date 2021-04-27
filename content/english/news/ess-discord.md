@@ -4,6 +4,7 @@ date: 2018-09-24T11:07:10.000+06:00
 author: ESS
 image: /images/blog/ess-discord.jpg
 bg_image: /images/featue-bg.jpg
+is_index: false
 categories:
 tags:
 description: Join a welcoming environment through our ESS 2020-2021 Discord!

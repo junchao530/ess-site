@@ -5,6 +5,7 @@ categories:
 date: 2020-09-03T06:00:00Z
 title: First Year Representative Applications Are Now Open!
 image: /images/blog/fyr_tryouts.jpg
+is_index: false
 tags: 
 description: Join ESS as a First Year Representative!
 type: post

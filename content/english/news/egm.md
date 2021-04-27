@@ -4,6 +4,7 @@ date: 2020-10-09T05:07:10+00:00
 author: ESS
 image: /images/news/plenery-head.jpg
 bg_image: /images/news/plenery-head.jpg
+is_index: false
 categories:
 tags:
 - News
