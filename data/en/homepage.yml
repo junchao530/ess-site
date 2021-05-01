@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/events/career-fair/careerfair-bg.jpg"
-  title : "Career Fair"
-  content : "Tuesday November 10th"
+  bg_image : "images/frosh-banner.jpg"
+  title : "Purchase ESS Merchandise"
+  content : "Check our online store!"
   button:
     enable : true
-    label : "More Info"
-    link : "events/career-fair/"
+    label : "Shop"
+    link : "https://store.essucalgary.com"
 
 ############################# About #################################
 about:
