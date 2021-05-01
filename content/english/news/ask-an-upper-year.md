@@ -4,6 +4,7 @@ date: 2020-08-15T05:07:10+00:00
 author: Vincent Cung
 image: /images/blog/ask-a-upper-year.jpg
 bg_image: /images/featue-bg.jpg
+is_index: false
 categories:
 tags:
 - News
