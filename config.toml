@@ -84,11 +84,11 @@ URL = "bookings"
 name = "Bookings"
 parent = "Services"
 weight = 2
-[[menu.main]]
-URL = "events/career-fair"
-name = "Career Fair"
-parent = "Events"
-weight = 2
+# [[menu.main]]
+# URL = "events/career-fair"
+# name = "Career Fair"
+# parent = "Events"
+# weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact us"
