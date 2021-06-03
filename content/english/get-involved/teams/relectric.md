@@ -11,7 +11,7 @@ president:
   bio_img: "/images/teams/team-1.jpg"
   email: info@teamrelectric.ca
 social:
-  website: 'https://zooengg.ca/'
+  website: 'https://teamrelectric.ca/'
   facebook: ''
   twitter: ''
   instagram: ''
