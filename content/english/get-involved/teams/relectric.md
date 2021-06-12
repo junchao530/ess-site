@@ -8,7 +8,7 @@ subtitle:
 president:
   name: Camilla Abdrazakov
   title: Executive Lead
-  bio_img: "/images/teams/team-1.jpg"
+  bio_img: "images/about/council-members/Camilla-Abdrazakov.jpg"
   email: info@teamrelectric.ca
 social:
   website: 'https://teamrelectric.ca/'
