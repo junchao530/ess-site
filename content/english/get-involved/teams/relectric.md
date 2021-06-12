@@ -6,7 +6,7 @@ logo: images/teams/relectric/relectric.png
 layout: team
 subtitle: 
 president:
-  name: Ratik Kapoor
+  name: Camilla Abdrazakov
   title: Executive Lead
   bio_img: "/images/teams/team-1.jpg"
   email: info@teamrelectric.ca
@@ -19,10 +19,5 @@ social:
   youtube: ''
 
 ---
-The Electrical, Computer, and Software Engineering Students' Society at the University of Calgary is an organization committed to providing students with a variety of academic and social events to enrich their university experience inside and outside of classes. We strive to provide communication between the University of Calgary faculty and electrical, computer, and software engineering students. Additionally, we work to represent the opinions of students to other universities, and the community at large.
-
-In addition being referred to as the Electrical, Computer, and Software Engineering Students Society, our organization has also been referred to as ZOO for over two decades.
-
-Any enquiries for the department organization of Electrical, Computer, and Software Engineering should be directed to the relevant department employee. A list of contacts for the department can be found here.
-
-Any enquiries for ZOO should either be voiced in-person at the homeroom, located in ENA 106, or via email to president@zooengg.ca. Questions or comments regarding this site should be directed via email to webmaster@zooengg.ca.
+Relectric Car Team was launched in 2019 in order to research affordable high-performance electric vehicles (EVs). Our team provides students an opportunity to gain technical engineering experience in an environment where collaboration is heavily encouraged.
+Currently, EVs are relatively expensive and difficult to find on the used car market. Our team aims to convert existing cars for a fraction of the price of a new vehicle, without sacrificing quality or features. Additionally, we strive to simplify user experience through software and create a unified experience that rivals modern cars.
