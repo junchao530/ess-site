@@ -7,7 +7,7 @@ title = "BMESS"
 [president]
 bio_img = "/images/about/council-members/stock-male.jpg"
 email = "president.bmess@gmail.com"
-name = "Tyler Yip"
+name = "Rachel Renegado"
 title = "BMESS President"
 [social]
 facebook = "https://www.facebook.com/UofCBMESS/"

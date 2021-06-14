@@ -7,7 +7,7 @@ subtitle = "Chemical and Oil & Gas Engineering Students’ Society"
 [president]
 bio_img = "/images/teams/team-3.jpg"
 email = "president.cess@ucalgary.ca "
-name = "Arby Seno"
+name = "Ioannis Kandilierakis"
 title = "CESS President"
 [social]
 facebook = "https://www.facebook.com/ucalgarycess/"
@@ -19,5 +19,6 @@ youtube = ""
 
 
 +++
-The Chemical and Oil & Gas Engineering Students’ Society (CESS) is a non-profit organization run by undergraduate engineering students, aimed primarily at the Chemical and Oil & Gas departments. At CESS, we believe exposing students to both academic and industry opportunities will provide them with a competitive advantage when entering their careers. Through the help of corporate sponsorship, CESS has taken steps to ensure our members receive access to resources and events that will help them become future leaders and expand their personal networks. These opportunities include industry tours, student mixers with faculty and industry representatives, social and sporting activities, and volunteer initiatives. Additionally, CESS continuously supports the development of its members by sending an annual delegation of students to the Canadian Society for Chemical Engineering Conference (CSChE). We believe that through these opportunities our organization equips students with a strong academic and professional foundation that they will carry forward into their careers.  
-For more information or any questions that you may have, please contact [cess@ucalgary.ca](mailto:cess@ucalgary.ca), look us up on Facebook at [https://www.facebook.com/ucalgarycess/](https://www.facebook.com/ucalgarycess/ "https://www.facebook.com/ucalgarycess/"), or see our website at [http://www.cessucalgary.com](http://www.cessucalgary.com "http://www.cessucalgary.com").
+The Chemical and Oil & Gas Engineering Students’ Society (CESS) represents more than 500 undergraduate Chemical and Oil & Gas Engineering students to the school, the community and the industry. It aims to enhance the overall undergraduate experience and provide professional development opportunities for students enrolled in the Chemical and Petroleum Engineering Department through various academic and social activities. Those activities include conferences, industry tours, technical workshops and panels, student mixers with faculty and industry representatives, social events as well as volunteering initiatives. Over the last few years, CESS has partnered with a series of industries and institutions, including the oil & gas, pipelines, chemicals & pharmaceuticals, banking, agriculture & food processing sectors, breweries, the Canadian Society for Chemical Engineering (CSChE), the Institution of Chemical Engineers (IChemE) and the American Institute of Chemical Engineers (AIChE). Our highly motivated team of student leaders is proud to help shape the chemical engineering leaders of tomorrow by providing them with a strong academic and professional foundation that they will carry forward into their careers.
+ 
+If you have any questions about CESS, please contact cess@ucalgary.ca or president.cess@ucalgary.ca. For more information, follow us on Instagram: https://www.instagram.com/cess.uofc/ or visit our website: http://www.cessucalgary.com/
