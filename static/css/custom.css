@@ -287,3 +287,18 @@ ul ul {
   list-style-position: inside;
   margin-left: 10px;
 }
+
+.img-council {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.council-email {
+  font-size: 25px !important;
+}
+
+.council-container {
+  display: flex;
+  flex-wrap: wrap;
+}
