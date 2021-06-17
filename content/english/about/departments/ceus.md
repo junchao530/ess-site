@@ -5,12 +5,12 @@ logo: images/departments/ceuss/logo.png
 layout: department
 subtitle: Civil Engineering Undergraduate Society
 president:
-  name: "Nicholas Doiron"
+  name: "Hope Roberts"
   title: "CEUS President"
   bio_img: "/images/teams/team-1.jpg"
-  email: "nicholas.doiron@ucalgary.ca"
+  email: "ceus@ucalgary.ca"
 social:
-  website: 'https://www.ucalgary.ca/ceus/'
+  website: 'https://wcm.ucalgary.ca/ceus/'
   facebook: ''
   twitter: ''
   instagram: ''
