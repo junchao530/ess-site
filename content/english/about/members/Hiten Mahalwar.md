@@ -1,7 +1,7 @@
 ---
 name: 'Hiten Mahalwar'
 memberType: 'commissioner'
-position: 'Corporate Commissioner'
+position: 'Community Relations Commissioner'
 pronouns: 'he/him'
 email: 'community@essucalgary.com'
 image: /images/about/council-members/Hiten-Mahal.jpg

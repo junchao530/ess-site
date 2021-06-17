@@ -5,7 +5,7 @@ logo: images/departments/aess/aess.png
 layout: department
 subtitle: Aerospace Engineers Students' Society
 president:
-  name: "Apekhchya Shrestha"
+  name: "Liam Alder"
   title: "AESS President"
   bio_img: "/images/teams/team-1.jpg"
   email: "aesspresuofc@gmail.com"
