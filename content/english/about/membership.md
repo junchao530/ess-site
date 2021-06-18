@@ -37,14 +37,14 @@ merch_discounts:
   content: ESS members will receive a discount on all new & existing merchandise in
     the ESS store, with discounts ranging from 10% to 25% off.
   store:
-    enable: true
+    enable: false
     title: ESS Online Store
     content: To view the member discount on merchandise log into our online store with your membership.
     website: https://store.essucalgary.com
     logo: images/ess-logo.png
     percentage: 10-25
 partner_discounts:
-  enable: enable
+  enable: false
   title: Discounts through our Partners
   content: ESS members can present their membership cards with our local partners
     in Calgary to receive discounts on various items and services!
