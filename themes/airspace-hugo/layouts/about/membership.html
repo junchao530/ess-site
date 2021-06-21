@@ -3,20 +3,18 @@
 {{ partial "page-title.html" . }}
 
 {{ if .Params.membership_body.enable }}
-{{ with .Params.membership_body }}
 
 <section>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>{{ .heading | markdownify }}</h1>
-        <p>{{ .content }}</p>
+        <h1>{{ .Params.membership_body.heading | markdownify }}</h1>
+        <p>{{ .Content }}</p>
       </div>
     </div>
   </div>
 </section>
 
-{{ end }}
 {{ end }}
 
 {{ if .Params.pricing.enable }}
