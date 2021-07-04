@@ -2,7 +2,7 @@
 name: 'Amanda Leung'
 title: Preventing Covid-19 Fatigue
 description: 
-membertype: "executive"
+memberType: "executive"
 position: 'VP Operations'
 pronouns: 'she/her'
 email: 'operations@essucalgary.com'

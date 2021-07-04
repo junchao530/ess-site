@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="row council-container">
-      {{range (sort (where .Site.Pages "Params.membertype" "executive") ".Params.position" "asc")}}
+      {{range (sort (where .Site.Pages "Params.memberType" "executive") ".Params.position" "asc")}}
         <div class="col-sm-6 col-md-3">
           <div class="service-item">
             <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="row council-container">
-      {{range (sort (where .Site.Pages "Params.membertype" "commissioner") ".Params.position" "asc")}}
+      {{range (sort (where .Site.Pages "Params.memberType" "commissioner") ".Params.position" "asc")}}
         <div class="col-sm-6 col-md-3">
           <div class="service-item">
             <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
