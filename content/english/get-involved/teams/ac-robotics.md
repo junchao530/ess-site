@@ -1,7 +1,7 @@
 ---
 title: AC Robotics
 description: Alberta Collegiate Robotics
-bg_image: images/about/202021-group-council-1-banner.jpg
+bg_image: /images/about/202021-group-council-1-banner.jpg
 logo: "https://yt3.ggpht.com/ytc/AAUvwnjrrIsDzcXdiKNgL_LTDw97kiIRNnfw0PKPMn4K=s88-c-k-c0x00ffffff-no-rj"
 layout: team
 subtitle: 
