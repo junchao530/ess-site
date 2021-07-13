@@ -129,11 +129,10 @@ Support the Engineering Students’ Society by becoming a member today! The Engi
 - To be announced!
 
 ### Services in the ESS office
-- Free lamination (up to 5 sheets) 
-- Free printing (up to 10 sheets, double sided) 
-- Access to hot water 
-- Charging cables (USB-C, lightning cable) 
+- Free printing (up to 10 sheets, double sided)
+- Access to hot water
+- Charging cables (USB-C, lightning cable)
 - Calculator, lab coat, and projector rental
 
 
-### Memberships are currently on sale for $10 from June 20, 2021 - August 31, 2021
+### Memberships are currently on sale for $10 (regularly $20) from June 20, 2021 - September 11, 2021

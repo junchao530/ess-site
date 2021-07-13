@@ -24,26 +24,26 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 1
-[[menu.main]]
-URL = "resources"
-name = "Resources"
-parent = "Services"
-weight = 1
-[[menu.main]]
-URL = "projects-hub"
-name = "Projects Hub"
-parent = "Get Involved"
-weight = 1
-[[menu.main]]
-URL = "volunteer-hub"
-name = "Volunteer Hub"
-parent = "Get Involved"
-weight = 2
-[[menu.main]]
-URL = "get-involved/conferences"
-name = "Conferences"
-parent = "Get Involved"
-weight = 3
+# [[menu.main]]
+# URL = "resources"
+# name = "Resources"
+# parent = "Services"
+# weight = 1
+# [[menu.main]]
+# URL = "projects-hub"
+# name = "Projects Hub"
+# parent = "Get Involved"
+# weight = 1
+# [[menu.main]]
+# URL = "volunteer-hub"
+# name = "Volunteer Hub"
+# parent = "Get Involved"
+# weight = 2
+# [[menu.main]]
+# URL = "get-involved/conferences"
+# name = "Conferences"
+# parent = "Get Involved"
+# weight = 3
 [[menu.main]]
 URL = "get-involved/applications"
 name = "Applications"
@@ -79,11 +79,11 @@ URL = "about/constitution"
 name = "Constitution"
 parent = "About"
 weight = 5
-[[menu.main]]
-URL = "bookings"
-name = "Bookings"
-parent = "Services"
-weight = 2
+# [[menu.main]]
+# URL = "bookings"
+# name = "Bookings"
+# parent = "Services"
+# weight = 2
 # [[menu.main]]
 # URL = "events/career-fair"
 # name = "Career Fair"
@@ -97,10 +97,10 @@ weight = 5
 hasChildren = true
 name = "Get Involved"
 weight = 4
-[[menu.main]]
-hasChildren = true
-name = "Services"
-weight = 3
+# [[menu.main]]
+# hasChildren = true
+# name = "Services"
+# weight = 3
 [[menu.main]]
 hasChildren = true
 URL = "events"
