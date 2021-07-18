@@ -17,5 +17,6 @@ social:
   instagram: ''
   linkedin: 'https://ca.linkedin.com/company/project-90-ucalgary'
   youtube: ''
+draft: true
 
 ---
