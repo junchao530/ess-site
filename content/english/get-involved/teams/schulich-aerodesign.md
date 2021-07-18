@@ -17,5 +17,5 @@ social:
   instagram: 'http://www.schulichaerodesign.ca/wp-content/uploads/2019/10/Active-Instagram-2-icon.png'
   linkedin: ''
   youtube: ''
-
+draft: true
 ---
