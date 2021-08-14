@@ -7,8 +7,8 @@ eventdate: "September 8"
 time: "12pm - 2pm"
 registration:
   required: true
-  active: false
-  link: " "
+  active: true
+  link: "https://google.ca"
 froshevent: true
 ---
 
