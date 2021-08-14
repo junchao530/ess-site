@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h1>FROSH Week 2020 - 2021</h1>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2>What is FROSH week?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut odio quis leo finibus euismod. Quisque
+                ac posuere felis. In in nulla tortor. Mauris vitae eros ac sapien aliquet iaculis. Nam hendrerit et sem
+                vitae interdum. Cras felis lectus, feugiat sed dictum quis, vehicula sed felis. Proin id facilisis diam,
+                ut feugiat orci. Sed sed congue arcu. Orci varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Phasellus rhoncus, purus et semper ultrices, arcu sem luctus enim, non viverra
+                eros magna at nibh. Cras non mauris eget dolor suscipit ullamcorper. Praesent porttitor consequat
+                dictum. Nullam sagittis magna et mauris gravida eleifend. Proin molestie, tortor non pellentesque
+                hendrerit, felis diam bibendum quam, dapibus maximus mi libero a tellus. Integer dictum nisi imperdiet
+                ex maximus elementum.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2>Events</h2>
+            <div class="card-carousel">
+                {{range where .Site.Pages "Params.froshevent" true}}
+                <div class="card carousel-item">
+                    <img class="carousel-card-image" src="{{ .Params.image | absURL }}">
+                    <div class="carousel-card-content">
+                        <h4>{{.Params.title}}</h4>
+                        <span>{{.Params.eventdate}} @ {{.Params.time}}</span>
+                        {{if isset .Params "location"}}
+                        <p>
+                            <i class="ion-ios-location-outline"> {{.Params.location}}</i>
+                        </p>
+                        {{end}}
+                        <p>{{.Params.description}}</p>
+                        {{if .Params.registration.required}}
+                        {{if .Params.registration.active}}
+                        <a class="btn btn-main" href="{{.Params.registration.link}}">REGISTER NOW</a>
+                        {{else}}
+                        <p>Registration not yet available, check back later</p>
+                        {{end}}
+                        {{else}}
+                        <p>Registration not required</p>
+                        {{end}}
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <h2>Got Questions?</h2>
+            <p>Reach out to our frosh week team at <a href="mailto:frosh@essucalgary.com">frosh@essucalgary.com</a></p>
+        </div>
+    </div>
+</section>
+
+{{ end }}
