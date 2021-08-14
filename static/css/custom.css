@@ -302,3 +302,27 @@ ul ul {
   display: flex;
   flex-wrap: wrap;
 }
+
+.card-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel-item {
+  width: 30%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.carousel-card-image, img {
+  width: 110%;
+  max-width: unset !important;
+  overflow: hidden;
+}
+
+.carousel-card-content {
+  padding: 10px;
+}
