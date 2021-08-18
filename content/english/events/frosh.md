@@ -4,8 +4,11 @@ description: "Check out our events"
 subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
 date: 2020-03-23T13:05:29+06:00
 draft: false
-bg_image: "images/fs-year-dinner.jpg"
+bg_image: "/images/events/2021/frosh/froshheader.jpg"
 layout: 'frosh'
+aliases : [
+    "/frosh"
+]
 ---
 
 ### Frosh Week
