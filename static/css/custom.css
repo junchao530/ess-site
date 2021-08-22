@@ -349,3 +349,8 @@ ul ul {
   max-width: 10vh;
   border-radius: 5px;
 }
+
+.frosh-calendar-row {
+  width: 100vw;
+  overflow-x: auto;
+}
