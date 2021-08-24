@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/events/2021/frosh/frosh-ad2.jpg"
-  title : "Frosh 2021 - 2022"
-  content : "The best way to spend the first week on campus"
+  bg_image : "images/frosh-banner.jpg"
+  title : "ESS Membership Sale"
+  content : "But your membership for 50% off until September 11th"
   button:
     enable : true
-    label : "View Events"
-    link : "/events/frosh"
+    label : "Buy Now"
+    link : "https://store.essucalgary.com/product-category/memberships/"
 
 ############################# About #################################
 about:
