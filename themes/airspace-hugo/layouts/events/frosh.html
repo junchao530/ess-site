@@ -118,7 +118,7 @@
             <h2>Events</h2>
             <div class="card-carousel">
                 {{range where .Site.Pages "Params.froshevent" true}}
-                <div class="card carousel-item">
+                <div class="card carousel-item col-sm-6 col-md-4 col-lg-3">
                     <img class="carousel-card-image" src="{{ .Params.image | absURL }}">
                     <div class="carousel-card-content">
                         <h4>{{.Params.title}}</h4>
