@@ -8,7 +8,8 @@ time: "7pm - 10pm"
 registration:
   required: true
   active: false
-  link: " "
+  link: "/events/frosh"
 froshevent: true
+layout: "froshredirect"
 ---
 

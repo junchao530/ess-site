@@ -1,6 +1,6 @@
 ---
 title: "Field Day"
-description: "We finished the first week of school! Come to the field behind the ESS office for a relaxing field day to play some games!"
+description: "We finished the first week of school! It's always a good idea to detox your weekend with a nice active day, come to the field behind the ESS office and play some fun games!"
 location: "Green Space 18"
 image: "/images/events/2021/frosh/fieldday.jpg"
 eventdate: "September 11"
@@ -10,5 +10,6 @@ registration:
   active: false
   link: "https://www.eventbrite.com/e/field-day-tickets-167133409527"
 froshevent: true
+layout: "froshredirect"
 ---
 
