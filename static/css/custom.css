@@ -310,11 +310,11 @@ ul ul {
 }
 
 .carousel-item {
-  width: 30%;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
   padding: 0;
+}
+
+.carousel-item {
+  margin: 20px;
 }
 
 .carousel-card-image, img {
