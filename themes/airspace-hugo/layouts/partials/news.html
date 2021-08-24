@@ -1,7 +1,7 @@
 
     {{ range first 3 (where .Site.Pages "Type" "post") }}
     <div class="media card">
-      <a class="" href="{{ .Permalink }}" style="width: 50%; float: left;">
+      <a class="" href="{{ .Permalink }}">
         <img class="media-object" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
       </a>
       <div class="media-body">

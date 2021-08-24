@@ -34,14 +34,23 @@ body {
   background-color: #eee;
 }
 
+.media.card {
+  display: flex;
+}
+
+
 .card img {
-  max-width: 95%;
   align-self: center;
   margin-bottom: 8px;
 }
 
+.media-body {
+  padding-left: 15px;
+}
+
 .media-object {
   margin: 0;
+  width: 30vw;
 }
 
 a {
@@ -317,7 +326,7 @@ ul ul {
   margin: 20px;
 }
 
-.carousel-card-image, img {
+img.carousel-card-image {
   width: 110%;
   max-width: unset !important;
   overflow: hidden;
