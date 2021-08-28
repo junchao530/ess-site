@@ -14,7 +14,7 @@ description: "ESS currently has 3 Commissioner positions on council that are
 tags:
   - News
 ---
-
+ESS currently has 3 Commissioner positions on council that are open and waiting to be filled by you. The open positions are: Publications Commissioner, Technology Commissioner, and Sustainability Commissioner. If you are interested in applying, please submit your application by 3:00 PM MST on Friday, September 3rd.
 
 - - -
 
