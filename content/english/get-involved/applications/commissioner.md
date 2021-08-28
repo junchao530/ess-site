@@ -8,7 +8,7 @@ accepting: true
 role: Commissioner Applications
 job_tags: []
 application_pdf_link: https://forms.gle/p3hgxynFfZEfnSF48
-ending_date: 2021-09-04T06:00:00.000Z
+ending_date: 2021-09-03T06:00:00.000Z
 attachments: []
 ---
 ESS currently has 3 Commissioner positions on council that are open and waiting to be filled by you. The open positions are: Publications Commissioner, Technology Commissioner, and Sustainability Commissioner. If you are interested in applying, please submit your application by 3:00 PM MST on Friday, September 3rd.
