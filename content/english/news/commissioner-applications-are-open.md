@@ -71,4 +71,6 @@ The Technology Commissioner is responsible for maintaining the technological asp
 
 - - -
 
+[Apply Now](/get-involved/applications/commissioner/)
+
 **Any inquiries can be sent to: [president@essucalgary.com](mailto:president@essucalgary.com) Thanks!**
