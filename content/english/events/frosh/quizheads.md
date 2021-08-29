@@ -6,9 +6,9 @@ image: "/images/events/2021/frosh/quizheads.jpg"
 eventdate: "September 7"
 time: "6pm - 8:30pm"
 registration:
-  required: true
+  required: false
   active: false
-  link: "https://www.eventbrite.com/e/quizheads-tickets-167251964127"
+  link: "https://ucalgary.zoom.us/j/95591844343"
 froshevent: true
 layout: "froshredirect"
 ---
