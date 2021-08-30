@@ -42,7 +42,7 @@
                     <td class="calendar-time">12pm</td>
                     <td class="calendar-event" rowspan="6">Catch Patches and Clubs Fair</td>
                     <td />
-                    <td class="calendar-event" rowspan="5">Keg Olympics</td>
+                    <td class="calendar-event" rowspan="5">College Olympics</td>
                     <td />
                     <td class="calendar-event" rowspan="5">Major Tug O' War</td>
                 </tr>
@@ -67,6 +67,11 @@
                 <tr></tr>
                 <tr>
                     <td class="calendar-time">5pm</td>
+                    <td />
+                    <td />
+                    <td />
+                    <td />
+                    <td class="calendar-event" rowspan="6">FROSH Stage</td>
                 </tr>
                 <tr></tr>
                 <tr>
@@ -79,7 +84,6 @@
                     <td />
                     <td class="calendar-event" rowspan="4">Movie Night</td>
                     <td />
-                    <td class="calendar-event" rowspan="6">GNCTR Pub Crawl</td>
                     <td />
                     <td />
                     <td />
@@ -137,6 +141,8 @@
                         {{else}}
                         <p>Registration not yet available, check back later</p>
                         {{end}}
+                        {{else if .Params.registration.custom_message}}
+                        <p>{{.Params.registration.message_text}}</p>
                         {{else}}
                         <p>Registration not required</p>
                         {{end}}

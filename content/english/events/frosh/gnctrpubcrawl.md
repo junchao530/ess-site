@@ -6,10 +6,11 @@ image: "/images/events/2021/frosh/pubcrawl.jpg"
 eventdate: "September 9"
 time: "7pm - 10pm"
 registration:
-  required: true
+  required: false
   active: false
   link: "/events/frosh"
-froshevent: true
+  custom_message: true
+  message_text: "Contact GNCTR for more info"
 layout: "froshredirect"
 ---
 
