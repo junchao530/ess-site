@@ -11,6 +11,9 @@ job_tags: []
 application_form: https://docs.google.com/forms/d/e/1FAIpQLScH9wnfnbnGS3NQmEJ029XC3mG0ti6qwqrIIm8OIPyjZM2zMQ/viewform?embedded=true
 ending_date: 2020-09-10T06:00:00+00:00
 attachments: []
+aliases : [
+    "/fyr"
+]
 
 ---
 ESS selects 8 First Year Representatives (FYRs) each year to become a part of council (2 per block), and take on various duties pertaining to ESS. The main responsibility of the FYR are including but not limited to:
