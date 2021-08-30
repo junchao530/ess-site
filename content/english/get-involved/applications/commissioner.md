@@ -1,12 +1,12 @@
 ---
-title: Commissioner Applications are Open!
+title: Commissioner Positions
 description: Join our council!
 bg_image: /images/img_0832.jpg
 content_image: /images/img_0832.jpg
 layout: posting
 accepting: true
 role: Commissioner Applications
-job_tags: []
+job_tags: [sustainability, technology, publications]
 application_pdf_link: https://forms.gle/p3hgxynFfZEfnSF48
 ending_date: 2021-09-03T06:00:00.000Z
 attachments: []
