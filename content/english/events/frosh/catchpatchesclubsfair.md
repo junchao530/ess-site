@@ -4,10 +4,10 @@ description: "Ever wondered how you can get involved in Schulich? Come down to t
 location: "Lounge"
 image: "/images/events/2021/frosh/patches.jpg"
 eventdate: "September 7"
-time: "12pm - 3:30pm"
+time: "12pm - 3pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.com/e/clubs-fair-tickets-167248961145"
 froshevent: true
 layout: "froshredirect"

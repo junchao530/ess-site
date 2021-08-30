@@ -7,7 +7,7 @@ eventdate: "September 9"
 time: "12pm - 2pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.com/e/major-tug-of-war-tickets-167251751491"
 froshevent: true
 layout: "froshredirect"

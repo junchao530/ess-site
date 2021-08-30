@@ -7,7 +7,7 @@ eventdate: "September 10"
 time: "11am - 2:30pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.com/e/engg-fair-tickets-167250951097"
 froshevent: true
 layout: "froshredirect"

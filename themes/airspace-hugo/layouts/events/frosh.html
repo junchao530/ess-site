@@ -40,7 +40,7 @@
                 </tr>
                 <tr>
                     <td class="calendar-time">12pm</td>
-                    <td class="calendar-event" rowspan="7">Catch Patches and Clubs Fair</td>
+                    <td class="calendar-event" rowspan="6">Catch Patches and Clubs Fair</td>
                     <td />
                     <td class="calendar-event" rowspan="5">Keg Olympics</td>
                     <td />
@@ -132,6 +132,8 @@
                         {{if .Params.registration.required}}
                         {{if .Params.registration.active}}
                         <a class="btn btn-main" href="{{.Params.registration.link}}">REGISTER NOW</a>
+                        {{else if .Params.registration.custom_button}}
+                        <a class="btn btn-main" href="{{.Params.registration.link}}">{{.Params.registration.button_text}}</a>
                         {{else}}
                         <p>Registration not yet available, check back later</p>
                         {{end}}

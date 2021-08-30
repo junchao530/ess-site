@@ -9,6 +9,8 @@ registration:
   required: true
   active: false
   link: "https://discord.gg/cqZybU6yGJ"
+  custom_button: true
+  button_text: "Event Discord Server"
 froshevent: true
 layout: "froshredirect"
 ---

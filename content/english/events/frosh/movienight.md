@@ -7,7 +7,7 @@ eventdate: "September 8"
 time: "7pm - 9pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.ca/e/165820628965"
 froshevent: true
 layout: "froshredirect"

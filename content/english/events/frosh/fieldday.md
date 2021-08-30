@@ -7,7 +7,7 @@ eventdate: "September 11"
 time: "11am - 3:30pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.com/e/field-day-tickets-167133409527"
 froshevent: true
 layout: "froshredirect"

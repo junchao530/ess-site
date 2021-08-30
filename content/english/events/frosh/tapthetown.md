@@ -7,7 +7,7 @@ eventdate: "September 10"
 time: "7pm - 11:30pm"
 registration:
   required: true
-  active: false
+  active: true
   link: "https://www.eventbrite.com/e/tap-the-town-tickets-167135748523"
 froshevent: true
 layout: "froshredirect"
