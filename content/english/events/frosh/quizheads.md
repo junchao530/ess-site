@@ -16,7 +16,7 @@ froshevent: true
 layout: single
 ---
 
-This virtual event will take place virtually using Zoom.
+This virtual event will take place using Zoom.
 
 The meeting can be accessed utilizing the information below:
 

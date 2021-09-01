@@ -363,3 +363,9 @@ img.carousel-card-image {
   width: 100vw;
   overflow-x: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .row {
+    padding: 0 15px;
+  }
+}
