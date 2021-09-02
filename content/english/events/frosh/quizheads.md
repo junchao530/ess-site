@@ -1,6 +1,6 @@
 ---
 title: "Quizheads"
-description: "Do you like quizzes? Wanna test your travia skills? Come down participate in Quizheads where you will get the opportunity to answer questions on many topic, including some about Schulich! Winner gets prizes!!"
+description: "Do you like quizzes? Wanna test your trivia skills? Come down participate in Quizheads where you will get the opportunity to answer questions on many topics, including some about Schulich! Winner gets prizes!!"
 location: "Online"
 image: "/images/events/2021/frosh/quizheads.jpg"
 bg_image: "/images/events/2021/frosh/quizheads.jpg"

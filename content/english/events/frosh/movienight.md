@@ -1,7 +1,7 @@
 ---
 title: "Movie Night"
 description: "It's a MOVIE NIGHT! We will have free food for all ESS members! So bring your friends, and enjoy a nice evening with us!"
-location: "ENC 70"
+location: "ENGG Lounge"
 image: "/images/events/2021/frosh/movienight.jpg"
 eventdate: "September 8"
 time: "7pm - 9pm"
