@@ -3,8 +3,8 @@ type: post
 is_index: "false"
 title: First Year Representatives Applications are open!
 date: 2021-09-02T23:45:54.539Z
-image: /images/img_8637.heic
-bg_image": /images/img_8637.heic
+image: /images/img_8637.jpg
+bg_image": /images/img_8637.jpg
 author: ESS
 description: ESS will be selecting First Year Representatives (FYR) to be on
   council this year. We are looking for students who are ready to hit the ground
