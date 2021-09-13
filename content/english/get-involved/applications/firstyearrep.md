@@ -6,7 +6,7 @@ content_image: images/company/company-group-pic.jpg
 layout: posting
 accepting: true
 role: First Year Representatives
-ending_date: 2021-09-13T06:15:00+00:00
+ending_date: 2021-09-16T06:15:00.000Z
 starting_date: 2020-09-03T06:00:00+00:00
 attachments: []
 job_tags: []
@@ -28,14 +28,12 @@ The main responsibility of the FYR are including but not limited to:
 The Selection Process will proceed as follows:
 
 1. Submission of this application
-
 2. Interviews
-
 3. FYR Tryouts
 
 ## Application Deadline
 
-ESS First Year Representative Applications are due 3:00 PM MST on Monday, September 13th. All inquires regarding this application form can be directed to: president@essucalgary.com
+ESS First Year Representative Applications are due 3:00 PM MST on Thursday, September 16th. All inquires regarding this application form can be directed to: president@essucalgary.com
 
 ## Interviews
 
@@ -44,7 +42,6 @@ Each applicant will be scheduled for an interview between September 16-20 based 
 Interviews will be 15 minutes. We will be offering two different streams for interviews. Applicants will be asked to select ONE of the following streams to attend:
 
 1. Online Interview - Sunday, September 19th
-
 2. In-person Interview - Thursday, September 16th/Friday, September 17th/Monday, September 20th
 
 ## FYR Tryouts
@@ -56,7 +53,6 @@ Please bring a personalized and creative project along with you to the tryouts. 
 We will be offering two different streams for tryouts. Applicants will be asked to select ONE of the following streams to attend:
 
 1. Online Tryout
-
 2. In-person Tryout
 
 For those who select the ONLINE TRYOUT:
