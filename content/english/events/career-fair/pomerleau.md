@@ -1,8 +1,8 @@
 ---
 title: Pomerleau
 description: 
-bg_image: images/events/career-fair/pomerleau.png
-logo: images/events/career-fair/pomerleau.png
+bg_image: images/events/career-fair/pomerleau.jpeg
+logo: images/events/career-fair/pomerleau.jpeg
 layout: career-fair-company
 subtitle: 
 social:
