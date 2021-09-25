@@ -45,28 +45,20 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-      </div>
-    </div>
-    <div class = "row">
-      {{ range where .Site.Pages "Params.sponsortype" "community" }}
-      <a href="{{ .Params.website }}" style="color: #333;"></a>
-      <div class="">
-        
-        <div class="col-xs-2 col-sm-1">
-          <h2>{{.Params.discount.short}}</h2>
-        </div>
-        <div class="col-xs-2 col-sm-1">
-          <img src="{{ .Params.logo | relURL }}" style="width: 90%; padding-top: 45%;">
-        
-        </div>
-        <div class="col-xs-7 col-sm-4">
-          <h2>{{ .Params.title | markdownify }}</h2>
-          <p>{{ .Params.deal.detail | markdownify }}</p>
-        </div>
-      </a>
-      </div>
-      {{ end }}
+        {{ range where .Site.Pages "Params.sponsortype" "community" }}
+          <div class="col-md-6 col-lg-4">
+            <div class="sponsor-deal">
+              <a href="{{ .Params.website }}" style="color: #333;">
+                <h2 class="deal-info" >{{.Params.discount.short}}</h2>
+                <img class="deal-logo" src="{{ .Params.logo | relURL }}">
+                <div class="deal-details">
+                  <h2>{{ .Params.title | markdownify }}</h2>
+                  <p>{{ .Params.deal.detail | markdownify }}</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        {{ end }}     
     </div>
   </div>
 </section>

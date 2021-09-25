@@ -16,30 +16,58 @@
   </section> -->
 
 <section>
-    <div class="container">
-        <!-- <div class="row">
-            <h2>Our Sponsors</h2>
-        </div>   -->
-    {{ range (where .Site.Pages "Layout" "sponsor") }}
-    <div class="row dept-container" style="margin-top: 1em;">
-        <div class="dept-list-info">
-            <a class="" href="{{ .Permalink }}" style="width: 50%; ">
-                <img class="dept-list-logo" src="{{ .Params.Logo | relURL }}" alt="{{ .Title }}">
-            </a>
-        </div>
-        <div class="">
-            <!-- <h3 class=""><a href="{{ .Permalink }}">{{ .Title }}</a></h3> -->
-            <h3 class="">{{ .Title }}</h3>
-            <!-- <h4>{{ .Params.President.title}}: {{ .Params.President.name}}</h4> -->
-            <p>{{ .Summary | truncate 200 }}</p> 
-            <a class="btn btn-main" href="{{ .Permalink }}">Learn more</a>
-        </div>
-        
+  <div class="contianer">
+    <h2 class="sponsor-level">Gold</h2>
+    <div class="sponsor-logos-container">
+      {{ range where .Site.Pages "Params.sponsortier" "gold" }}
+      <a class="sponsor-logo gold-sponsor" href="{{.Params.website}}">
+        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      </a>
+      {{end}}
     </div>
-    <hr>
-    {{ end }} 
-    
+  </div>
+  <hr>
+</section>
+
+<section>
+  <div class="contianer">
+    <h2 class="sponsor-level">Silver</h2>
+    <div class="sponsor-logos-container">
+      {{ range where .Site.Pages "Params.sponsortier" "silver" }}
+      <a class="sponsor-logo silver-sponsor" href="{{.Params.website}}">
+        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      </a>
+      {{end}}
     </div>
+  </div>
+  <hr>
+</section>
+
+<section>
+  <div class="contianer">
+    <h2 class="sponsor-level">Bronze</h2>
+    <div class="sponsor-logos-container">
+      {{ range where .Site.Pages "Params.sponsortier" "bronze" }}
+      <a class="sponsor-logo bronze-sponsor" href="{{.Params.website}}">
+        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      </a>
+      {{end}}
+    </div>
+  </div>
+  <hr>
+</section>
+
+<section>
+  <div class="contianer">
+    <h2 class="sponsor-level">Sponsors</h2>
+    <div class="sponsor-logos-container">
+      {{ range where .Site.Pages "Params.sponsortier" "none" }}
+      <a class="sponsor-logo general-sponsor" href="{{.Params.website}}">
+        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      </a>
+      {{end}}
+    </div>
+  </div>
 </section>
 
 {{ end }}

@@ -2,7 +2,7 @@
 title: "Without Papers Pizza"
 description: "Pizzaeria, Pies, Ice Cream and Drinks"
 sponsorType: "community"
-logo: "/images/corporaterelations/partners/Pow logo.jpeg"
+logo: "/images/blank.png"
 website: "https://wopizza.ca/"
 discountCategory: "fooddrink"
 discount:

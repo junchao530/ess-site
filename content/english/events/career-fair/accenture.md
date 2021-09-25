@@ -1,8 +1,8 @@
 ---
 title: Accenture
-description: 
-bg_image: images/events/career-fair/accenture.png
-logo: images/events/career-fair/accenture.png
+description:
+bg_image: images/corporaterelations/sponsors/Accenture.png
+logo: images/corporaterelations/sponsors/Accenture.png
 layout: career-fair-company
 subtitle: 
 social:

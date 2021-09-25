@@ -2,7 +2,7 @@
 title: "Heaven Artisian Restaurant"
 description: "Artisan Made Gluten-Free Restaurant"
 sponsorType: "community"
-logo: "/images/corporaterelations/partners/Heaven GF.jpg"
+logo: "/images/blank.png"
 website: "https://heavengf.com/"
 discountCategory: "fooddrink"
 discount:

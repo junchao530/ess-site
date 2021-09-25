@@ -369,3 +369,59 @@ img.carousel-card-image {
     padding: 0 15px;
   }
 }
+
+.sponsor-logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gold-sponsor {
+  width: 65%;
+}
+
+.silver-sponsor {
+  width: 35%;
+}
+
+.bronze-sponsor {
+  width: 30%;
+}
+
+.general-sponsor {
+  width: 30%;
+}
+
+.sponsor-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-logo>img {
+  width: inherit;
+}
+
+.sponsor-level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-deal>a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.deal-logo {
+  height: inherit;
+  object-fit: scale-down;
+  width: 30%;
+}
+
+.sponsor-deal-listing {
+  display: flex;
+  flex-wrap: wrap;
+}

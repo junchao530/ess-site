@@ -1,8 +1,8 @@
 ---
 title: Shell Canada
 description: 
-bg_image: images/events/career-fair/shell.svg
-logo: images/events/career-fair/shell.svg
+bg_image: images/corporaterelations/sponsors/Shell.svg
+logo: images/corporaterelations/sponsors/Shell.svg
 layout: career-fair-company
 subtitle: 
 social:
