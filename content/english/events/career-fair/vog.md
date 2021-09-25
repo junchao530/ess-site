@@ -1,8 +1,8 @@
 ---
 title: Vog
 description: 
-bg_image: images/events/career-fair/vog.png
-logo: images/events/career-fair/vog.png
+bg_image: images/corporaterelations/sponsors/Vog.png
+logo: images/corporaterelations/sponsors/Vog.png
 layout: career-fair-company
 subtitle: 
 social:

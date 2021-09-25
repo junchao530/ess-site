@@ -1,8 +1,8 @@
 ---
 title: Fluor
 description: 
-bg_image: images/events/career-fair/fluor.jpg
-logo: images/events/career-fair/fluor.jpg
+bg_image: images/corporaterelations/sponsors/Fluor.jpg
+logo: images/corporaterelations/sponsors/Fluor.jpg
 layout: career-fair-company
 subtitle: 
 social:
