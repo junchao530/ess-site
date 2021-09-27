@@ -45,6 +45,8 @@
 <section>
   <div class="container">
     <div class="row">
+      <h2>{{.Params.partner_discounts.title}}</h2>
+        <p>{{.Params.partner_discounts.content}}</p>
         {{ range where .Site.Pages "Params.sponsortype" "community" }}
           <div class="col-md-6 col-lg-4">
             <div class="sponsor-deal">
