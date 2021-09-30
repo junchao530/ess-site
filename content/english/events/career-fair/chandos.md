@@ -1,5 +1,5 @@
 ---
-title: Chandos
+title: Chandos Construction
 description: 
 bg_image: images/events/career-fair/chandos.jpg
 logo: images/events/career-fair/chandos.jpg

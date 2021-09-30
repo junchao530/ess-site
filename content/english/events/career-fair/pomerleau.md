@@ -1,5 +1,5 @@
 ---
-title: Pomerleau
+title: Borea Construction
 description: 
 bg_image: images/events/career-fair/pomerleau.jpeg
 logo: images/events/career-fair/pomerleau.jpeg
