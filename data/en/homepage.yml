@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/events/career-fair/career-fairbg.jpg"
-  title : "Career Fair"
-  content : "Open to all years: Thursday October 7th, 9:30 AM - 4:00 PM"
+  bg_image : "images/featue-bg.jpg"
+  title : "ESS Info Night"
+  content : "Get all your questions answered: Thursday October 21st, 5:00 PM - 7:00 PM"
   button:
     enable : true
-    label : "MORE INFO"
-    link : "/events/career-fair"
+    label : "REGISTER NOW"
+    link : "https://www.eventbrite.com/e/ess-info-night-tickets-188143441097"
 
 ############################# About #################################
 about:

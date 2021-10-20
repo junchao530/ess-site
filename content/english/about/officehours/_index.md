@@ -4,7 +4,7 @@ description: ''
 bg_image: images/about/202021-group-council-1-banner.jpg
 layout: officehours
 tempClose:
-  enable: true
+  enable: false
   message: Our office is currently closed and will reopen Monday, September 20th
 hours: true
 hoursStart:
