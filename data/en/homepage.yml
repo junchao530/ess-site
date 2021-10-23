@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/featue-bg.jpg"
-  title : "ESS Info Night"
-  content : "Get all your questions answered: Thursday October 21st, 5:00 PM - 7:00 PM"
+  bg_image : "images/events/2021/sec.jpg"
+  title : "Schulich Engineering Competition"
+  content : "Broaden your knowledge in a fun and competitive environment - November 6, 2021 from 8:00 am - 6:00 pm."
   button:
     enable : true
-    label : "REGISTER NOW"
-    link : "https://www.eventbrite.com/e/ess-info-night-tickets-188143441097"
+    label : "SIGN-UP NOW"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLSfjfhoeJBS67RXAyRJYqFlMSun6klJvzaVsJdNIVZQsvT3E3Q/viewform"
 
 ############################# About #################################
 about:
