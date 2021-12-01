@@ -425,3 +425,7 @@ img.carousel-card-image {
   display: flex;
   flex-wrap: wrap;
 }
+
+.col-lg-12 img {
+  width: 90vw;
+}
