@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/events/2021/holidays.jpg"
-  title : "Holiday Fundraiser"
-  content : "We want to give back this holiday season, and what better way than to donate to the Calgary Food Bank!"
+  bg_image : "/images/featue-bg.jpg"
+  title : "SELF Round Table & Launch"
+  content : "Student Experiential Learning Fund (SELF) - Round Table & Program Launch"
   button:
     enable : true
     label : "MORE INFO"
-    link : "/holidays"
+    link : "/about/self/launch"
 
 ############################# About #################################
 about:

@@ -92,6 +92,10 @@ weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact us"
+weight = 6
+[[menu.main]]
+URL = '/about/self'
+name = "SELF"
 weight = 5
 [[menu.main]]
 hasChildren = true
