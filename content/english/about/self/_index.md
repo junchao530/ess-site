@@ -34,8 +34,10 @@ Experiential Learning (EL) is learning–by-doing that bridges knowledge and exp
 | Funding Competition #4 	| 11:59 pm, October 31     	| First Week of November  	|
 | Funding Competition #5 	| 11:59 pm, November 30    	| First Week of December  	|
 | Funding Competition #6 	| 11:59 pm, December 31    	| First Week of January   	|
-| Funding Competition #7 	| 11:59 pm, January 31     	| First Week of February  	|
+| Funding Competition #7 	| ~~11:59 pm, January 31~~ **11:59 pm,  February 14th***    	| First Week of February  	|
 | Funding Competition #8 	| 11:59 pm, February 28/29 	| First Week of March     	|
+
+*In light of the Program Launch, the first Application Deadline will be moved from January 31st to Monday, February 14th 11:59 PM MST. Applications will be reviewed by the SELF Committee that week.
 
 ## How to Submit Applications
 
@@ -47,4 +49,4 @@ All applications for each Funding Competition will be reviewed by the SELF Commi
 
 ## Contact Us
 
-All inquiries can be emailed to: [self at essucalgary dot com](mailto:self@essucalgary.com)
+All inquiries can be emailed to: [self@essucalgary.com](mailto:self@essucalgary.com)
