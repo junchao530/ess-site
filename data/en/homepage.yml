@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/featue-bg.jpg"
-  title : "SELF Round Table & Launch"
-  content : "Student Experiential Learning Fund (SELF) - Round Table & Program Launch"
+  bg_image : "/images/events/2022/grad-advert.jpg"
+  title : "Graduation Banquet 2022"
+  content : "Tickets go on sale Friday, February 18 at 12pm"
   button:
     enable : true
     label : "MORE INFO"
-    link : "/about/self/launch"
+    link : "/events/grad"
 
 ############################# About #################################
 about:
