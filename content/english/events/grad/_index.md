@@ -12,12 +12,14 @@ layout: "single"
 
 # Graduation Banquet 2022
 
-**When:** March 12h, 2022 from 6-9pm
+**When:** March 12th, 2022 from 6-9pm
+
 **Where:** [White Diamond Conference Center](https://g.page/whitediamondconferencecenter?share)
 
 ## Tickets
 
-3-course chef-cooked meals will be provided to all attendees. This will be a night of celebration, awards, speakers, photos, and more. 
+3-course chef-cooked meals will be provided to all attendees. This will be a night of celebration, awards, speakers, photos, and more.
+
 Tickets will be limited to 250 to accommodate for COVID; mark your calendars, they will sell out FAST!
 
 >Tickets will go live on Friday, February 18 at 12pm on [essucalgary.com](/)
