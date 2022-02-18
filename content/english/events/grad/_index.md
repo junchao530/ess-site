@@ -1,6 +1,6 @@
 ---
 title: "Graduation Banquet"
-description: "Help Give Back this Holiday Season"
+description: ""
 date: 2021-12-01T13:05:29+06:00
 draft: false
 bg_image: "/images/events/2022/grad-advert.jpg"
@@ -9,6 +9,8 @@ aliases : [
 ]
 layout: "single"
 ---
+
+> **Ticket Sales Link:** [https://www.eventbrite.com/e/schulich-school-of-engineering-class-of-2022-graduation-banquet-tickets-266448694217](https://www.eventbrite.com/e/schulich-school-of-engineering-class-of-2022-graduation-banquet-tickets-266448694217)
 
 # Graduation Banquet 2022
 
