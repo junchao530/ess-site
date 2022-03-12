@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/events/2022/grad-advert.jpg"
-  title : "Graduation Banquet 2022"
-  content : "Tickets go on sale Friday, February 18 at 12pm"
+  bg_image : "/images/events/2022/dinner-advert.jpg"
+  title : "Engg Dinner"
+  content : "The ESS proudly presents the Annual Engineering Dinner which will be taking place on Thursday March 24th from 6:00 pm - 9:00 pm!"
   button:
     enable : true
-    label : "MORE INFO"
-    link : "/events/grad"
+    label : "TICKETS"
+    link : "https://www.eventbrite.ca/preview?eid=291067138647/"
 
 ############################# About #################################
 about:
