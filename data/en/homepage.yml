@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/events/2022/dinner-advert.jpg"
-  title : "Engg Dinner"
-  content : "The ESS proudly presents the Annual Engineering Dinner which will be taking place on Thursday March 24th from 6:00 pm - 9:00 pm!"
+  bg_image : "/images/events/2022/election-advert.jpg"
+  title : "ESS Election"
+  content : "Voting is open from Monday March 21 at 8 AM to Tuesday March 22 at 5 PM on the ESS D2L Shell"
   button:
     enable : true
-    label : "TICKETS"
-    link : "https://www.eventbrite.com/e/engg-dinner-tickets-291067138647"
+    label : "VOTE NOW"
+    link : "https://d2l.ucalgary.ca/d2l/home/27350"
 
 ############################# About #################################
 about:
