@@ -4,7 +4,7 @@ description: Apply now
 bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
-accepting: true
+accepting: false
 role: First Year Representatives
 ending_date: 2021-09-16T06:15:00.000Z
 starting_date: 2020-09-03T06:00:00+00:00
@@ -14,16 +14,17 @@ application_pdf_link: https://forms.gle/TqQ6pRsp4qSwBJrV9
 aliases:
   - /fyr
 ---
+
 ESS will be selecting First Year Representatives (FYR) to be on council this year. We are looking for students who are ready to hit the ground running and want to help ESS provide exceptional events and services to the Engineering students. Becoming a First year Representative will give you the opportunity to organize and run events, develop your public speaking skills, gain insight into the operation of a student-run society, and open up opportunities to become a great student leader.
 
 The main responsibility of the FYR are including but not limited to:
 
-* Liaising between ESS and first year student body
-* Block Announcements/Advertising ESS events
-* Attending weekly ESS meetings as voting members
-* Running the ESS Office during hours of operation
-* Variety of special FYR projects/tasks that support the Society
-* Supporting the team as necessary
+- Liaising between ESS and first year student body
+- Block Announcements/Advertising ESS events
+- Attending weekly ESS meetings as voting members
+- Running the ESS Office during hours of operation
+- Variety of special FYR projects/tasks that support the Society
+- Supporting the team as necessary
 
 The Selection Process will proceed as follows:
 
@@ -46,7 +47,7 @@ Interviews will be 15 minutes. We will be offering two different streams for int
 
 ## FYR Tryouts
 
-On Saturday, September 18th there will be First Year Representative Tryouts. All applicants are encouraged to attend tryouts in a creative costume. 
+On Saturday, September 18th there will be First Year Representative Tryouts. All applicants are encouraged to attend tryouts in a creative costume.
 
 Please bring a personalized and creative project along with you to the tryouts. USE YOUR IMAGINATION; ANYTHING GOES! Past applicants have done everything from utilizing our ESS Supercow mascot to make Supercow cakes, to creating statues made out of cans, to even creating ‘It’s Schulich Time’ clocks. Get creative!
 
