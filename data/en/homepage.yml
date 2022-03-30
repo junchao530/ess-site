@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/events/2022/election-advert.jpg"
-  title : "ESS Election"
-  content : "Voting is open from Monday March 21 at 8 AM to Tuesday March 22 at 5 PM on the ESS D2L Shell"
+  bg_image : "/images/about/202021-group-council-1-banner.jpg"
+  title : "Commissioner applications open!"
+  content : "Apply to become a commissioner on the ESS 2022-2023 council!"
   button:
     enable : true
-    label : "VOTE NOW"
-    link : "https://d2l.ucalgary.ca/d2l/home/27350"
+    label : "APPLY NOW"
+    link : "https://essucalgary.com/get-involved/applications/commissioner/"
 
 ############################# About #################################
 about:
