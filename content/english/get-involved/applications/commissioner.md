@@ -15,7 +15,7 @@ aliases:
   - /commissioner
 ---
 
-ESS selects fourteen (11) commissioners each year to help plan the day-to-day events and activities of the ESS. Please refer to the job descriptions attached to this application.
+ESS selects eleven (11) commissioners each year to help plan the day-to-day events and activities of the ESS. Please refer to the job descriptions attached to this application.
 
 Commissioner positions include: 1) Artistic 2) Administration 3) Community Relations 4) Competitions 5) Diversity 6) Finance 7) Professional Development 8) Publications 9) Social (2 positions) 10) Sponsorship 11) Technology
 
