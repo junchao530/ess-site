@@ -2,12 +2,12 @@
 banner:
   enable : true
   bg_image : "/images/about/202021-group-council-1-banner.jpg"
-  title : "Commissioner applications open!"
+  title : "Sustainability commissioner application open!"
   content : "Apply to become a commissioner on the ESS 2022-2023 council!"
   button:
     enable : true
     label : "APPLY NOW"
-    link : "https://essucalgary.com/get-involved/applications/commissioner/"
+    link : "https://essucalgary.com/get-involved/applications/sustainability-commissioner/"
 
 ############################# About #################################
 about:
