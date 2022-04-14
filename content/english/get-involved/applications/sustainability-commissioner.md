@@ -16,7 +16,3 @@ The Sustainability Commissioner works under the Internal portfolio and is respon
 * Assist other portfolios in making their events more sustainable
 * Run one or more sustainability related event
 * Support the VP External in selecting and leading the delegation to the Conference on Sustainability in Engineering
-
-
-
-**[Click here to apply now](https://forms.gle/tEGFb1u3ejFA2i6q8)**
