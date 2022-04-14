@@ -4,13 +4,13 @@ description: Apply now
 bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
-accepting: true
-starting_date: 2022-03-30T06:00:00+00:00
+accepting: false
 role: Commissioner
-job_tags: []
-# application_form: https://docs.google.com/forms/d/e/1FAIpQLSe4caIF6ubZ0o6214WoGrtnb1iNSGUc951rn1UbSRYHVTxNIA/viewform?usp=sf_link
 ending_date: 2022-04-07T06:00:00+00:00
+starting_date: 2022-03-30T06:00:00+00:00
 attachments: []
+job_tags: []
+application_pdf_link: " "
 aliases:
   - /commissioner
 ---
