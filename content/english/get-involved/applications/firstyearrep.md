@@ -34,11 +34,11 @@ The Selection Process will proceed as follows:
 
 ## Application Deadline
 
-ESS First Year Representative Applications are due 11:59PM PM MST on Sunday, September 11th. All inquires regarding this application form can be directed to: president@essucalgary.com
+ESS First Year Representative Applications are due 11:59PM PM MST on Sunday, September 17th. All inquires regarding this application form can be directed to: president@essucalgary.com
 
 ## Interviews
 
-Each applicant will be scheduled for an interview between September 12-15, you will receive an email with more information about scheduling. All interviews will be in person.
+Each applicant will be scheduled for an interview between September 19-22, you will receive an email with more information about scheduling. All interviews will be in person.
 
 ## FYR Tryouts
 
