@@ -6,7 +6,7 @@ content_image: images/company/company-group-pic.jpg
 layout: posting
 accepting: true
 role: First Year Representatives
-ending_date: 2022-09-11T06:15:00.000Z
+ending_date: 2022-09-18T06:15:00.000Z
 starting_date: 2020-09-03T06:00:00+00:00
 attachments: []
 job_tags: []
