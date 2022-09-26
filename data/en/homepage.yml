@@ -1,13 +1,13 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "/images/about/202021-group-council-1-banner.jpg"
-  title : "First year representative applications are now open!"
-  content : "Apply to become a first year representative on the ESS 2022-2023 council!"
+  bg_image : "/images/events/career-fair/career-fairbg.jpg"
+  title : "2022 Career Fair"
+  content : "Chat with some amazing companies - open to all years"
   button:
     enable : true
-    label : "APPLY NOW"
-    link : "https://essucalgary.com/get-involved/applications/firstyearrep/"
+    label : "MORE INFO"
+    link : "https://essucalgary.com/events/career-fair/"
 
 ############################# About #################################
 about:

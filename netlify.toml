@@ -25,3 +25,9 @@
 
 [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://essucalgary.com/careerfair2022"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSeBVqIsnQCnHfn8xuhaOk0PfVIRh_Rju4iE55BhJLphxsXOTA/viewform?pli=1"
+  status = 302
+  force = true
