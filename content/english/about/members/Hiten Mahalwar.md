@@ -1,10 +1,9 @@
 ---
-name: 'Hiten Mahalwar'
-memberType: 'commissioner'
-position: 'Community Relations Commissioner'
-pronouns: 'he/him'
-email: 'community@essucalgary.com'
-image: /images/about/council-members/Hiten-Mahal.jpg
+name: Hiten Mahalwar
+memberType: commissioner
+position: Technology Commissioner
+pronouns: he/him
+email: technology.comm@essucalgary.com
+image: /images/about/council-members/Hiten-Mahalwar.jpg
 ---
-
-Hi! I'm Hiten, your Community Relations Commissioner and a second year Software Engineering major. After being a First Year Rep last year, I’ll be working this year with community partners to help bring benefits, sponsors, and discounts for ESS members, so make sure to check out all the discounts that come with your ESS member card. I like playing soccer, basketball, badminton, hiking and basically every other sport as well. In addition to listening to a lot of music, I’m also often running out of shows to watch. If you see me in person or virtually don’t hesitate to say hi!
+Hey everyone! I'm Hiten Mahalwar, a 3rd year Software Eng major with a Biomedical Eng minor. I was previously a first year rep (keep your eye out for applications for that position) and last year I was the community relations commissioner. This year I'll be helping with all of ESS's digital initiatives and expanding ESS outreach. Make sure to check out our website for all the latest ESS news. Outside of school, I love playing basketball, soccer, and hiking, as well as messing around with interesting technology. Feel free to say hi if you see me around!

@@ -1,10 +1,9 @@
 ---
-name: 'Zachary Lau'
-memberType: 'commissioner'
-position: 'Finance Commissioner'
-pronouns: 'he/him'
-email: 'finance.comm@essucalgary.com'
+name: Zachary Lau
+memberType: executive
+position: VP Operations
+pronouns: he/him
+email: operations@essucalgary.com
 image: /images/about/council-members/Zachary-Lau.jpg
 ---
-
-Hey everyone, Zach here. I'm a fourth year electrical engineering student and current Finance Commissioner for ESS. My job on council is to help our VP Finance with her day-to-day activities. This includes things like funding applications, accounting and managing our store. You'll likely see me in the office working at the front desk or helping out at the various ESS events.  Fun fact, I've also been part of the SUAV electrical team for the past four years, so feel free to ask me all about clubs and how you can get involved. And of course if you have any questions about ESS I'm here for you.
+I'm currently in my last year of a combined degree with Electrical Engineering and Math. My hobbies include sports like soccer, golf or anything activity. As someone about to graduate, my advice to first years is to make sure to check out the facilities that our school has to offer such as the pool, climbing wall and squash courts! I've also been involved with ESS since 2019, first as VP Finance, then as Finance Commissioner and now as the Interim VP Operations. If you have any questions about ESS, school or anything don't hesitate to ask. You'll likely find me in the ESS Office or at ESS events.
