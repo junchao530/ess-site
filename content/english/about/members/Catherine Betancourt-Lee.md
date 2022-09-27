@@ -1,9 +1,9 @@
 ---
 name: Catherine Betancourt-Lee
 memberType: executive
-position: VP Communications
+position: VP Corporate Relations
 pronouns: she/her
-email: communications@essucalgary.com
-image: /images/about/council-members/Catherine-Betancourt-Lee.jpg
+email: corporaterelations@essucalgary.com
+image: /images/about/council-members/Catherine-Betancourt-Lee.png
 ---
-Hi :) My name is Catherine and I am excited to be your VP Communications this year! I’ll be helping students get all the right information through different mediums, to make sure everyone has access to the same opportunities. I am a second year Biomedical engineering student, who started off as a first year rep last year and wanted to keep being involved with such an amazing community. Whether it be volunteering in and outside of the university, research, or advocating with my other clubs I’m always keeping myself busy in one way or another. I’m super outgoing and energetic with a positive attitude, where my goal is to make someone’s day brighter in any way possible! I’ve always loved meeting new people and dedicating my time to helping anyone, so if you ever need anything don’t hesitate to reach out!
+Hi :) My name is Catherine and I am excited to be your VP Corporate Relations this year! Formally known as “email girl” I’ll be helping students this year progress their professional skills through different connections with sponsors and companies so keep your eye out for awesome networking events! I’m a third year biomedical engineering student that loves to help people and make their day brighter in one way or another. In my free time I love to vibe, volunteer, stay active, drink way too much coffee and be way too busy all the time. I’ve always loved meeting new people and I’m here to help so if you ever need anything don’t hesitate to reach out!
