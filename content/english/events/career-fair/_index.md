@@ -14,4 +14,4 @@ You must register to gain access to this event. The registration link is: [essuc
 
 To join the career fair as a company, please reach out to Catherine Betancourt Lee at [corporaterelations@essucalgary.com](mailto:corporaterelations@essucalgary.com)!
 
-A list of companies attending shall be posted shortly below!
+A list of companies attending can be found below!
