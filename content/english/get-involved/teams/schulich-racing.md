@@ -1,5 +1,5 @@
 ---
-title: Formula SAE Team
+title: Schulich Racing
 description: Schulich Racing
 bg_image: images/teams/schulich-racing/SchulichRacingTeam.png
 logo: images/teams/schulich-racing/SchulichRacingLogo.png
