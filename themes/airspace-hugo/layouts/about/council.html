@@ -29,21 +29,21 @@
     <div class="row">
       <div class="section-title">
         <h2>{{.Params.executive_team.title}}</h3>
-        <p>{{.Params.executive_team.description}}</p>
+          <p>{{.Params.executive_team.description}}</p>
       </div>
     </div>
     <div class="row council-container">
       {{range (sort (where .Site.Pages "Params.membertype" "executive") ".Params.position" "asc")}}
-        <div class="col-sm-6 col-md-3">
-          <div class="service-item">
-            <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
-            <h3>{{ .Params.name | markdownify }}</h3>
-            <p>{{.Params.pronouns}}</p>
-            <a href="mailto:{{.Params.email}}"><i class="ion-ios-email-outline council-email"></i></a>
-            <h4>{{ .Params.position | markdownify }}</h4>
-            <p>{{ .Content }}</p>
-          </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
+          <h3>{{ .Params.name | markdownify }}</h3>
+          <p>{{.Params.pronouns}}</p>
+          <a href="mailto:{{.Params.email}}"><i class="ion-ios-email-outline council-email"></i></a>
+          <h4>{{ .Params.position | markdownify }}</h4>
+          <p>{{ .Content }}</p>
         </div>
+      </div>
       {{end}}
     </div>
   </div>
@@ -59,21 +59,21 @@
     <div class="row">
       <div class="section-title">
         <h2>{{.Params.commissioner_team.title}}</h3>
-        <p>{{.Params.commissioner_team.description}}</p>
+          <p>{{.Params.commissioner_team.description}}</p>
       </div>
     </div>
     <div class="row council-container">
       {{range (sort (where .Site.Pages "Params.membertype" "commissioner") ".Params.position" "asc")}}
-        <div class="col-sm-6 col-md-3">
-          <div class="service-item">
-            <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
-            <h3>{{ .Params.name | markdownify }}</h3>
-            <p>{{.Params.pronouns}}</p>
-            <a href="mailto:{{.Params.email}}"><i class="ion-ios-email-outline council-email"></i></a>
-            <h4>{{ .Params.position | markdownify }}</h4>
-            <p>{{ .Content }}</p>
-          </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
+          <h3>{{ .Params.name | markdownify }}</h3>
+          <p>{{.Params.pronouns}}</p>
+          <a href="mailto:{{.Params.email}}"><i class="ion-ios-email-outline council-email"></i></a>
+          <h4>{{ .Params.position | markdownify }}</h4>
+          <p>{{ .Content }}</p>
         </div>
+      </div>
       {{end}}
     </div>
   </div>
@@ -91,7 +91,7 @@
     <div class="row">
       <div class="section-title">
         <h2>{{ .title | markdownify }}</h3>
-        <p>{{ .description | markdownify }}</p>
+          <p>{{ .description | markdownify }}</p>
       </div>
     </div>
     <div class="row council-container">
@@ -121,7 +121,7 @@
     <div class="row">
       <div class="section-title">
         <h2>{{ .title | markdownify }}</h3>
-        <p>{{ .description | markdownify }}</p>
+          <p>{{ .description | markdownify }}</p>
       </div>
     </div>
     <div class="row" style="display: flex; flex-wrap: wrap;">
@@ -145,31 +145,32 @@
 
 <!-- FYR Listing -->
 {{ if .Params.fyr_team.enable }}
-{{ with .Params.fyr_team }}
 <section class="service">
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2>{{ .title | markdownify }}</h3>
-        <p>{{ .description | markdownify }}</p>
+        <h2>{{.Params.fyr_team.title}}</h3>
+          <p>{{.Params.fyr_team.description}}</p>
       </div>
     </div>
-    <div class="row" style="display: flex; flex-wrap: wrap;">
-      {{ range sort .members "block" "asc" }}
+    <div class="row council-container">
+      {{range (sort (where .Site.Pages "Params.membertype" "fyr") ".Params.position" "asc")}}
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
-          <img class="img-responsive" src="{{ .image | absURL }}">
-          <h3>{{ .name | markdownify }}</h3>
-          <h4>Block {{ .block }}</h4>
-          <p>{{ .bio | markdownify }}</p>
+          <img class="img-responsive img-council" src="{{ .Params.image | absURL }}">
+          <h3>{{ .Params.name | markdownify }}</h3>
+          <p>{{.Params.pronouns}}</p>
+          <a href="mailto:{{.Params.email}}"><i class="ion-ios-email-outline council-email"></i></a>
+          <h4>{{ .Params.position | markdownify }}</h4>
+          <p>{{ .Content }}</p>
         </div>
       </div>
-      {{ end }}
+      {{end}}
     </div>
   </div>
 </section>
 {{ end }}
-{{ end }}
+
 
 <!-- /FYR Listing -->
 
