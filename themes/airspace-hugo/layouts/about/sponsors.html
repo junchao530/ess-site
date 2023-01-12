@@ -20,8 +20,8 @@
     <h2 class="sponsor-level">Gold</h2>
     <div class="sponsor-logos-container">
       {{ range where .Site.Pages "Params.sponsortier" "gold" }}
-      <a class="sponsor-logo gold-sponsor" href="{{.Params.website}}">
-        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+       <a class="" href="{{.Params.website}}">
+        <img class ="sponsor-image-size-gold" src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
       </a>
       {{end}}
     </div>
@@ -34,8 +34,8 @@
     <h2 class="sponsor-level">Silver</h2>
     <div class="sponsor-logos-container">
       {{ range where .Site.Pages "Params.sponsortier" "silver" }}
-      <a class="sponsor-logo silver-sponsor" href="{{.Params.website}}">
-        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      <a class="" href="{{.Params.website}}"> 
+        <img class ="sponsor-image-size"src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
       </a>
       {{end}}
     </div>
@@ -48,8 +48,8 @@
     <h2 class="sponsor-level">Bronze</h2>
     <div class="sponsor-logos-container">
       {{ range where .Site.Pages "Params.sponsortier" "bronze" }}
-      <a class="sponsor-logo bronze-sponsor" href="{{.Params.website}}">
-        <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
+      <a class="" href="{{.Params.website}}">
+        <img class ="sponsor-image-size" src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
       </a>
       {{end}}
     </div>
@@ -62,7 +62,7 @@
     <h2 class="sponsor-level">Sponsors</h2>
     <div class="sponsor-logos-container">
       {{ range where .Site.Pages "Params.sponsortier" "none" }}
-      <a class="sponsor-logo general-sponsor" href="{{.Params.website}}">
+      <!-- <a class="sponsor-logo general-sponsor" href="{{.Params.website}}"> -->
         <img src="{{.Params.logo | relURL}}" alt="{{.Title}}"/>
       </a>
       {{end}}

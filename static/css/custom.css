@@ -374,10 +374,25 @@ img.carousel-card-image {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .gold-sponsor {
   width: 65%;
+}
+
+.sponsor-image-size-gold{
+  width: auto;
+  height: 180px;
+  max-height: 180px !important;
+
+}
+
+.sponsor-image-size{
+  width: auto;
+  height: 140px;
+  max-height: 140px !important;
+
 }
 
 .silver-sponsor {
@@ -392,11 +407,11 @@ img.carousel-card-image {
   width: 30%;
 }
 
-.sponsor-logo {
+/* .sponsor-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .sponsor-logo>img {
   width: inherit;

@@ -1,6 +1,6 @@
 ---
 title: Our Sponsors
-description: ''
+description:
 layout: sponsors
 bg_image: images/featue-bg.jpg
 draft: false
