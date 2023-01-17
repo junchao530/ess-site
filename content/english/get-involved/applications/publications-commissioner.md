@@ -17,8 +17,6 @@ aliases:
 
 **APPLY HERE: https://forms.gle/fmyyQR5BaTn5AH566**
 
-### Publications Commissioner
-
 The Publications Commissioner is responsible for all major publications produced by the ESS. Most are long term projects and so require long term strategy to ensure completion. This position requires a commitment of 2-5 hours per week and responsibilities include but are not limited to:
 
 - Printed Publications
