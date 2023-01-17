@@ -11,8 +11,8 @@ starting_date: 2022-03-30T06:00:00+00:00
 attachments: []
 job_tags: []
 application_pdf_link: "https://forms.gle/fmyyQR5BaTn5AH566"
-# aliases:
-#   - /commissioner
+aliases:
+  - /pubs-commissioner
 ---
 
 **APPLY HERE: https://forms.gle/fmyyQR5BaTn5AH566**
