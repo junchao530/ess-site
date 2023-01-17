@@ -4,7 +4,7 @@ description: Apply now
 bg_image: images/featue-bg.jpg
 content_image: images/company/company-group-pic.jpg
 layout: posting
-accepting: true
+accepting: false
 role: First Year Representatives
 ending_date: 2023-01-16T06:15:00.000Z
 starting_date: 2020-09-03T06:00:00+00:00
@@ -39,6 +39,7 @@ ESS First Year Representative Applications are due 11:59PM PM MST on Sunday, Jan
 ## Interviews
 
 <!-- Each applicant will be scheduled for an interview between September 19-22, you will receive an email with more information about scheduling. All interviews will be in person. -->
+
 TBD, keep an eye out on your email for more information!
 
 <!-- ## FYR Tryouts
